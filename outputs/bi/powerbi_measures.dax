@@ -1,0 +1,30 @@
+// Create each measure separately on fact_players in Power BI.
+// Relationships and filter semantics are defined in dashboard_spec.md.
+Players = DISTINCTCOUNT(fact_players[userid])
+Total Rounds = SUM(fact_players[sum_gamerounds])
+Mean Rounds = DIVIDE([Total Rounds], [Players])
+Median Rounds = MEDIAN(fact_players[sum_gamerounds])
+D1 Retained = SUM(fact_players[retention_1])
+D7 Retained = SUM(fact_players[retention_7])
+D1 Retention = DIVIDE([D1 Retained], [Players])
+D7 Retention = DIVIDE([D7 Retained], [Players])
+Both Retained = CALCULATE([Players], fact_players[retention_1] = 1, fact_players[retention_7] = 1)
+D7 Given D1 = DIVIDE([Both Retained], [D1 Retained])
+D1 Gate 30 = CALCULATE([D1 Retention], fact_players[version] = "gate_30")
+D1 Gate 40 = CALCULATE([D1 Retention], fact_players[version] = "gate_40")
+D7 Gate 30 = CALCULATE([D7 Retention], fact_players[version] = "gate_30")
+D7 Gate 40 = CALCULATE([D7 Retention], fact_players[version] = "gate_40")
+// Rate units; format as percentage. Multiply by 100 only for an explicit pp card.
+D1 Difference = [D1 Gate 40] - [D1 Gate 30]
+D7 Difference = [D7 Gate 40] - [D7 Gate 30]
+D7 Difference pp = 100 * [D7 Difference]
+D1 Relative Lift = DIVIDE([D1 Difference], [D1 Gate 30])
+D7 Relative Lift = DIVIDE([D7 Difference], [D7 Gate 30])
+// Denominator respects slicers while removing the current dimension row.
+Share of Rounds = DIVIDE([Total Rounds], CALCULATE([Total Rounds], ALLSELECTED(dim_tier), ALLSELECTED(dim_cohort), ALLSELECTED(dim_decile)))
+Share of Players = DIVIDE([Players], CALCULATE([Players], ALLSELECTED(dim_tier), ALLSELECTED(dim_cohort), ALLSELECTED(dim_decile)))
+// Decile membership is the original full-population ranking, never reranked by slicers.
+Cumulative Rounds = VAR Cutoff = MAX(dim_decile[decile])
+ RETURN CALCULATE([Total Rounds], FILTER(ALLSELECTED(dim_decile), dim_decile[decile] <= Cutoff))
+Cumulative Share = DIVIDE([Cumulative Rounds], CALCULATE([Total Rounds], ALLSELECTED(dim_decile)))
+

@@ -1,0 +1,5 @@
+cohort,cohort_order,retention_1,retention_7
+none,0,0,0
+D1 only,1,1,0
+D7 only,2,0,1
+both,3,1,1

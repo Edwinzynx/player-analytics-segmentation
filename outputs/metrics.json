@@ -27775,5 +27775,276 @@
     "has_live_formulas": true,
     "has_native_charts": true,
     "has_pivot_tables": false
+  },
+  "bi": {
+    "files": {
+      "fact_players": {
+        "rows": 31331,
+        "sha256": "2baaf580021fae6093b2139fc16e0d475784a38097b1f5e3073761548ce8c89a",
+        "columns": [
+          "userid",
+          "version",
+          "sum_gamerounds",
+          "retention_1",
+          "retention_7",
+          "tier_id",
+          "tier",
+          "cohort",
+          "cohort_tier",
+          "decile",
+          "secondary_segment"
+        ],
+        "metric_source": "data_contract + accepted player artifact"
+      },
+      "dim_tier": {
+        "rows": 7,
+        "sha256": "02ae811075be00394ba06915d0d106ffb5072d20d5cf0facc146b3c932b87ee6",
+        "columns": [
+          "tier_id",
+          "tier"
+        ],
+        "metric_source": "data_contract + accepted player artifact"
+      },
+      "dim_cohort": {
+        "rows": 4,
+        "sha256": "7fb01987853635c3307ea445a0c3d4fe6d9be94413af779bc3d18f066e5f96ff",
+        "columns": [
+          "cohort",
+          "cohort_order",
+          "retention_1",
+          "retention_7"
+        ],
+        "metric_source": "data_contract + accepted player artifact"
+      },
+      "dim_decile": {
+        "rows": 10,
+        "sha256": "86040522e9557d5101e7afdec28eab6340a82fafad0d9be203bcc7801b8b8d57",
+        "columns": [
+          "decile",
+          "direction"
+        ],
+        "metric_source": "data_contract + accepted player artifact"
+      },
+      "aggregate_cohort": {
+        "rows": 4,
+        "sha256": "5fabcdb1c8519fc72795bb96f7fe4395e9a413eb1b696f24e5cf9b51be376517",
+        "columns": [
+          "cohort",
+          "n",
+          "rounds",
+          "mean_rounds",
+          "median_rounds",
+          "d1",
+          "d7",
+          "size_share",
+          "rounds_share",
+          "gate30_n",
+          "gate40_n",
+          "gate30_share",
+          "gate40_share",
+          "d1_gate_difference",
+          "d1_ci_low",
+          "d1_ci_high",
+          "d7_gate_difference",
+          "d7_ci_low",
+          "d7_ci_high",
+          "effect_interpretation"
+        ],
+        "metric_source": "profiles/cohort"
+      },
+      "aggregate_cohort_tier": {
+        "rows": 27,
+        "sha256": "68d0aab4f0ae7d653d8dd961964aa27fb6d19cd6561052fea7df0dd030a74ce5",
+        "columns": [
+          "cohort_tier",
+          "n",
+          "rounds",
+          "mean_rounds",
+          "median_rounds",
+          "d1",
+          "d7",
+          "size_share",
+          "rounds_share",
+          "gate30_n",
+          "gate40_n",
+          "gate30_share",
+          "gate40_share",
+          "d1_gate_difference",
+          "d1_ci_low",
+          "d1_ci_high",
+          "d7_gate_difference",
+          "d7_ci_low",
+          "d7_ci_high",
+          "effect_interpretation"
+        ],
+        "metric_source": "profiles/cohort_tier"
+      },
+      "aggregate_secondary_segment": {
+        "rows": 4,
+        "sha256": "9d21c97ab177b67e7b31ed96d8d120b3db7bd15183ebb9549ff68ee901e10f2b",
+        "columns": [
+          "secondary_segment",
+          "n",
+          "rounds",
+          "mean_rounds",
+          "median_rounds",
+          "d1",
+          "d7",
+          "size_share",
+          "rounds_share",
+          "gate30_n",
+          "gate40_n",
+          "gate30_share",
+          "gate40_share",
+          "d1_gate_difference",
+          "d1_ci_low",
+          "d1_ci_high",
+          "d7_gate_difference",
+          "d7_ci_low",
+          "d7_ci_high",
+          "effect_interpretation"
+        ],
+        "metric_source": "profiles/secondary_segment"
+      },
+      "aggregate_tier": {
+        "rows": 7,
+        "sha256": "c28404985a967e4db55dce12ff21b2c2414c51461bb1a6d73fdc30722b8f8a02",
+        "columns": [
+          "tier",
+          "n",
+          "rounds",
+          "mean_rounds",
+          "median_rounds",
+          "d1",
+          "d7",
+          "size_share",
+          "rounds_share",
+          "gate30_n",
+          "gate40_n",
+          "gate30_share",
+          "gate40_share",
+          "d1_gate_difference",
+          "d1_ci_low",
+          "d1_ci_high",
+          "d7_gate_difference",
+          "d7_ci_low",
+          "d7_ci_high",
+          "effect_interpretation"
+        ],
+        "metric_source": "profiles/tier"
+      },
+      "aggregate_version": {
+        "rows": 2,
+        "sha256": "e8a2c8a608aa898569898be62adaad6be874db17ff208cc4b9d14b1609284f45",
+        "columns": [
+          "version",
+          "n",
+          "rounds",
+          "mean_rounds",
+          "median_rounds",
+          "d1",
+          "d7",
+          "size_share",
+          "rounds_share",
+          "gate30_n",
+          "gate40_n",
+          "gate30_share",
+          "gate40_share",
+          "d1_gate_difference",
+          "d1_ci_low",
+          "d1_ci_high",
+          "d7_gate_difference",
+          "d7_ci_low",
+          "d7_ci_high",
+          "effect_interpretation"
+        ],
+        "metric_source": "profiles/version"
+      },
+      "aggregate_decile": {
+        "rows": 10,
+        "sha256": "4bb9e1ae8fa0c1f999250ae49d9119016f4602175e3d73158790a056f256e1f6",
+        "columns": [
+          "decile",
+          "n",
+          "rounds",
+          "mean_rounds",
+          "median_rounds",
+          "d1",
+          "d7",
+          "size_share",
+          "rounds_share",
+          "gate30_n",
+          "gate40_n",
+          "gate30_share",
+          "gate40_share",
+          "d1_gate_difference",
+          "d1_ci_low",
+          "d1_ci_high",
+          "d7_gate_difference",
+          "d7_ci_low",
+          "d7_ci_high",
+          "effect_interpretation",
+          "cumulative_rounds_share"
+        ],
+        "metric_source": "profiles/decile"
+      },
+      "aggregate_segment_version": {
+        "rows": 53,
+        "sha256": "d1f53a20db445d4ae1fab3c84c998294a34524bcff1da3a8dcd440fcc267b795",
+        "columns": [
+          "cohort",
+          "tier_id",
+          "version",
+          "n",
+          "rounds",
+          "d1",
+          "d7"
+        ],
+        "metric_source": "profiles/segment_version"
+      },
+      "ab_statistics": {
+        "rows": 2,
+        "sha256": "1b440d869a2616307015074f71cee66f965f20500ba7478bf7ba61518af8e888",
+        "columns": [
+          "n_gate30",
+          "n_gate40",
+          "retained_gate30",
+          "retained_gate40",
+          "rate_gate30",
+          "rate_gate40",
+          "difference",
+          "status",
+          "z",
+          "p_two_sided",
+          "p_one_sided_gate40_lower",
+          "chi_square",
+          "chi_p_two_sided",
+          "chi_directional_p_gate40_lower",
+          "min_expected",
+          "relative_lift",
+          "odds_ratio",
+          "odds_zero_cell_correction",
+          "bootstrap_mean",
+          "bootstrap_share_gate30_exceeds_gate40",
+          "p_holm",
+          "significant_holm",
+          "conclusion",
+          "metric",
+          "ci_low",
+          "ci_high",
+          "bootstrap_ci_low",
+          "bootstrap_ci_high"
+        ],
+        "metric_source": "ab"
+      }
+    },
+    "fact_source_sha256": "971f80d61683c460209efe89f8605e1af07089affe3fc590e46ef2b73087d95e",
+    "validation_totals": {
+      "players": 31331,
+      "rounds": 1602825,
+      "d1_n": 13996,
+      "d7_n": 5845
+    },
+    "dax_engine_validation": "not executed: Power BI/Tabular engine unavailable"
   }
 }
