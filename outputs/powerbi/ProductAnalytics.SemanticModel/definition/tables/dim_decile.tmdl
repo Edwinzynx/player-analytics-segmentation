@@ -1,0 +1,23 @@
+table dim_decile
+	lineageTag: 8e95595c-6ef0-5e84-be22-05f6bd2dc717
+
+	column 'decile'
+		dataType: int64
+		sourceColumn: decile
+		summarizeBy: none
+		lineageTag: 59388d3d-c8aa-5a62-84b0-0271e848c613
+
+	column 'direction'
+		dataType: string
+		sourceColumn: direction
+		summarizeBy: none
+		lineageTag: 5e8341d8-bd64-53cd-952b-d92753143d98
+
+	partition dim_decile = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i4421FHKyEzPSC0uUSjKL81LKVZIyywqLlGK1Yk2wi1ljFvKBLeUKW4pM9xS5rilLHBLWeKWMjTAJRcLAA==", BinaryEncoding.Base64), Compression.Deflate)), {"decile", "direction"}),
+				    Typed = Table.TransformColumnTypes(Source, {{"decile", Int64.Type}, {"direction", type text}})
+				in
+				    Typed

@@ -1,0 +1,36 @@
+table dim_cohort
+	lineageTag: c835e3a6-6372-5608-b161-5de3a848adbe
+
+	column 'cohort'
+		dataType: string
+		sourceColumn: cohort
+		summarizeBy: none
+		lineageTag: 49dc514c-be65-500d-8f37-1ae9566ec59e
+		sortByColumn: cohort_order
+
+	column 'cohort_order'
+		dataType: int64
+		sourceColumn: cohort_order
+		summarizeBy: none
+		lineageTag: 82fdc93b-6baa-55be-9f42-f6dd48cd5f68
+
+	column 'retention_1'
+		dataType: int64
+		sourceColumn: retention_1
+		summarizeBy: none
+		lineageTag: c64a3baf-6473-5377-8d7a-fb4e114a32f6
+
+	column 'retention_7'
+		dataType: int64
+		sourceColumn: retention_7
+		summarizeBy: none
+		lineageTag: a5c8cb45-2760-5cd4-92e0-a3040e3581cc
+
+	partition dim_cohort = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WysvPS1XSMQDBWJ1oJRdDhfy8nEolHUMghIiYQ0WMgGoMQSJJ+SUZSjrGICWxsQA=", BinaryEncoding.Base64), Compression.Deflate)), {"cohort", "cohort_order", "retention_1", "retention_7"}),
+				    Typed = Table.TransformColumnTypes(Source, {{"cohort", type text}, {"cohort_order", Int64.Type}, {"retention_1", Int64.Type}, {"retention_7", Int64.Type}})
+				in
+				    Typed

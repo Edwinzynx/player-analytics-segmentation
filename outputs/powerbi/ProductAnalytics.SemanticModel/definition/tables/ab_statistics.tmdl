@@ -1,0 +1,198 @@
+table ab_statistics
+	lineageTag: 2b2e1b07-d445-509a-a442-0b2eb1b0a1f8
+
+	column 'n_gate30'
+		dataType: int64
+		sourceColumn: n_gate30
+		summarizeBy: none
+		lineageTag: aeb77178-3c14-5f40-9128-6a5cf037ad02
+
+	column 'n_gate40'
+		dataType: int64
+		sourceColumn: n_gate40
+		summarizeBy: none
+		lineageTag: 8357a106-2c69-5052-aa00-8c19b9be36d7
+
+	column 'retained_gate30'
+		dataType: int64
+		sourceColumn: retained_gate30
+		summarizeBy: none
+		lineageTag: 63298469-dd8b-551b-93cc-fb4323e0d3fb
+
+	column 'retained_gate40'
+		dataType: int64
+		sourceColumn: retained_gate40
+		summarizeBy: none
+		lineageTag: 94ad4d0c-4429-524f-a84d-7ffe82ba1fcd
+
+	column 'rate_gate30'
+		dataType: double
+		sourceColumn: rate_gate30
+		summarizeBy: none
+		lineageTag: 68843fdf-8b22-500c-93da-80bfd0a14d42
+		formatString: 0.0000
+
+	column 'rate_gate40'
+		dataType: double
+		sourceColumn: rate_gate40
+		summarizeBy: none
+		lineageTag: a09252bf-c1fa-5c2d-b408-cdf175e43eb4
+		formatString: 0.0000
+
+	column 'difference'
+		dataType: double
+		sourceColumn: difference
+		summarizeBy: none
+		lineageTag: edc76ba8-8ae5-5fff-a091-078bb4fbc631
+		formatString: 0.0000
+
+	column 'status'
+		dataType: string
+		sourceColumn: status
+		summarizeBy: none
+		lineageTag: 666acdea-9090-5933-853a-9a60a72a2846
+
+	column 'z'
+		dataType: double
+		sourceColumn: z
+		summarizeBy: none
+		lineageTag: d17f4e5a-1003-5f0d-8a43-74981b885331
+		formatString: 0.0000
+
+	column 'p_two_sided'
+		dataType: double
+		sourceColumn: p_two_sided
+		summarizeBy: none
+		lineageTag: 1d67dfcc-6eb1-5bd3-91f1-64a330b4b485
+		formatString: 0.0000
+
+	column 'p_one_sided_gate40_lower'
+		dataType: double
+		sourceColumn: p_one_sided_gate40_lower
+		summarizeBy: none
+		lineageTag: 2fdca24d-868c-5aa8-bf86-181b9b4a7b85
+		formatString: 0.0000
+
+	column 'chi_square'
+		dataType: double
+		sourceColumn: chi_square
+		summarizeBy: none
+		lineageTag: f018df2c-fc5c-5662-aa67-8ab9eb661541
+		formatString: 0.0000
+
+	column 'chi_p_two_sided'
+		dataType: double
+		sourceColumn: chi_p_two_sided
+		summarizeBy: none
+		lineageTag: a911b7a3-a39f-5ab1-b237-9774e2c4932d
+		formatString: 0.0000
+
+	column 'chi_directional_p_gate40_lower'
+		dataType: double
+		sourceColumn: chi_directional_p_gate40_lower
+		summarizeBy: none
+		lineageTag: f0ea2bd1-8cab-566f-880b-a9ed5cc8290b
+		formatString: 0.0000
+
+	column 'min_expected'
+		dataType: double
+		sourceColumn: min_expected
+		summarizeBy: none
+		lineageTag: 3594f2fc-0d79-5f56-8f06-b359b2cfc552
+		formatString: 0.0000
+
+	column 'relative_lift'
+		dataType: double
+		sourceColumn: relative_lift
+		summarizeBy: none
+		lineageTag: 5f6a395d-5e78-5048-9cf1-bb8ca7ccf5dc
+		formatString: 0.0000
+
+	column 'odds_ratio'
+		dataType: double
+		sourceColumn: odds_ratio
+		summarizeBy: none
+		lineageTag: ca432765-d631-54fa-9bd2-ce7085653eed
+		formatString: 0.0000
+
+	column 'odds_zero_cell_correction'
+		dataType: boolean
+		sourceColumn: odds_zero_cell_correction
+		summarizeBy: none
+		lineageTag: 2eca8f9c-f778-55ea-a861-3ac8462682cd
+
+	column 'bootstrap_mean'
+		dataType: double
+		sourceColumn: bootstrap_mean
+		summarizeBy: none
+		lineageTag: efc2c3f8-b0d7-50d4-835c-cce4d0718e31
+		formatString: 0.0000
+
+	column 'bootstrap_share_gate30_exceeds_gate40'
+		dataType: double
+		sourceColumn: bootstrap_share_gate30_exceeds_gate40
+		summarizeBy: none
+		lineageTag: c1f6cfc7-f740-52d2-a1d6-5db088c9e9a5
+		formatString: 0.0000
+
+	column 'p_holm'
+		dataType: double
+		sourceColumn: p_holm
+		summarizeBy: none
+		lineageTag: 3c4b2194-1678-54ed-9b74-eaf863eb9ead
+		formatString: 0.0000
+
+	column 'significant_holm'
+		dataType: boolean
+		sourceColumn: significant_holm
+		summarizeBy: none
+		lineageTag: 8dce4c37-99e9-55e5-a37e-c86fde4dae4d
+
+	column 'conclusion'
+		dataType: string
+		sourceColumn: conclusion
+		summarizeBy: none
+		lineageTag: 5965cddf-8b05-5a93-ae28-f4576bf5732c
+
+	column 'metric'
+		dataType: string
+		sourceColumn: metric
+		summarizeBy: none
+		lineageTag: b2b10984-c4ce-538f-8151-5dd518c6e94a
+
+	column 'ci_low'
+		dataType: double
+		sourceColumn: ci_low
+		summarizeBy: none
+		lineageTag: 32db559b-62c5-5d2d-9ae9-cba0e294978c
+		formatString: 0.0000
+
+	column 'ci_high'
+		dataType: double
+		sourceColumn: ci_high
+		summarizeBy: none
+		lineageTag: 7f39c495-080e-5cb1-b7e0-bdac97c780c4
+		formatString: 0.0000
+
+	column 'bootstrap_ci_low'
+		dataType: double
+		sourceColumn: bootstrap_ci_low
+		summarizeBy: none
+		lineageTag: 139180c0-3e15-5882-aa52-280dd1def56d
+		formatString: 0.0000
+
+	column 'bootstrap_ci_high'
+		dataType: double
+		sourceColumn: bootstrap_ci_high
+		summarizeBy: none
+		lineageTag: dd4b649a-2d05-5d2a-9520-955e41675f78
+		formatString: 0.0000
+
+	partition ab_statistics = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("jVLNaptBDHwV80FvG6PRv+59i+CDcdxiMHaInULfvvo+24eEULK31c5qRjN6foY5Y8ACNLwiRxBy0FrVg1zMk0P0UWGkCHOwaleoD0zDpSrLx/Syv+zeDq/Xw5/9tLxzmFGWuIhbV6oZCGFlUCHpihGoCkysnAvP3JUaQobQb/ypRfcaDGZECcBqD3mirmYRxTGwVJwdGT2FjF/b42X/AHb3pNB+vzF8RX37ML0c3va76+F82h6Pf1ev58thnnisTufranc+7Y7vl76vtteV/ZjG9BPTeGqWWbTAiVTTfeYFiKWaTCotHiAztWzhpriBWFjbYiepzfiQGFdgcC4+oQjF3m63KT47ieRSSmISL9TSn4INmcHVydWnyJ6wdg1Th6RG516zgCptQUrd35fdIK1gLibtcKkGrwPaRBypwGLgNz4VtDUnS8J9Xi2+OdD3WVy2+UpLCiZ93JsBZrincB+GRTJdq5Oeob2MixWZBU8kdc7+dW6n/e/t/3OLe26WvT9tCrfzsewLpF2afeYe9AFqBNpmyvv2tViyzi4kvTabfw==", BinaryEncoding.Base64), Compression.Deflate)), {"n_gate30", "n_gate40", "retained_gate30", "retained_gate40", "rate_gate30", "rate_gate40", "difference", "status", "z", "p_two_sided", "p_one_sided_gate40_lower", "chi_square", "chi_p_two_sided", "chi_directional_p_gate40_lower", "min_expected", "relative_lift", "odds_ratio", "odds_zero_cell_correction", "bootstrap_mean", "bootstrap_share_gate30_exceeds_gate40", "p_holm", "significant_holm", "conclusion", "metric", "ci_low", "ci_high", "bootstrap_ci_low", "bootstrap_ci_high"}),
+				    Typed = Table.TransformColumnTypes(Source, {{"n_gate30", Int64.Type}, {"n_gate40", Int64.Type}, {"retained_gate30", Int64.Type}, {"retained_gate40", Int64.Type}, {"rate_gate30", type number}, {"rate_gate40", type number}, {"difference", type number}, {"status", type text}, {"z", type number}, {"p_two_sided", type number}, {"p_one_sided_gate40_lower", type number}, {"chi_square", type number}, {"chi_p_two_sided", type number}, {"chi_directional_p_gate40_lower", type number}, {"min_expected", type number}, {"relative_lift", type number}, {"odds_ratio", type number}, {"odds_zero_cell_correction", type logical}, {"bootstrap_mean", type number}, {"bootstrap_share_gate30_exceeds_gate40", type number}, {"p_holm", type number}, {"significant_holm", type logical}, {"conclusion", type text}, {"metric", type text}, {"ci_low", type number}, {"ci_high", type number}, {"bootstrap_ci_low", type number}, {"bootstrap_ci_high", type number}})
+				in
+				    Typed

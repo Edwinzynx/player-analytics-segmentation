@@ -12,7 +12,8 @@
 - [x] Replace promotional material with neutral methodology and findings.
 - [ ] Obtain the original acquisition/assignment protocol and explain why the local file was truncated.
 - [ ] Open the workbook in a native spreadsheet application for visual review; run recalculation validation where LibreOffice is available.
-- [ ] Build the specified dashboard and validate DAX in Power BI or equivalent Tableau calculations.
+- [x] Generate a native Power BI project and validate its DAX in the local Desktop engine.
+- [ ] Review native Power BI rendering and click interactions; app-control initialization currently fails.
 - [ ] Add dated, pre-outcome observations before proposing longitudinal tracking or prospective targeting.
 
 The final validation outcome is recorded in outputs/validation_results.md. The unresolved items require unavailable source evidence or external application execution, not fabricated substitutes.

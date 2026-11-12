@@ -1,0 +1,560 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "experiment",
+  "displayName": "Experiment | effect size before decisions",
+  "displayOption": "FitToPage",
+  "width": 1240,
+  "height": 940,
+  "visualInteractions": [
+    {
+      "source": "experiment_title",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_title",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_subtitle",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_0",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_1",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_2",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_kpi_3",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "experiment_rates",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "decision",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "inference_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "inference_note",
+      "target": "association_note",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "experiment_title",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "experiment_subtitle",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "experiment_kpi_0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "experiment_kpi_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "experiment_kpi_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "experiment_kpi_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "experiment_rates",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "decision",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "inference",
+      "type": "NoFilter"
+    },
+    {
+      "source": "association_note",
+      "target": "inference_note",
+      "type": "NoFilter"
+    }
+  ]
+}

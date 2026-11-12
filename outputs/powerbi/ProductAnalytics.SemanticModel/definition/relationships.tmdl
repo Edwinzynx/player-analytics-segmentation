@@ -1,0 +1,14 @@
+relationship 5bdbdd15-9cda-5211-85fb-a50929871a8b
+	fromColumn: fact_players.tier_id
+	toColumn: dim_tier.tier_id
+	crossFilteringBehavior: oneDirection
+
+relationship df052420-e4b2-509b-b96f-bbc0eadcfc8e
+	fromColumn: fact_players.cohort
+	toColumn: dim_cohort.cohort
+	crossFilteringBehavior: oneDirection
+
+relationship 7a1e46d8-4729-54fb-8d9c-bdfed5e9c20b
+	fromColumn: fact_players.decile
+	toColumn: dim_decile.decile
+	crossFilteringBehavior: oneDirection

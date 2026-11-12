@@ -1,0 +1,197 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "cohort_profile",
+  "position": {
+    "x": 24,
+    "y": 604,
+    "z": 8,
+    "height": 250,
+    "width": 892,
+    "tabOrder": 8
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Transparent retention cohorts | descriptive'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#172C40'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_cohort"
+                    }
+                  },
+                  "Property": "cohort"
+                }
+              },
+              "queryRef": "dim_cohort.cohort",
+              "nativeQueryRef": "cohort"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_players"
+                    }
+                  },
+                  "Property": "Players"
+                }
+              },
+              "queryRef": "fact_players.Players",
+              "nativeQueryRef": "Players"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_players"
+                    }
+                  },
+                  "Property": "Share of Players"
+                }
+              },
+              "queryRef": "fact_players.Share of Players",
+              "nativeQueryRef": "Share of Players"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_players"
+                    }
+                  },
+                  "Property": "Share of Rounds"
+                }
+              },
+              "queryRef": "fact_players.Share of Rounds",
+              "nativeQueryRef": "Share of Rounds"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_players"
+                    }
+                  },
+                  "Property": "Mean Rounds"
+                }
+              },
+              "queryRef": "fact_players.Mean Rounds",
+              "nativeQueryRef": "Mean Rounds"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_players"
+                    }
+                  },
+                  "Property": "Median Rounds"
+                }
+              },
+              "queryRef": "fact_players.Median Rounds",
+              "nativeQueryRef": "Median Rounds"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dim_cohort"
+                  }
+                },
+                "Property": "cohort"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
+      }
+    }
+  }
+}

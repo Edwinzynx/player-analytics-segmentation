@@ -157,7 +157,7 @@ Every SQL question is executed from the SQL file, not duplicated SQL strings. In
 
 Excel summaries are live formulas over a native Data table. Preview caches come from the same aggregate metrics and are checked independently against formulas and data. Derived cohort/tier/decile classifications are fixed at generation time; refresh the pipeline after underlying data changes. There are native charts and instructions for manually adding a PivotTable, but no prebuilt PivotTables. Native recalculation status: {m['excel']['native_recalculation']}. Native Excel rendering has not been verified.
 
-BI files have explicit grains, keys, hashes and reconciliation totals. Full-sample inference tables are disconnected from interactive subgroup filters. DAX is provided as authored measures, not as an executed or validated Power BI model.
+BI files have explicit grains, keys, hashes and reconciliation totals. The native PBIP report contains a TMDL import model with embedded, portable snapshots. Full-sample inference tables are disconnected from interactive subgroup filters; the experiment page disables cross-visual filtering. The local Power BI engine validation record is stored in metrics.powerbi.engine_validation and [the native validation report](../outputs/powerbi/validation.md). Archived evidence is reused only when model hashes match, and every DAX result is compared again against current pandas expectations. JSON schemas validate the report definitions. Visual rendering has not been reviewed because the computer-use runtime could not initialize; schema and engine checks do not establish visual quality.
 
 ## Decision limits
 

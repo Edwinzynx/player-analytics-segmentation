@@ -1,0 +1,24 @@
+table dim_tier
+	lineageTag: 3bd8a047-ad6a-58ba-a286-d86b81a7f738
+
+	column 'tier_id'
+		dataType: int64
+		sourceColumn: tier_id
+		summarizeBy: none
+		lineageTag: 2f1b0b18-3ab9-5cb4-a6ed-56c987cd98b9
+
+	column 'tier'
+		dataType: string
+		sourceColumn: tier
+		summarizeBy: none
+		lineageTag: 32f25f70-e790-5ddd-bca4-ee9582ce3b62
+		sortByColumn: tier_id
+
+	partition dim_tier = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("HYrBDcBADMJ24U2kpC15dpHo9l+jKT/bMJNE4nCKqNBPF9FRxntjh3x4CNV2i3ZYU9qaeI3nAw==", BinaryEncoding.Base64), Compression.Deflate)), {"tier_id", "tier"}),
+				    Typed = Table.TransformColumnTypes(Source, {{"tier_id", Int64.Type}, {"tier", type text}})
+				in
+				    Typed

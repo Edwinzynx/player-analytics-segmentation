@@ -1,0 +1,225 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "inference",
+  "position": {
+    "x": 24,
+    "y": 604,
+    "z": 8,
+    "height": 172,
+    "width": 1192,
+    "tabOrder": 8
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Fixed full-sample inference | rate-unit effects and confidence bounds'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#172C40'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ab_statistics"
+                    }
+                  },
+                  "Property": "metric"
+                }
+              },
+              "queryRef": "ab_statistics.metric",
+              "nativeQueryRef": "metric"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ab_statistics"
+                    }
+                  },
+                  "Property": "difference"
+                }
+              },
+              "queryRef": "ab_statistics.difference",
+              "nativeQueryRef": "difference"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ab_statistics"
+                    }
+                  },
+                  "Property": "ci_low"
+                }
+              },
+              "queryRef": "ab_statistics.ci_low",
+              "nativeQueryRef": "ci_low"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ab_statistics"
+                    }
+                  },
+                  "Property": "ci_high"
+                }
+              },
+              "queryRef": "ab_statistics.ci_high",
+              "nativeQueryRef": "ci_high"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ab_statistics"
+                    }
+                  },
+                  "Property": "p_two_sided"
+                }
+              },
+              "queryRef": "ab_statistics.p_two_sided",
+              "nativeQueryRef": "p_two_sided"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ab_statistics"
+                    }
+                  },
+                  "Property": "p_holm"
+                }
+              },
+              "queryRef": "ab_statistics.p_holm",
+              "nativeQueryRef": "p_holm"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ab_statistics"
+                    }
+                  },
+                  "Property": "bootstrap_ci_low"
+                }
+              },
+              "queryRef": "ab_statistics.bootstrap_ci_low",
+              "nativeQueryRef": "bootstrap_ci_low"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ab_statistics"
+                    }
+                  },
+                  "Property": "bootstrap_ci_high"
+                }
+              },
+              "queryRef": "ab_statistics.bootstrap_ci_high",
+              "nativeQueryRef": "bootstrap_ci_high"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "ab_statistics"
+                  }
+                },
+                "Property": "metric"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
+      }
+    }
+  }
+}

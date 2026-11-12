@@ -4,6 +4,8 @@ __pycache__/
 .pytest_cache/
 pytest-cache-files-*/
 outputs/qa/
+**/.pbi/
+**/cache.abf
 outputs/upstream_reference.csv
 outputs/excel/recalculated/
 *.py[cod]

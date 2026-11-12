@@ -7,7 +7,7 @@ from common import ROOT,OUT,digest,save_json,update_metrics
 
 STEPS=['phase2_cleaning_and_eda','phase4_feature_engineering','phase5_player_segmentation',
     'phase6_retention_analysis','phase7_statistical_testing','run_sql_analysis',
-    'phase8_executive_dashboard','build_excel_workbook','export_bi',
+    'phase8_executive_dashboard','build_excel_workbook','export_bi','build_powerbi_project',
     'build_insights_brief','update_readme_metrics']
 
 def main():

@@ -69,7 +69,8 @@ Rounds are not revenue. There is no monetization, cost, session duration, level 
 
 - [Stakeholder brief](outputs/insights_brief.md): findings, implications, recommendations and caveats.
 - [Excel workbook](outputs/excel/player_analytics.xlsx): Data table, live formula summaries and native charts. Includes PivotTable instructions; no prebuilt PivotTables are claimed.
-- [BI exports and dashboard specification](outputs/bi/dashboard_spec.md): fact/dimension CSVs, aggregates and DAX; no PBIX.
+- [Native Power BI project](outputs/powerbi/ProductAnalytics.pbip): performance, experiment and concentration pages with a semantic model and DAX measures. [Opening and refresh instructions](outputs/powerbi/README.md); [validation evidence](outputs/powerbi/validation.md).
+- [BI exports and dashboard specification](outputs/bi/dashboard_spec.md): fact/dimension CSVs, aggregates, DAX and Tableau guidance.
 - [Quality report](outputs/data_quality_report.md), [business rules](docs/business_rules.md), [methodology](docs/methodology.md), and [old/new comparison](outputs/metric_comparison.md).
 
 ## How to run
@@ -92,7 +93,9 @@ python scripts/validate_pipeline.py
 
 Normal runs work offline, use fixed random seeds, leave the raw CSV unchanged, and regenerate derived data, SQLite, metrics, figures, Excel, BI snapshots and reports. Requirements pin direct dependencies; runtime versions are recorded in metrics.json. The audit evidence is frozen separately; the audit scripts are optional forensic tools and are not run by normal automation.
 
-All empirical narrative values are generated from metrics.json. Excel summaries contain live formulas with metric-derived preview caches. Tests inspect formulas, data, chart presence and caches; LibreOffice recalculation is tested only when installed and otherwise explicitly skipped. Cached-value previews of every worksheet were reviewed using a separate renderer. No Power BI/Tabular engine execution or native Excel visual rendering is claimed. The workbook should be opened in Excel to confirm its native rendering.
+All empirical narrative values are generated from metrics.json. Excel summaries contain live formulas with metric-derived preview caches. Tests inspect formulas, data, chart presence and caches; LibreOffice recalculation is tested only when installed and otherwise explicitly skipped. Cached-value previews of every worksheet were reviewed using a separate renderer. Native Excel visual rendering remains unverified.
+
+Open `outputs/powerbi/ProductAnalytics.pbip` in Power BI Desktop and select **Home → Refresh** to load its embedded snapshot. No source paths or credentials are needed. Close Desktop before rebuilding the pipeline, then reopen and refresh. DAX has been executed in the local Power BI engine and reconciled to pandas, including filtered contexts. Native report rendering remains unreviewed because the app-control runtime failed to initialize; inspect the pages before presenting. To repeat the native checks with the project open, run `pwsh -File scripts/validate_powerbi.ps1` followed by `python scripts/powerbi_validation.py`. Normal Python/CI runs recheck the archived engine results against matching model definitions and current expected values; they do not launch Desktop.
 
 CI runs the pipeline and tests on the configured Python versions. Individual script names are retained, but the orchestrator is the recommended entry point.
 
@@ -107,6 +110,7 @@ outputs/metrics.json   numerical source of truth and provenance
 outputs/figures/       generated explanatory charts
 outputs/excel/         workbook with live formulas
 outputs/bi/            fact/dimension tables, aggregates, DAX and dashboard specification
+outputs/powerbi/       native PBIP report, TMDL model and engine validation evidence
 outputs/tables/        complete descriptive segment profiles
 outputs/sql/           reconciled SQL results
 tests/                 quality, reproducibility, parity and reporting checks

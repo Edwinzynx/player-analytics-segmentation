@@ -3,7 +3,7 @@ import hashlib
 import subprocess
 import sys
 import xml.etree.ElementTree as ET
-from common import ROOT,OUT,digest,update_metrics
+from common import ROOT,OUT,digest,update_metrics,metrics
 from build_excel_workbook import libreoffice
 
 def main():
@@ -27,7 +27,9 @@ def main():
         'raw_unchanged':raw_before==digest(ROOT/'data/cookie_cats.csv'),
         'limitations':[('LibreOffice not available locally: native recalculation skipped.' if not libreoffice()
             else 'LibreOffice recalculation included in the test suite.'),
-            'Power BI/Tabular execution not performed.',
+            ('Power BI engine checks passed; native visual review blocked by app-control runtime failure.'
+             if isinstance(metrics().get('powerbi',{}).get('engine_validation'),dict)
+             else 'Current Power BI model engine execution has not been verified.'),
             'Original acquisition/assignment protocol and truncation cause unverified.',
             'Native Excel rendering not verified; cached-value previews reviewed separately.']}
     update_metrics(validation=validation)

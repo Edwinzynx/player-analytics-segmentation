@@ -4,13 +4,19 @@
 
 Show observed retention, version comparisons and activity concentration. The dataset remains Cookie Cats. Use the dashboard to identify questions for further investigation, not to claim commercial or clinical outcomes. This is a snapshot; there is no time axis for trends.
 
+## Ready-to-open native project
+
+The generated [Power BI project](../powerbi/ProductAnalytics.pbip) implements performance, experiment and concentration pages. Open it in Desktop and refresh its embedded snapshot; see [instructions](../powerbi/README.md) and [engine validation](../powerbi/validation.md). Its model includes the fact table, ordered dimensions and a disconnected inference snapshot. The experiment page disables cross-visual filtering. The native implementation uses total rounds as concentration columns and cumulative share on the secondary axis; those units are intentionally distinct. Native rendering and click interactions still need visual review because app-control initialization failed.
+
+The sections below remain a manual rebuild/extension guide, including optional funnel and quality visuals. They also describe how to reconstruct the dashboard in Tableau. The Python generator is the source for the supplied native layout.
+
 ## Import and model
 
 In Power BI Desktop use Get Data > Text/CSV for fact_players, dim_tier, dim_cohort and dim_decile. Set userid, rounds, retention flags, tier_id and decile to Whole Number; version and cohort to Text. Do not let automatic type detection change the tier labels. Fact grain is one accepted player.
 
 Create single-direction one-to-many relationships from dim_tier[tier_id], dim_cohort[cohort], and dim_decile[decile] to matching fact columns. Mark dimensions' keys unique. Sort dim_tier[tier] by tier_id and dim_cohort[cohort] by cohort_order. Use dimension fields in visuals and slicers, not duplicate fact labels. Hide duplicate fact dimension labels.
 
-Import ab_statistics and any desired aggregate tables as disconnected validation/reference tables. Never join aggregate tables back to fact_players or sum their rates. All interactive metrics use the fact table. Add the DAX measures individually from powerbi_measures.dax. They are written for these exact table and column names; execution in a Tabular engine has not been verified here.
+Import ab_statistics and any desired aggregate tables as disconnected validation/reference tables. Never join aggregate tables back to fact_players or sum their rates. All interactive metrics use the fact table. Add the DAX measures individually from powerbi_measures.dax when building manually. The supplied model's measures have been executed and checked in the local Power BI engine; see the native validation report for coverage and limitations.
 
 ## Page: Overview
 
@@ -42,7 +48,7 @@ Connect the same fact and dimension CSVs using logical relationships. Use COUNTD
 
 Compare unfiltered KPI totals, every version/tier/cohort row and decile cumulative share to aggregate CSVs and metrics.json. Counts and rounds must match exactly; rates should match before display rounding. Check a selected version, a cohort, and their intersection. Reset slicers to verify the original totals. Check that the final cumulative share reaches the complete selected population's rounds.
 
-Run the Python pipeline, then refresh CSV and JSON sources. Record any source hash change. A before/after study or trend page requires dated observations and a valid comparison design; it is future work. No PBIX is supplied.
+For the supplied native project, close Desktop, run the Python pipeline to rebuild the embedded snapshots, then reopen and refresh. For a manual CSV/JSON model, refresh its sources after the pipeline. Record any source hash change. A before/after study or trend page requires dated observations and a valid comparison design; it is future work. The native deliverable is PBIP, with no PBIX required.
 
 ## Suggested build order
 
