@@ -1,0 +1,5072 @@
+{
+  "audit": {
+    "baseline_commit": "97b9413",
+    "source_url": "https://raw.githubusercontent.com/ryanschaub/Mobile-Games-A-B-Testing-with-Cookie-Cats/master/cookie_cats.csv",
+    "raw_sha256": "f6a85f5f022c7dd2bcf06e16abe7767fa8cb54287089058526f45092ef1d3c52",
+    "source_sha256": "5ab54d761fbddcd50de7b88e4eaf7837cba4569474f50c043a4d17ee342c46bd",
+    "local_bytes": 933888,
+    "source_bytes": 2707297,
+    "exact_byte_prefix": true,
+    "raw_rows": 31332,
+    "complete_rows": 31331,
+    "source_rows": 90189,
+    "source_max_rounds": 49854,
+    "local_max_rounds": 2961,
+    "incomplete_row": {
+      "userid": "3486875",
+      "version": "gate_4",
+      "sum_gamerounds": null,
+      "retention_1": null,
+      "retention_7": null
+    },
+    "legacy_numeric_claims": [
+      {
+        "file": "README.md",
+        "line": 3,
+        "numeric_tokens": [
+          "-3.10",
+          "2"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 4,
+        "numeric_tokens": [
+          "20",
+          "7",
+          "20"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 9,
+        "numeric_tokens": [
+          "31,331"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 17,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 20,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 21,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 22,
+        "numeric_tokens": [
+          "3.",
+          "30",
+          "40",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 25,
+        "numeric_tokens": [
+          "31,332"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 28,
+        "numeric_tokens": [
+          "1.",
+          "31,331"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 31,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 34,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 37,
+        "numeric_tokens": [
+          "4.",
+          "1"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 40,
+        "numeric_tokens": [
+          "5.",
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 43,
+        "numeric_tokens": [
+          "6."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 46,
+        "numeric_tokens": [
+          "7."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 49,
+        "numeric_tokens": [
+          "8."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 57,
+        "numeric_tokens": [
+          "31,331",
+          "14"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 63,
+        "numeric_tokens": [
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 64,
+        "numeric_tokens": [
+          "14"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 65,
+        "numeric_tokens": [
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 66,
+        "numeric_tokens": [
+          "7",
+          "7",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 74,
+        "numeric_tokens": [
+          "3.10"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 86,
+        "numeric_tokens": [
+          "31,331",
+          "1",
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 87,
+        "numeric_tokens": [
+          "1",
+          "44.67",
+          "13,996"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 88,
+        "numeric_tokens": [
+          "7",
+          "18.66",
+          "5,845",
+          "-58.2",
+          "1",
+          "7."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 89,
+        "numeric_tokens": [
+          "51.16",
+          "16.0",
+          "+6.52",
+          "46.0",
+          "2,961"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 90,
+        "numeric_tokens": [
+          "30",
+          "1",
+          "44.67",
+          "7",
+          "19.02",
+          "52.03",
+          "17.0"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 91,
+        "numeric_tokens": [
+          "40",
+          "1",
+          "44.67",
+          "7",
+          "18.29",
+          "50.29",
+          "16.0"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 92,
+        "numeric_tokens": [
+          "1",
+          "0.00",
+          "7",
+          "-0.73",
+          "40",
+          "7",
+          "-3.8"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 96,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 98,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 99,
+        "numeric_tokens": [
+          "4",
+          "0.617"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 104,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 106,
+        "numeric_tokens": [
+          "1.",
+          "27.66",
+          "1.37",
+          "2.53",
+          "0.00",
+          "0.09"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 107,
+        "numeric_tokens": [
+          "2.",
+          "-0",
+          "23.71",
+          "10.44",
+          "22.53",
+          "0.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 108,
+        "numeric_tokens": [
+          "3.",
+          "30.00",
+          "29.15",
+          "49.72",
+          "100.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 109,
+        "numeric_tokens": [
+          "4.",
+          "18.63",
+          "59.03",
+          "162.11",
+          "78.77",
+          "100.00"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 114,
+        "numeric_tokens": [
+          "1.",
+          "27.66",
+          "2.5"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 115,
+        "numeric_tokens": [
+          "2.",
+          "-0",
+          "23.71",
+          "0",
+          "22.5",
+          "15.0",
+          "0",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 116,
+        "numeric_tokens": [
+          "3.",
+          "30.00",
+          "9,398",
+          "49.7",
+          "100.0",
+          "1",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 117,
+        "numeric_tokens": [
+          "4.",
+          "18.63",
+          "59.03",
+          "100",
+          "7",
+          "162.1"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 130,
+        "numeric_tokens": [
+          "0",
+          "1."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 131,
+        "numeric_tokens": [
+          "1",
+          "5",
+          "2.",
+          "1",
+          "-5"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 132,
+        "numeric_tokens": [
+          "6",
+          "15",
+          "3.",
+          "6",
+          "-15"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 133,
+        "numeric_tokens": [
+          "16",
+          "50",
+          "4.",
+          "16",
+          "-50"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 134,
+        "numeric_tokens": [
+          "51",
+          "150",
+          "5.",
+          "51",
+          "-150"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 135,
+        "numeric_tokens": [
+          "151",
+          "500",
+          "6.",
+          "151",
+          "-500"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 136,
+        "numeric_tokens": [
+          "7.",
+          "500"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 139,
+        "numeric_tokens": [
+          "7",
+          "100,",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 141,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 146,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 147,
+        "numeric_tokens": [
+          "7",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 148,
+        "numeric_tokens": [
+          "7",
+          "7",
+          "1",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 156,
+        "numeric_tokens": [
+          "4",
+          "10"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 166,
+        "numeric_tokens": [
+          "01"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 167,
+        "numeric_tokens": [
+          "02",
+          "1",
+          "7",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 168,
+        "numeric_tokens": [
+          "03",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 169,
+        "numeric_tokens": [
+          "04",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 170,
+        "numeric_tokens": [
+          "05",
+          "1",
+          "+6.52"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 171,
+        "numeric_tokens": [
+          "06",
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 172,
+        "numeric_tokens": [
+          "07",
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 173,
+        "numeric_tokens": [
+          "08",
+          "2"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 174,
+        "numeric_tokens": [
+          "09"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 175,
+        "numeric_tokens": [
+          "10"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 176,
+        "numeric_tokens": [
+          "11",
+          "80",
+          "20"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 177,
+        "numeric_tokens": [
+          "12",
+          "40"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 178,
+        "numeric_tokens": [
+          "13",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 179,
+        "numeric_tokens": [
+          "14",
+          "1,000",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 180,
+        "numeric_tokens": [
+          "15"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 186,
+        "numeric_tokens": [
+          "1.",
+          "40",
+          "30"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 187,
+        "numeric_tokens": [
+          "40",
+          "7",
+          "0.73",
+          "0.049",
+          "1.049",
+          "95.1",
+          "95",
+          "-3.2"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 188,
+        "numeric_tokens": [
+          "30"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 189,
+        "numeric_tokens": [
+          "2.",
+          "30.0"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 190,
+        "numeric_tokens": [
+          "9,398",
+          "49.7",
+          "1",
+          "100",
+          "1",
+          "0",
+          "7."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 191,
+        "numeric_tokens": [
+          "-3",
+          "-1"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 192,
+        "numeric_tokens": [
+          "3.",
+          "-0",
+          "23.7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 193,
+        "numeric_tokens": [
+          "-0",
+          "22.5",
+          "0",
+          "1",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 195,
+        "numeric_tokens": [
+          "4.",
+          "18.6"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 196,
+        "numeric_tokens": [
+          "59.0",
+          "162.1",
+          "100",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 197,
+        "numeric_tokens": [
+          "100"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 204,
+        "numeric_tokens": [
+          "31,331",
+          "10",
+          "55.6"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 205,
+        "numeric_tokens": [
+          "4",
+          "0.617",
+          "30.0",
+          "100",
+          "1",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 206,
+        "numeric_tokens": [
+          "30",
+          "40",
+          "1e-16",
+          "0.603",
+          "1,000",
+          "95.1",
+          "30",
+          "0.73",
+          "7",
+          "3.2"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 213,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 219,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 230,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 232,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 235,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 236,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 238,
+        "numeric_tokens": [
+          "3"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 241,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 242,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 244,
+        "numeric_tokens": [
+          "5"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 245,
+        "numeric_tokens": [
+          "5"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 247,
+        "numeric_tokens": [
+          "6"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 248,
+        "numeric_tokens": [
+          "6"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 250,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 251,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 253,
+        "numeric_tokens": [
+          "8"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 254,
+        "numeric_tokens": [
+          "8"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 262,
+        "numeric_tokens": [
+          "18"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 6,
+        "numeric_tokens": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 12,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 15,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 16,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 17,
+        "numeric_tokens": [
+          "3.",
+          "30",
+          "40",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 24,
+        "numeric_tokens": [
+          "31,332"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 27,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 30,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 33,
+        "numeric_tokens": [
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 36,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 39,
+        "numeric_tokens": [
+          "5"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 42,
+        "numeric_tokens": [
+          "6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 45,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 48,
+        "numeric_tokens": [
+          "8"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 51,
+        "numeric_tokens": [
+          "9"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 54,
+        "numeric_tokens": [
+          "10"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 63,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 65,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 67,
+        "numeric_tokens": [
+          "31,332"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 68,
+        "numeric_tokens": [
+          "5"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 69,
+        "numeric_tokens": [
+          "64",
+          "31,332",
+          "0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 73,
+        "numeric_tokens": [
+          "0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 74,
+        "numeric_tokens": [
+          "0",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 75,
+        "numeric_tokens": [
+          "1",
+          "14"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 76,
+        "numeric_tokens": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 77,
+        "numeric_tokens": [
+          "7",
+          "1",
+          "7",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 79,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 80,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 81,
+        "numeric_tokens": [
+          "2.",
+          "1",
+          "3486875",
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 85,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 87,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 88,
+        "numeric_tokens": [
+          "4",
+          "31,331"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 89,
+        "numeric_tokens": [
+          "64",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 90,
+        "numeric_tokens": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 92,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 96,
+        "numeric_tokens": [
+          "31,331"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 97,
+        "numeric_tokens": [
+          "1",
+          "44.67",
+          "13,996",
+          "45",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 98,
+        "numeric_tokens": [
+          "7",
+          "18.66",
+          "5,845",
+          "7",
+          "26.01",
+          "-58.2",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 99,
+        "numeric_tokens": [
+          "51.16"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 100,
+        "numeric_tokens": [
+          "16.0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 101,
+        "numeric_tokens": [
+          "104.32"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 102,
+        "numeric_tokens": [
+          "46.0",
+          "25",
+          "5",
+          "75",
+          "51"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 103,
+        "numeric_tokens": [
+          "90",
+          "99",
+          "133.0",
+          "494.0",
+          "10",
+          "133",
+          "1",
+          "500"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 104,
+        "numeric_tokens": [
+          "2,961",
+          "211",
+          "14"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 105,
+        "numeric_tokens": [
+          "1,373",
+          "4.38"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 107,
+        "numeric_tokens": [
+          "3.",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 109,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 111,
+        "numeric_tokens": [
+          "30",
+          "15,621",
+          "49.86",
+          "52.03",
+          "17.0",
+          "44.67",
+          "19.02"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 112,
+        "numeric_tokens": [
+          "40",
+          "15,710",
+          "50.14",
+          "50.29",
+          "16.0",
+          "44.67",
+          "18.29"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 113,
+        "numeric_tokens": [
+          "+89",
+          "-1.74",
+          "-1.0",
+          "+0.00",
+          "-0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 116,
+        "numeric_tokens": [
+          "1",
+          "44.67",
+          "44.67",
+          "30",
+          "40",
+          "1,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 117,
+        "numeric_tokens": [
+          "7",
+          "40",
+          "18.29",
+          "19.02",
+          "0.73",
+          "3.8",
+          "40",
+          "7",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 119,
+        "numeric_tokens": [
+          "4."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 121,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 123,
+        "numeric_tokens": [
+          "0",
+          "0",
+          "1,373",
+          "4.38",
+          "2.62",
+          "0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 124,
+        "numeric_tokens": [
+          "1",
+          "5",
+          "1",
+          "5",
+          "7,187",
+          "22.94",
+          "7.68",
+          "1.35"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 125,
+        "numeric_tokens": [
+          "6",
+          "15",
+          "6",
+          "15",
+          "6,642",
+          "21.20",
+          "26.30",
+          "4.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 126,
+        "numeric_tokens": [
+          "16",
+          "50",
+          "16",
+          "50",
+          "8,230",
+          "26.27",
+          "59.25",
+          "13.44"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 127,
+        "numeric_tokens": [
+          "51",
+          "150",
+          "51",
+          "150",
+          "5,188",
+          "16.56",
+          "83.00",
+          "42.48"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 128,
+        "numeric_tokens": [
+          "151",
+          "500",
+          "151",
+          "500",
+          "2,410",
+          "7.69",
+          "90.66",
+          "77.47"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 129,
+        "numeric_tokens": [
+          "500",
+          "500",
+          "301",
+          "0.96",
+          "97.67",
+          "95.68"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 132,
+        "numeric_tokens": [
+          "1.",
+          "16",
+          "15",
+          "7",
+          "5",
+          "15",
+          "1",
+          "26.3",
+          "59.3",
+          "7",
+          "13.4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 133,
+        "numeric_tokens": [
+          "2.",
+          "50",
+          "50",
+          "7",
+          "42.5",
+          "150",
+          "77",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 137,
+        "numeric_tokens": [
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 139,
+        "numeric_tokens": [
+          "20",
+          "6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 141,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 145,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 148,
+        "numeric_tokens": [
+          "1",
+          "100,",
+          "2",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 149,
+        "numeric_tokens": [
+          "7",
+          "100,",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 150,
+        "numeric_tokens": [
+          "7",
+          "1",
+          "100,",
+          "2",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 154,
+        "numeric_tokens": [
+          "1",
+          "7",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 156,
+        "numeric_tokens": [
+          "31,331",
+          "51.16",
+          "0",
+          "2,961",
+          "44.67",
+          "18.66",
+          "41.76"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 158,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 163,
+        "numeric_tokens": [
+          "100.0",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 164,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 165,
+        "numeric_tokens": [
+          "1",
+          "100,",
+          "2",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 166,
+        "numeric_tokens": [
+          "7",
+          "100,",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 167,
+        "numeric_tokens": [
+          "1",
+          "7",
+          "100,",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 173,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 175,
+        "numeric_tokens": [
+          "30",
+          "15,621",
+          "49.86",
+          "52.03",
+          "44.67",
+          "19.02",
+          "25.65"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 176,
+        "numeric_tokens": [
+          "40",
+          "15,710",
+          "50.14",
+          "50.29",
+          "44.67",
+          "18.29",
+          "26.38"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 178,
+        "numeric_tokens": [
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 182,
+        "numeric_tokens": [
+          "1,",
+          "7,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 184,
+        "numeric_tokens": [
+          "0",
+          "1.",
+          "0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 185,
+        "numeric_tokens": [
+          "1",
+          "5",
+          "2.",
+          "1",
+          "-5"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 186,
+        "numeric_tokens": [
+          "6",
+          "15",
+          "3.",
+          "6",
+          "-15"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 187,
+        "numeric_tokens": [
+          "16",
+          "50",
+          "4.",
+          "16",
+          "-50"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 188,
+        "numeric_tokens": [
+          "51",
+          "150",
+          "5.",
+          "51",
+          "-150"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 189,
+        "numeric_tokens": [
+          "151",
+          "500",
+          "6.",
+          "151",
+          "-500"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 190,
+        "numeric_tokens": [
+          "7.",
+          "500"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 197,
+        "numeric_tokens": [
+          "100.0",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 198,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 199,
+        "numeric_tokens": [
+          "1",
+          "100,",
+          "2",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 200,
+        "numeric_tokens": [
+          "7",
+          "100,",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 206,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 208,
+        "numeric_tokens": [
+          "1.",
+          "0",
+          "1,373",
+          "4.38",
+          "0.0",
+          "2.62",
+          "0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 209,
+        "numeric_tokens": [
+          "2.",
+          "1",
+          "5",
+          "7,187",
+          "22.94",
+          "2.7",
+          "7.68",
+          "1.35"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 210,
+        "numeric_tokens": [
+          "3.",
+          "6",
+          "15",
+          "6,642",
+          "21.20",
+          "9.9",
+          "26.30",
+          "4.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 211,
+        "numeric_tokens": [
+          "4.",
+          "16",
+          "50",
+          "8,230",
+          "26.27",
+          "29.2",
+          "59.25",
+          "13.44"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 212,
+        "numeric_tokens": [
+          "5.",
+          "51",
+          "150",
+          "5,188",
+          "16.56",
+          "86.1",
+          "83.00",
+          "42.48"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 213,
+        "numeric_tokens": [
+          "6.",
+          "151",
+          "500",
+          "2,410",
+          "7.69",
+          "250.6",
+          "90.66",
+          "77.47"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 214,
+        "numeric_tokens": [
+          "7.",
+          "500",
+          "301",
+          "0.96",
+          "753.0",
+          "97.67",
+          "95.68"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 216,
+        "numeric_tokens": [
+          "4",
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 220,
+        "numeric_tokens": [
+          "1,",
+          "7,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 221,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 229,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 230,
+        "numeric_tokens": [
+          "1",
+          "100,",
+          "2",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 231,
+        "numeric_tokens": [
+          "7",
+          "100,",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 237,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 239,
+        "numeric_tokens": [
+          "1",
+          "25",
+          "7,833",
+          "0",
+          "5",
+          "2.01",
+          "6.04",
+          "1.25"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 240,
+        "numeric_tokens": [
+          "2",
+          "7,833",
+          "5",
+          "16",
+          "9.84",
+          "26.13",
+          "4.15"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 241,
+        "numeric_tokens": [
+          "3",
+          "7,833",
+          "17",
+          "51",
+          "30.14",
+          "60.56",
+          "13.78"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 242,
+        "numeric_tokens": [
+          "4",
+          "25",
+          "7,832",
+          "51",
+          "2,961",
+          "162.65",
+          "85.96",
+          "55.45"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 244,
+        "numeric_tokens": [
+          "5"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 249,
+        "numeric_tokens": [
+          "0",
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 250,
+        "numeric_tokens": [
+          "1",
+          "5",
+          "2.",
+          "1",
+          "-5"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 251,
+        "numeric_tokens": [
+          "6",
+          "15",
+          "3.",
+          "6",
+          "-15"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 252,
+        "numeric_tokens": [
+          "16",
+          "50",
+          "4.",
+          "16",
+          "-50"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 253,
+        "numeric_tokens": [
+          "51",
+          "150",
+          "5.",
+          "51",
+          "-150"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 254,
+        "numeric_tokens": [
+          "151",
+          "500",
+          "6.",
+          "151",
+          "-500"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 255,
+        "numeric_tokens": [
+          "7.",
+          "500"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 258,
+        "numeric_tokens": [
+          "7",
+          "100,",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 260,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 265,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 266,
+        "numeric_tokens": [
+          "7",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 267,
+        "numeric_tokens": [
+          "7",
+          "7",
+          "1",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 272,
+        "numeric_tokens": [
+          "7",
+          "7",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 274,
+        "numeric_tokens": [
+          "1.",
+          "1,373",
+          "0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 275,
+        "numeric_tokens": [
+          "2.",
+          "1",
+          "5",
+          "7,187",
+          "1.35",
+          "0.73",
+          "+0.62"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 276,
+        "numeric_tokens": [
+          "3.",
+          "6",
+          "15",
+          "6,642",
+          "4.11",
+          "1.35",
+          "+2.76"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 277,
+        "numeric_tokens": [
+          "4.",
+          "16",
+          "50",
+          "8,230",
+          "13.44",
+          "4.11",
+          "+9.33"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 278,
+        "numeric_tokens": [
+          "5.",
+          "51",
+          "150",
+          "5,188",
+          "42.48",
+          "13.44",
+          "+29.04",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 279,
+        "numeric_tokens": [
+          "6.",
+          "151",
+          "500",
+          "2,410",
+          "77.47",
+          "42.48",
+          "+34.99",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 280,
+        "numeric_tokens": [
+          "7.",
+          "500",
+          "301",
+          "95.68",
+          "77.47",
+          "+18.21"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 282,
+        "numeric_tokens": [
+          "6",
+          "10"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 287,
+        "numeric_tokens": [
+          "10"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 309,
+        "numeric_tokens": [
+          "100.0",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 310,
+        "numeric_tokens": [
+          "100.0",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 318,
+        "numeric_tokens": [
+          "10",
+          "10",
+          "3,133",
+          "133",
+          "2,961",
+          "890,308",
+          "55.55",
+          "100.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 319,
+        "numeric_tokens": [
+          "9",
+          "3,133",
+          "66",
+          "133",
+          "292,357",
+          "18.24",
+          "44.45"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 320,
+        "numeric_tokens": [
+          "8",
+          "3,133",
+          "40",
+          "66",
+          "161,992",
+          "10.11",
+          "26.21"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 321,
+        "numeric_tokens": [
+          "7",
+          "3,133",
+          "25",
+          "40",
+          "101,060",
+          "6.31",
+          "16.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 322,
+        "numeric_tokens": [
+          "6",
+          "3,133",
+          "17",
+          "25",
+          "64,277",
+          "4.01",
+          "9.80"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 323,
+        "numeric_tokens": [
+          "5",
+          "3,133",
+          "11",
+          "16",
+          "42,209",
+          "2.63",
+          "5.79"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 324,
+        "numeric_tokens": [
+          "4",
+          "3,133",
+          "6",
+          "11",
+          "26,185",
+          "1.63",
+          "3.16"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 325,
+        "numeric_tokens": [
+          "3",
+          "3,133",
+          "3",
+          "6",
+          "15,252",
+          "0.95",
+          "1.52"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 326,
+        "numeric_tokens": [
+          "2",
+          "3,133",
+          "1",
+          "3",
+          "7,424",
+          "0.46",
+          "0.57"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 327,
+        "numeric_tokens": [
+          "1",
+          "10",
+          "3,134",
+          "0",
+          "1",
+          "1,761",
+          "0.11",
+          "0.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 332,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 336,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 337,
+        "numeric_tokens": [
+          "+6.52",
+          "0",
+          "2,961",
+          "2",
+          "0.1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 339,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 340,
+        "numeric_tokens": [
+          "+6.52",
+          "+0.10"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 342,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 346,
+        "numeric_tokens": [
+          "64",
+          "1",
+          "0,",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 347,
+        "numeric_tokens": [
+          "1",
+          "0",
+          "1",
+          "0,",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 348,
+        "numeric_tokens": [
+          "7",
+          "0",
+          "1",
+          "0,",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 349,
+        "numeric_tokens": [
+          "0",
+          "3",
+          "1",
+          "1",
+          "2",
+          "7",
+          "0",
+          "1",
+          "1",
+          "2",
+          "7",
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 350,
+        "numeric_tokens": [
+          "64"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 353,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 355,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 356,
+        "numeric_tokens": [
+          "1.000",
+          "0.614",
+          "0.541",
+          "0.691"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 357,
+        "numeric_tokens": [
+          "1",
+          "0.614",
+          "1.000",
+          "0.327",
+          "0.715"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 358,
+        "numeric_tokens": [
+          "7",
+          "0.541",
+          "0.327",
+          "1.000",
+          "0.895"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 359,
+        "numeric_tokens": [
+          "0.691",
+          "0.715",
+          "0.895",
+          "1.000"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 363,
+        "numeric_tokens": [
+          "4."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 364,
+        "numeric_tokens": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 366,
+        "numeric_tokens": [
+          "0",
+          "1",
+          "0",
+          "7.99"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 368,
+        "numeric_tokens": [
+          "20",
+          "31,331",
+          "12"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 372,
+        "numeric_tokens": [
+          "5"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 374,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 376,
+        "numeric_tokens": [
+          "1.",
+          "2",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 380,
+        "numeric_tokens": [
+          "2",
+          "56,368.3",
+          "0.6050",
+          "38,325.0",
+          "0.6119"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 381,
+        "numeric_tokens": [
+          "3",
+          "20,761.7",
+          "0.6812",
+          "78,888.9",
+          "0.4718"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 382,
+        "numeric_tokens": [
+          "4",
+          "15,017.5",
+          "0.6166",
+          "76,701.1",
+          "0.5269"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 383,
+        "numeric_tokens": [
+          "5",
+          "9,653.6",
+          "0.6327",
+          "93,838.0",
+          "0.5006"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 384,
+        "numeric_tokens": [
+          "6",
+          "7,097.0",
+          "0.5870",
+          "104,366.9",
+          "0.5595"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 385,
+        "numeric_tokens": [
+          "7",
+          "5,677.9",
+          "0.5818",
+          "110,011.4",
+          "0.5535"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 387,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 388,
+        "numeric_tokens": [
+          "1.",
+          "3",
+          "4",
+          "56.4",
+          "2",
+          "15.0",
+          "4",
+          "3",
+          "0.68"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 389,
+        "numeric_tokens": [
+          "2.",
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 390,
+        "numeric_tokens": [
+          "1",
+          "7",
+          "-0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 391,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 392,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 393,
+        "numeric_tokens": [
+          "3.",
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 395,
+        "numeric_tokens": [
+          "2.",
+          "31,331"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 397,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 399,
+        "numeric_tokens": [
+          "0",
+          "8,666",
+          "27.66",
+          "2.53",
+          "2.0",
+          "0.00",
+          "0.09",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 400,
+        "numeric_tokens": [
+          "3",
+          "-0",
+          "7,430",
+          "23.71",
+          "22.53",
+          "15.0",
+          "0.00",
+          "0.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 401,
+        "numeric_tokens": [
+          "2",
+          "1",
+          "9,398",
+          "30.00",
+          "49.72",
+          "32.0",
+          "100.00",
+          "0.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 402,
+        "numeric_tokens": [
+          "1",
+          "7",
+          "5,837",
+          "18.63",
+          "162.11",
+          "106.0",
+          "78.77",
+          "100.00",
+          "78.77"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 404,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 405,
+        "numeric_tokens": [
+          "1.",
+          "0,",
+          "27.7",
+          "2.5",
+          "0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 406,
+        "numeric_tokens": [
+          "2.",
+          "-0",
+          "3,",
+          "23.7",
+          "0",
+          "22.5",
+          "15",
+          "0",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 407,
+        "numeric_tokens": [
+          "3.",
+          "2,",
+          "30.0",
+          "100",
+          "1",
+          "49.7",
+          "0",
+          "7",
+          "2",
+          "6."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 408,
+        "numeric_tokens": [
+          "4.",
+          "1,",
+          "18.6",
+          "162.1",
+          "106.0",
+          "100",
+          "7",
+          "78.8",
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 410,
+        "numeric_tokens": [
+          "20"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 414,
+        "numeric_tokens": [
+          "6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 416,
+        "numeric_tokens": [
+          "31,331"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 418,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 420,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 422,
+        "numeric_tokens": [
+          "8,666",
+          "27.66",
+          "21,920",
+          "1.37",
+          "2.53",
+          "2.0",
+          "0.00",
+          "0.09"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 423,
+        "numeric_tokens": [
+          "-0",
+          "7,430",
+          "23.71",
+          "167,400",
+          "10.44",
+          "22.53",
+          "15.0",
+          "0.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 424,
+        "numeric_tokens": [
+          "1",
+          "9,398",
+          "30.00",
+          "467,269",
+          "29.15",
+          "49.72",
+          "32.0",
+          "100.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 425,
+        "numeric_tokens": [
+          "5,837",
+          "18.63",
+          "946,236",
+          "59.03",
+          "162.11",
+          "106.0",
+          "78.77",
+          "100.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 426,
+        "numeric_tokens": [
+          "31,331",
+          "100.0",
+          "1,602,825",
+          "100.0",
+          "51.16",
+          "16.0",
+          "44.67",
+          "18.66"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 428,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 429,
+        "numeric_tokens": [
+          "18.63",
+          "100.0",
+          "7",
+          "59.03",
+          "946"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 430,
+        "numeric_tokens": [
+          "27.66",
+          "0.00",
+          "1",
+          "0.09",
+          "7",
+          "1.37"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 431,
+        "numeric_tokens": [
+          "162.11",
+          "106.0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 432,
+        "numeric_tokens": [
+          "2,",
+          "30.0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 433,
+        "numeric_tokens": [
+          "9,398",
+          "49.72",
+          "100.0",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 434,
+        "numeric_tokens": [
+          "0.00",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 435,
+        "numeric_tokens": [
+          "-3",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 436,
+        "numeric_tokens": [
+          "-0",
+          "3,",
+          "23.7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 437,
+        "numeric_tokens": [
+          "22.53",
+          "0",
+          "16.0",
+          "0",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 440,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 442,
+        "numeric_tokens": [
+          "30",
+          "40",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 444,
+        "numeric_tokens": [
+          "4,299",
+          "4,367",
+          "2.52",
+          "2.54",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 445,
+        "numeric_tokens": [
+          "-0",
+          "3,715",
+          "3,715",
+          "22.36",
+          "22.70",
+          "50",
+          "50"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 446,
+        "numeric_tokens": [
+          "4,641",
+          "4,757",
+          "50.27",
+          "49.19",
+          "40",
+          "-1.08"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 447,
+        "numeric_tokens": [
+          "2,966",
+          "2,871",
+          "163.73",
+          "160.42",
+          "40",
+          "95",
+          "-3.2",
+          "3.31"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 453,
+        "numeric_tokens": [
+          "1.",
+          "01"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 455,
+        "numeric_tokens": [
+          "50",
+          "16",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 457,
+        "numeric_tokens": [
+          "2.",
+          "1",
+          "7",
+          "02",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 458,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 459,
+        "numeric_tokens": [
+          "58.2",
+          "1",
+          "44.67",
+          "7",
+          "18.66"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 461,
+        "numeric_tokens": [
+          "3.",
+          "03"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 462,
+        "numeric_tokens": [
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 463,
+        "numeric_tokens": [
+          "1",
+          "7",
+          "40",
+          "18.29",
+          "19.02",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 465,
+        "numeric_tokens": [
+          "4.",
+          "04"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 466,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 467,
+        "numeric_tokens": [
+          "15",
+          "50"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 469,
+        "numeric_tokens": [
+          "5.",
+          "05"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 470,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 471,
+        "numeric_tokens": [
+          "+6.52",
+          "+0.10,",
+          "2,961"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 473,
+        "numeric_tokens": [
+          "6.",
+          "06"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 475,
+        "numeric_tokens": [
+          "4",
+          "0.617,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 477,
+        "numeric_tokens": [
+          "7.",
+          "07"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 478,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 479,
+        "numeric_tokens": [
+          "4",
+          "162",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 481,
+        "numeric_tokens": [
+          "8.",
+          "2",
+          "08"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 483,
+        "numeric_tokens": [
+          "2",
+          "80"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 485,
+        "numeric_tokens": [
+          "9.",
+          "1",
+          "7",
+          "09"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 486,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 487,
+        "numeric_tokens": [
+          "100",
+          "1",
+          "0",
+          "7",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 489,
+        "numeric_tokens": [
+          "10.",
+          "10"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 491,
+        "numeric_tokens": [
+          "2",
+          "106"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 493,
+        "numeric_tokens": [
+          "11.",
+          "11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 495,
+        "numeric_tokens": [
+          "18.6",
+          "59.0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 497,
+        "numeric_tokens": [
+          "12.",
+          "12"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 498,
+        "numeric_tokens": [
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 499,
+        "numeric_tokens": [
+          "40",
+          "-95",
+          "-3.31"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 503,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 505,
+        "numeric_tokens": [
+          "1,000"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 507,
+        "numeric_tokens": [
+          "1.",
+          "1",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 508,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 510,
+        "numeric_tokens": [
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 511,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 512,
+        "numeric_tokens": [
+          "5",
+          "256.2,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 515,
+        "numeric_tokens": [
+          "7",
+          "0",
+          "7",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 516,
+        "numeric_tokens": [
+          "0",
+          "1363",
+          "10",
+          "1373",
+          "0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 517,
+        "numeric_tokens": [
+          "1",
+          "-5",
+          "7090",
+          "97",
+          "7187",
+          "1.35"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 518,
+        "numeric_tokens": [
+          "6",
+          "-15",
+          "6369",
+          "273",
+          "6642",
+          "4.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 519,
+        "numeric_tokens": [
+          "16",
+          "-50",
+          "7124",
+          "1106",
+          "8230",
+          "13.44"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 520,
+        "numeric_tokens": [
+          "51",
+          "-150",
+          "2984",
+          "2204",
+          "5188",
+          "42.48"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 521,
+        "numeric_tokens": [
+          "151",
+          "-500",
+          "543",
+          "1867",
+          "2410",
+          "77.47"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 522,
+        "numeric_tokens": [
+          "500",
+          "13",
+          "288",
+          "301",
+          "95.68"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 525,
+        "numeric_tokens": [
+          "2",
+          "11,393.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 526,
+        "numeric_tokens": [
+          "6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 527,
+        "numeric_tokens": [
+          "0.0000",
+          "10",
+          "-16"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 528,
+        "numeric_tokens": [
+          "0.6030"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 529,
+        "numeric_tokens": [
+          "0",
+          "0.0001",
+          "7",
+          "50",
+          "+20"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 531,
+        "numeric_tokens": [
+          "2.",
+          "2",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 532,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 533,
+        "numeric_tokens": [
+          "30",
+          "1",
+          "44.67",
+          "6,978",
+          "15,621",
+          "40",
+          "1",
+          "44.67",
+          "7,018",
+          "15,710"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 534,
+        "numeric_tokens": [
+          "-0.0015"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 535,
+        "numeric_tokens": [
+          "-0.0028,",
+          "0.9978,",
+          "95",
+          "-1.103",
+          "+1.099"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 536,
+        "numeric_tokens": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 537,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 538,
+        "numeric_tokens": [
+          "30",
+          "7",
+          "19.02",
+          "2,971",
+          "15,621",
+          "40",
+          "7",
+          "18.29",
+          "2,874",
+          "15,710"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 539,
+        "numeric_tokens": [
+          "+0.73",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 540,
+        "numeric_tokens": [
+          "+1.6475,",
+          "0.0994",
+          "0.0497"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 541,
+        "numeric_tokens": [
+          "95",
+          "-0.138",
+          "+1.588"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 542,
+        "numeric_tokens": [
+          "1.049",
+          "30",
+          "4.9",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 544,
+        "numeric_tokens": [
+          "3.",
+          "3",
+          "1,000"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 545,
+        "numeric_tokens": [
+          "1,000",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 546,
+        "numeric_tokens": [
+          "30",
+          "40",
+          "95.1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 547,
+        "numeric_tokens": [
+          "+0.725"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 548,
+        "numeric_tokens": [
+          "95",
+          "-0.136",
+          "+1.613"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 550,
+        "numeric_tokens": [
+          "4."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 551,
+        "numeric_tokens": [
+          "0.099",
+          "0.05",
+          "95.1",
+          "4.9"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 552,
+        "numeric_tokens": [
+          "0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 558,
+        "numeric_tokens": [
+          "1.",
+          "01"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 560,
+        "numeric_tokens": [
+          "50",
+          "16",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 562,
+        "numeric_tokens": [
+          "2.",
+          "1",
+          "7",
+          "02",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 563,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 564,
+        "numeric_tokens": [
+          "58.2",
+          "1",
+          "44.67",
+          "7",
+          "18.66"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 566,
+        "numeric_tokens": [
+          "3.",
+          "03"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 567,
+        "numeric_tokens": [
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 568,
+        "numeric_tokens": [
+          "1",
+          "7",
+          "40",
+          "18.29",
+          "19.02",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 570,
+        "numeric_tokens": [
+          "4.",
+          "04"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 571,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 572,
+        "numeric_tokens": [
+          "15",
+          "50"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 574,
+        "numeric_tokens": [
+          "5.",
+          "05"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 575,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 576,
+        "numeric_tokens": [
+          "+6.52",
+          "+0.10,",
+          "2,961"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 578,
+        "numeric_tokens": [
+          "6.",
+          "06"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 580,
+        "numeric_tokens": [
+          "4",
+          "0.617,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 582,
+        "numeric_tokens": [
+          "7.",
+          "07"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 583,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 584,
+        "numeric_tokens": [
+          "4",
+          "162",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 586,
+        "numeric_tokens": [
+          "8.",
+          "2",
+          "08"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 588,
+        "numeric_tokens": [
+          "2",
+          "80"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 590,
+        "numeric_tokens": [
+          "9.",
+          "1",
+          "7",
+          "09"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 591,
+        "numeric_tokens": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 592,
+        "numeric_tokens": [
+          "100",
+          "1",
+          "0",
+          "7",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 594,
+        "numeric_tokens": [
+          "10.",
+          "10"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 596,
+        "numeric_tokens": [
+          "2",
+          "106"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 598,
+        "numeric_tokens": [
+          "11.",
+          "11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 600,
+        "numeric_tokens": [
+          "18.6",
+          "59.0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 602,
+        "numeric_tokens": [
+          "12.",
+          "12"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 603,
+        "numeric_tokens": [
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 604,
+        "numeric_tokens": [
+          "40",
+          "13.",
+          "13"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 605,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 606,
+        "numeric_tokens": [
+          "+20",
+          "51"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 608,
+        "numeric_tokens": [
+          "14.",
+          "14"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 609,
+        "numeric_tokens": [
+          "30",
+          "7",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 610,
+        "numeric_tokens": [
+          "95.1",
+          "30",
+          "40,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 612,
+        "numeric_tokens": [
+          "15.",
+          "15"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 614,
+        "numeric_tokens": [
+          "9"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 618,
+        "numeric_tokens": [
+          "8"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 620,
+        "numeric_tokens": [
+          "8,",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 624,
+        "numeric_tokens": [
+          "1",
+          "01",
+          "+6.52",
+          "50",
+          "16",
+          "1",
+          "2,961"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 625,
+        "numeric_tokens": [
+          "2",
+          "02",
+          "1",
+          "7",
+          "7",
+          "1",
+          "44.67",
+          "7",
+          "18.66",
+          "58.2",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 626,
+        "numeric_tokens": [
+          "3",
+          "03",
+          "30",
+          "40",
+          "1",
+          "44.67",
+          "7",
+          "0.73",
+          "40",
+          "0.049",
+          "40."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 627,
+        "numeric_tokens": [
+          "4",
+          "06",
+          "4",
+          "0.617."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 628,
+        "numeric_tokens": [
+          "5",
+          "07",
+          "4",
+          "27.7",
+          "0",
+          "23.7",
+          "30.0",
+          "18.6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 629,
+        "numeric_tokens": [
+          "6",
+          "09",
+          "100",
+          "1",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 630,
+        "numeric_tokens": [
+          "7",
+          "11",
+          "18.6",
+          "59.0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 634,
+        "numeric_tokens": [
+          "9"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 638,
+        "numeric_tokens": [
+          "1",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 639,
+        "numeric_tokens": [
+          "30",
+          "19.02",
+          "7",
+          "18.29",
+          "40",
+          "0.73",
+          "1.648",
+          "0.0497",
+          "1.049",
+          "95.1",
+          "40",
+          "95",
+          "-3.2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 640,
+        "numeric_tokens": [
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 641,
+        "numeric_tokens": [
+          "30",
+          "40."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 642,
+        "numeric_tokens": [
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 644,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 645,
+        "numeric_tokens": [
+          "30.0",
+          "9,398",
+          "49.7",
+          "100.0",
+          "1",
+          "0.0",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 646,
+        "numeric_tokens": [
+          "1,",
+          "2",
+          "6."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 648,
+        "numeric_tokens": [
+          "1.",
+          "3",
+          "5",
+          "1",
+          "7."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 649,
+        "numeric_tokens": [
+          "2.",
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 650,
+        "numeric_tokens": [
+          "3.",
+          "20",
+          "35"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 651,
+        "numeric_tokens": [
+          "2",
+          "6,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 653,
+        "numeric_tokens": [
+          "3",
+          "-0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 654,
+        "numeric_tokens": [
+          "-0",
+          "23.7",
+          "7,428",
+          "22.5",
+          "0",
+          "1",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 659,
+        "numeric_tokens": [
+          "4",
+          "18.6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 660,
+        "numeric_tokens": [
+          "18.6",
+          "5,837",
+          "59.0",
+          "162.1",
+          "100",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 662,
+        "numeric_tokens": [
+          "100"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 667,
+        "numeric_tokens": [
+          "10"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 669,
+        "numeric_tokens": [
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 672,
+        "numeric_tokens": [
+          "31,331",
+          "10",
+          "55.6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 673,
+        "numeric_tokens": [
+          "4",
+          "0.617",
+          "30.0",
+          "100",
+          "1",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 674,
+        "numeric_tokens": [
+          "30",
+          "40",
+          "1e-16",
+          "0.603",
+          "1,000",
+          "95.1",
+          "30",
+          "0.73",
+          "7",
+          "3.2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 679,
+        "numeric_tokens": [
+          "18"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 681,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 684,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 685,
+        "numeric_tokens": [
+          "31,331"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 687,
+        "numeric_tokens": [
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 690,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 691,
+        "numeric_tokens": [
+          "4",
+          "2,",
+          "7",
+          "4",
+          "56.4",
+          "2",
+          "15.0",
+          "4",
+          "4",
+          "0.617",
+          "4",
+          "0",
+          "0",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 693,
+        "numeric_tokens": [
+          "5"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 694,
+        "numeric_tokens": [
+          "+6.52",
+          "0",
+          "2,961",
+          "1",
+          "1",
+          "+0.10,",
+          "0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 696,
+        "numeric_tokens": [
+          "6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 697,
+        "numeric_tokens": [
+          "0",
+          "8",
+          "0",
+          "3",
+          "0,",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 699,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 701,
+        "numeric_tokens": [
+          "1.",
+          "27.66",
+          "2.5",
+          "0",
+          "1,",
+          "0.09",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 702,
+        "numeric_tokens": [
+          "2.",
+          "-0",
+          "23.71",
+          "22.5",
+          "0",
+          "1,",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 703,
+        "numeric_tokens": [
+          "3.",
+          "30.00",
+          "49.7",
+          "100",
+          "1,",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 704,
+        "numeric_tokens": [
+          "4.",
+          "18.63",
+          "162.1",
+          "78.8",
+          "1,",
+          "100",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 706,
+        "numeric_tokens": [
+          "8"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 708,
+        "numeric_tokens": [
+          "1.",
+          "0.617",
+          "138,512",
+          "0.548"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 709,
+        "numeric_tokens": [
+          "2.",
+          "2",
+          "80"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 710,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 712,
+        "numeric_tokens": [
+          "9",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 714,
+        "numeric_tokens": [
+          "1",
+          "1",
+          "1",
+          "24",
+          "48"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 715,
+        "numeric_tokens": [
+          "7",
+          "7",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 717,
+        "numeric_tokens": [
+          "10"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 719,
+        "numeric_tokens": [
+          "1.",
+          "30",
+          "40",
+          "40",
+          "0.73",
+          "7",
+          "0.049",
+          "95",
+          "-3.2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 720,
+        "numeric_tokens": [
+          "2.",
+          "18.6",
+          "59.0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 721,
+        "numeric_tokens": [
+          "3.",
+          "30",
+          "30",
+          "1",
+          "50",
+          "7,"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 723,
+        "numeric_tokens": [
+          "11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 724,
+        "numeric_tokens": [
+          "2",
+          "11,393.73,",
+          "10",
+          "-16",
+          "0.603"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 726,
+        "numeric_tokens": [
+          "12"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 728,
+        "numeric_tokens": [
+          "1.",
+          "2",
+          "7",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 729,
+        "numeric_tokens": [
+          "2.",
+          "1",
+          "7",
+          "30",
+          "40",
+          "95"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 730,
+        "numeric_tokens": [
+          "3.",
+          "1,000",
+          "95.1",
+          "30",
+          "40."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 732,
+        "numeric_tokens": [
+          "13"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 734,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 735,
+        "numeric_tokens": [
+          "2.",
+          "1",
+          "7",
+          "2",
+          "6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 736,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 738,
+        "numeric_tokens": [
+          "14"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 740,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 741,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 742,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 744,
+        "numeric_tokens": [
+          "15"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 746,
+        "numeric_tokens": [
+          "1.",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 747,
+        "numeric_tokens": [
+          "2.",
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 748,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 750,
+        "numeric_tokens": [
+          "16"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 752,
+        "numeric_tokens": [
+          "1.",
+          "0.05",
+          "1",
+          "0.80"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 753,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 754,
+        "numeric_tokens": [
+          "3.",
+          "7",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 755,
+        "numeric_tokens": [
+          "4."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 757,
+        "numeric_tokens": [
+          "17"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 759,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 760,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 761,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 763,
+        "numeric_tokens": [
+          "18"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 765,
+        "numeric_tokens": [
+          "1."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 766,
+        "numeric_tokens": [
+          "2."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 767,
+        "numeric_tokens": [
+          "3."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 768,
+        "numeric_tokens": [
+          "4."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 773,
+        "numeric_tokens": [
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 774,
+        "numeric_tokens": [
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 775,
+        "numeric_tokens": [
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 776,
+        "numeric_tokens": [
+          "4"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 777,
+        "numeric_tokens": [
+          "5"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 778,
+        "numeric_tokens": [
+          "6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 779,
+        "numeric_tokens": [
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 780,
+        "numeric_tokens": [
+          "8"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 781,
+        "numeric_tokens": [
+          "9"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 782,
+        "numeric_tokens": [
+          "10"
+        ]
+      }
+    ],
+    "legacy_segments": {
+      "0": {
+        "n": 8666,
+        "size_share": 0.27659506558999075,
+        "rounds_share": 0.013681468656902656,
+        "mean_rounds": 2.5304638818370644,
+        "median_rounds": 2.0,
+        "d1": 0.0,
+        "d7": 0.0009231479344564967
+      },
+      "1": {
+        "n": 5837,
+        "size_share": 0.18630110752928408,
+        "rounds_share": 0.5903370611264486,
+        "mean_rounds": 162.10501970190165,
+        "median_rounds": 106.0,
+        "d1": 0.7877334247044715,
+        "d7": 1.0
+      },
+      "2": {
+        "n": 9398,
+        "size_share": 0.29995850754843445,
+        "rounds_share": 0.29154773602857453,
+        "mean_rounds": 49.72334539263673,
+        "median_rounds": 32.0,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      "3": {
+        "n": 7430,
+        "size_share": 0.23714531933229072,
+        "rounds_share": 0.10443373418807418,
+        "mean_rounds": 22.528802153432032,
+        "median_rounds": 15.0,
+        "d1": 0.0,
+        "d7": 0.0
+      }
+    }
+  }
+}
