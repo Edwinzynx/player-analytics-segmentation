@@ -26830,5 +26830,761 @@
       "D7 only",
       "both"
     ]
+  },
+  "sql": {
+    "summary": [
+      {
+        "n": 31331,
+        "rounds": 1602825,
+        "mean_rounds": 51.1577989850308,
+        "min_rounds": 0,
+        "max_rounds": 2961,
+        "d1": 0.446714117008713,
+        "d7": 0.186556445692764
+      }
+    ],
+    "version": [
+      {
+        "version": "gate_30",
+        "n": 15621,
+        "rounds": 812810,
+        "mean_rounds": 52.033160489085205,
+        "d1": 0.446706356827348,
+        "d7": 0.190192689328468
+      },
+      {
+        "version": "gate_40",
+        "n": 15710,
+        "rounds": 790015,
+        "mean_rounds": 50.287396562698916,
+        "d1": 0.446721833227244,
+        "d7": 0.182940802036919
+      }
+    ],
+    "tier": [
+      {
+        "tier_id": 0,
+        "n": 1373,
+        "rounds": 0,
+        "mean_rounds": 0.0,
+        "d1": 0.026219956300073,
+        "d7": 0.007283321194465
+      },
+      {
+        "tier_id": 1,
+        "n": 7187,
+        "rounds": 19397,
+        "mean_rounds": 2.69890079309865,
+        "d1": 0.076805342980381,
+        "d7": 0.013496591067205
+      },
+      {
+        "tier_id": 2,
+        "n": 6642,
+        "rounds": 66010,
+        "mean_rounds": 9.938271604938272,
+        "d1": 0.263023185787413,
+        "d7": 0.041102077687444
+      },
+      {
+        "tier_id": 3,
+        "n": 8230,
+        "rounds": 240127,
+        "mean_rounds": 29.177035236938032,
+        "d1": 0.592466585662212,
+        "d7": 0.134386391251519
+      },
+      {
+        "tier_id": 4,
+        "n": 5188,
+        "rounds": 446805,
+        "mean_rounds": 86.1227833461835,
+        "d1": 0.829992289899769,
+        "d7": 0.424826522744796
+      },
+      {
+        "tier_id": 5,
+        "n": 2410,
+        "rounds": 603835,
+        "mean_rounds": 250.55394190871368,
+        "d1": 0.906639004149378,
+        "d7": 0.774688796680498
+      },
+      {
+        "tier_id": 6,
+        "n": 301,
+        "rounds": 226651,
+        "mean_rounds": 752.9933554817276,
+        "d1": 0.976744186046512,
+        "d7": 0.956810631229236
+      }
+    ],
+    "quartile": [
+      {
+        "quartile": 1,
+        "n": 7833,
+        "rounds": 1273925,
+        "mean_rounds": 162.63564406996042,
+        "d1": 0.85982382229031,
+        "d7": 0.553938465466616
+      },
+      {
+        "quartile": 2,
+        "n": 7833,
+        "rounds": 236085,
+        "mean_rounds": 30.139793182688624,
+        "d1": 0.60538746329631,
+        "d7": 0.138261202604366
+      },
+      {
+        "quartile": 3,
+        "n": 7833,
+        "rounds": 77058,
+        "mean_rounds": 9.837610111068557,
+        "d1": 0.260053619302949,
+        "d7": 0.041491127282012
+      },
+      {
+        "quartile": 4,
+        "n": 7832,
+        "rounds": 15757,
+        "mean_rounds": 2.011874361593463,
+        "d1": 0.061542390194076,
+        "d7": 0.012512768130746
+      }
+    ],
+    "tier_lag": [
+      {
+        "tier_id": 0,
+        "n": 1373,
+        "d7": 0.007283321194465,
+        "prior_d7": null,
+        "d7_step": null
+      },
+      {
+        "tier_id": 1,
+        "n": 7187,
+        "d7": 0.013496591067205,
+        "prior_d7": 0.007283321194465,
+        "d7_step": 0.00621326987274
+      },
+      {
+        "tier_id": 2,
+        "n": 6642,
+        "d7": 0.041102077687444,
+        "prior_d7": 0.013496591067205,
+        "d7_step": 0.027605486620239
+      },
+      {
+        "tier_id": 3,
+        "n": 8230,
+        "d7": 0.134386391251519,
+        "prior_d7": 0.041102077687444,
+        "d7_step": 0.093284313564075
+      },
+      {
+        "tier_id": 4,
+        "n": 5188,
+        "d7": 0.424826522744796,
+        "prior_d7": 0.134386391251519,
+        "d7_step": 0.290440131493277
+      },
+      {
+        "tier_id": 5,
+        "n": 2410,
+        "d7": 0.774688796680498,
+        "prior_d7": 0.424826522744796,
+        "d7_step": 0.349862273935702
+      },
+      {
+        "tier_id": 6,
+        "n": 301,
+        "d7": 0.956810631229236,
+        "prior_d7": 0.774688796680498,
+        "d7_step": 0.182121834548738
+      }
+    ],
+    "decile": [
+      {
+        "decile": 1,
+        "n": 3134,
+        "rounds": 890441,
+        "rounds_share": 0.555544741316114,
+        "cumulative_rounds_share": 0.555544741316114
+      },
+      {
+        "decile": 2,
+        "n": 3133,
+        "rounds": 292290,
+        "rounds_share": 0.182359271910533,
+        "cumulative_rounds_share": 0.737904013226647
+      },
+      {
+        "decile": 3,
+        "n": 3133,
+        "rounds": 161966,
+        "rounds_share": 0.101050333005787,
+        "cumulative_rounds_share": 0.838954346232433
+      },
+      {
+        "decile": 4,
+        "n": 3133,
+        "rounds": 101045,
+        "rounds_share": 0.063041816792226,
+        "cumulative_rounds_share": 0.90199616302466
+      },
+      {
+        "decile": 5,
+        "n": 3133,
+        "rounds": 64268,
+        "rounds_share": 0.040096704256547,
+        "cumulative_rounds_share": 0.942092867281207
+      },
+      {
+        "decile": 6,
+        "n": 3133,
+        "rounds": 42204,
+        "rounds_share": 0.026331009311684,
+        "cumulative_rounds_share": 0.968423876592891
+      },
+      {
+        "decile": 7,
+        "n": 3133,
+        "rounds": 26180,
+        "rounds_share": 0.016333660880009,
+        "cumulative_rounds_share": 0.984757537472899
+      },
+      {
+        "decile": 8,
+        "n": 3133,
+        "rounds": 15249,
+        "rounds_share": 0.00951382714894,
+        "cumulative_rounds_share": 0.99427136462184
+      },
+      {
+        "decile": 9,
+        "n": 3133,
+        "rounds": 7422,
+        "rounds_share": 0.00463057414253,
+        "cumulative_rounds_share": 0.998901938764369
+      },
+      {
+        "decile": 10,
+        "n": 3133,
+        "rounds": 1760,
+        "rounds_share": 0.001098061235631,
+        "cumulative_rounds_share": 1.0
+      }
+    ],
+    "quality": [
+      {
+        "n": 31331,
+        "duplicate_userids": 0,
+        "rows_with_null": 0,
+        "invalid_version": 0,
+        "negative_rounds": 0,
+        "invalid_flags": 0
+      }
+    ],
+    "raw_quality": [
+      {
+        "n": 31332,
+        "duplicate_userids": 0,
+        "rows_with_null": 1,
+        "invalid_version": 1
+      }
+    ],
+    "funnel": [
+      {
+        "all_players": 31331,
+        "d1": 13996,
+        "both": 4598,
+        "d7_only": 1247,
+        "d7_given_d1": 0.328522434981423
+      }
+    ],
+    "segment_version": [
+      {
+        "cohort": "D1 only",
+        "tier_id": 0,
+        "version": "gate_30",
+        "n": 18,
+        "rounds": 0,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 0,
+        "version": "gate_40",
+        "n": 16,
+        "rounds": 0,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 1,
+        "version": "gate_30",
+        "n": 246,
+        "rounds": 806,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 1,
+        "version": "gate_40",
+        "n": 293,
+        "rounds": 1036,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 2,
+        "version": "gate_30",
+        "n": 779,
+        "rounds": 8244,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 2,
+        "version": "gate_40",
+        "n": 872,
+        "rounds": 9265,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 3,
+        "version": "gate_30",
+        "n": 2145,
+        "rounds": 65660,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 3,
+        "version": "gate_40",
+        "n": 2041,
+        "rounds": 60852,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 4,
+        "version": "gate_30",
+        "n": 1195,
+        "rounds": 98584,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 4,
+        "version": "gate_40",
+        "n": 1300,
+        "rounds": 105986,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 5,
+        "version": "gate_30",
+        "n": 252,
+        "rounds": 56309,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 5,
+        "version": "gate_40",
+        "n": 228,
+        "rounds": 50423,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 6,
+        "version": "gate_30",
+        "n": 6,
+        "rounds": 3688,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D1 only",
+        "tier_id": 6,
+        "version": "gate_40",
+        "n": 7,
+        "rounds": 6447,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 0,
+        "version": "gate_30",
+        "n": 5,
+        "rounds": 0,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 0,
+        "version": "gate_40",
+        "n": 3,
+        "rounds": 0,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 1,
+        "version": "gate_30",
+        "n": 47,
+        "rounds": 154,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 1,
+        "version": "gate_40",
+        "n": 37,
+        "rounds": 108,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 2,
+        "version": "gate_30",
+        "n": 85,
+        "rounds": 871,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 2,
+        "version": "gate_40",
+        "n": 92,
+        "rounds": 1018,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 3,
+        "version": "gate_30",
+        "n": 215,
+        "rounds": 6806,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 3,
+        "version": "gate_40",
+        "n": 201,
+        "rounds": 6015,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 4,
+        "version": "gate_30",
+        "n": 196,
+        "rounds": 16698,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 4,
+        "version": "gate_40",
+        "n": 197,
+        "rounds": 17403,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 5,
+        "version": "gate_30",
+        "n": 83,
+        "rounds": 20376,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 5,
+        "version": "gate_40",
+        "n": 79,
+        "rounds": 19568,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 6,
+        "version": "gate_30",
+        "n": 3,
+        "rounds": 2035,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "D7 only",
+        "tier_id": 6,
+        "version": "gate_40",
+        "n": 4,
+        "rounds": 3378,
+        "d1": 0.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 0,
+        "version": "gate_40",
+        "n": 2,
+        "rounds": 0,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 1,
+        "version": "gate_30",
+        "n": 6,
+        "rounds": 14,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 1,
+        "version": "gate_40",
+        "n": 7,
+        "rounds": 18,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 2,
+        "version": "gate_30",
+        "n": 54,
+        "rounds": 623,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 2,
+        "version": "gate_40",
+        "n": 42,
+        "rounds": 475,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 3,
+        "version": "gate_30",
+        "n": 362,
+        "rounds": 12343,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 3,
+        "version": "gate_40",
+        "n": 328,
+        "rounds": 11094,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 4,
+        "version": "gate_30",
+        "n": 895,
+        "rounds": 84231,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 4,
+        "version": "gate_40",
+        "n": 916,
+        "rounds": 87891,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 5,
+        "version": "gate_30",
+        "n": 862,
+        "rounds": 224039,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 5,
+        "version": "gate_40",
+        "n": 843,
+        "rounds": 219946,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 6,
+        "version": "gate_30",
+        "n": 158,
+        "rounds": 117439,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "both",
+        "tier_id": 6,
+        "version": "gate_40",
+        "n": 123,
+        "rounds": 93664,
+        "d1": 1.0,
+        "d7": 1.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 0,
+        "version": "gate_30",
+        "n": 687,
+        "rounds": 0,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 0,
+        "version": "gate_40",
+        "n": 642,
+        "rounds": 0,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 1,
+        "version": "gate_30",
+        "n": 3216,
+        "rounds": 8477,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 1,
+        "version": "gate_40",
+        "n": 3335,
+        "rounds": 8784,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 2,
+        "version": "gate_30",
+        "n": 2376,
+        "rounds": 22869,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 2,
+        "version": "gate_40",
+        "n": 2342,
+        "rounds": 22645,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 3,
+        "version": "gate_30",
+        "n": 1471,
+        "rounds": 39100,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 3,
+        "version": "gate_40",
+        "n": 1467,
+        "rounds": 38257,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 4,
+        "version": "gate_30",
+        "n": 229,
+        "rounds": 17094,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 4,
+        "version": "gate_40",
+        "n": 260,
+        "rounds": 18918,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 5,
+        "version": "gate_30",
+        "n": 30,
+        "rounds": 6350,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "cohort": "none",
+        "tier_id": 5,
+        "version": "gate_40",
+        "n": 33,
+        "rounds": 6824,
+        "d1": 0.0,
+        "d7": 0.0
+      }
+    ]
+  },
+  "sql_validation": {
+    "all_queries_match": true,
+    "query_count": 10
   }
 }
