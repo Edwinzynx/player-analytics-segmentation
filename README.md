@@ -262,3 +262,38 @@ All generated figures will be exported to `outputs/figures/`, and clean data tab
 For the complete technical breakdown, step-by-step mathematical proofs, and 18-question interview preparation guide, see:
 👉 [PROJECT_MASTER_REPORT.md](PROJECT_MASTER_REPORT.md)
 
+
+
+<!-- METRICS:START -->
+
+The local raw file has **31,332 records**, including **1** incomplete trailing record; **31,331 players** are analyzed. It is an exact byte prefix of the declared source (**90,189 rows**). Maximum rounds: **2,961** locally versus **49,854** in that source. Valid outliers are retained.
+
+| Baseline metric | Result |
+|---|---:|
+| D1 retention | 44.67% (13,996 players) |
+| D7 retention | 18.66% (5,845 players) |
+| Mean / median rounds | 51.16 / 16.0 |
+| Total rounds | 1,602,825 |
+| D7 conditional on D1 | 32.85% |
+| D7-only players | 1,247 |
+
+| Metric | Gate 30 | Gate 40 | Difference (pp), CI | Two-sided p | One-sided p | Holm p |
+|---|---:|---:|---|---:|---:|---:|
+| D1 | 44.67% | 44.67% | +0.002 [-1.099, +1.102] | 0.99780 | 0.50110 | 0.99780 |
+| D7 | 19.02% | 18.29% | -0.725 [-1.588, +0.138] | 0.09945 | 0.04972 | 0.19889 |
+
+Primary tests are two-sided at alpha **0.05**, adjusted across D1 and D7 with Holm. Intervals are **95%** marginal Newcombe intervals. Effects are gate_40 minus gate_30; one-sided alternatives are exploratory gate_40 < gate_30.
+
+**D7: directionally negative, not conclusive at 5%.** The data do not justify a definitive rollout or rollback recommendation.
+
+| Primary cohort | Players | Size | Rounds share | Mean / median rounds | D1 | D7 |
+|---|---:|---:|---:|---|---:|---:|
+| D1 only | 9,398 | 30.00% | 29.15% | 49.72 / 32.0 | 100.00% | 0.00% |
+| D7 only | 1,247 | 3.98% | 5.89% | 75.73 / 44.0 | 0.00% | 100.00% |
+| both | 4,598 | 14.68% | 53.14% | 185.25 / 127.0 | 100.00% | 100.00% |
+| none | 16,088 | 51.35% | 11.81% | 11.77 / 6.0 | 0.00% | 0.00% |
+
+The highest-round decile contributes **55.55%** of activity. Engagement-tier versus D7 association has Cramer's V **0.6030**, separately from the A/B test.
+Secondary K-means agreement: adjusted Rand index **0.6755** with retention cohorts and **0.4935** with cohort-by-tier groups. Retention is included in those model features, so segment retention is partly true by construction.
+
+<!-- METRICS:END -->

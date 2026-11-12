@@ -6,6 +6,8 @@ def profiles(df,key):
     rows = records(simple_profile(df,key))
     for row in rows:
         g = df[df[key].eq(row[key])]
+        for q in [.05,.25,.75,.95]:
+            row['rounds_q'+str(int(q*100))] = float(g.sum_gamerounds.quantile(q))
         a,b = g[g.version.eq('gate_30')],g[g.version.eq('gate_40')]
         row['gate30_n'],row['gate40_n'] = len(a),len(b)
         row['gate30_share'],row['gate40_share'] = len(a)/len(g),len(b)/len(g)

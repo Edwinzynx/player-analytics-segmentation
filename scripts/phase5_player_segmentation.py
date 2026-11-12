@@ -2,6 +2,7 @@
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 from sklearn.metrics import adjusted_rand_score, silhouette_score
 from threadpoolctl import threadpool_limits
 from common import ROOT, SEED, update_metrics
@@ -23,8 +24,13 @@ def segment(df):
     ordered = df.groupby('cluster_id').sum_gamerounds.mean().sort_values().index
     df['secondary_segment'] = df.cluster_id.map({c:f'K{i+1}' for i,c in enumerate(ordered)})
     df['segment_name'] = df.cohort
+    pca = PCA(n_components=2, random_state=SEED)
+    xy = pca.fit_transform(x)
+    sample = df.sample(n=min(1200,len(df)),random_state=SEED).index
     return df, {'selected_k':4,'selection_reason':'legacy comparability, not claimed optimal',
         'evaluations':evaluations,'features':cols,'silhouette_sample_size':min(3000,len(df)),
+        'pca_explained_variance':pca.explained_variance_ratio_.tolist(),
+        'pca_sample': [{'x':float(xy[i,0]),'y':float(xy[i,1]),'segment':df.loc[i,'secondary_segment']} for i in sample],
         'ari_cohort':float(adjusted_rand_score(df.cohort,final_labels)),
         'ari_cohort_tier':float(adjusted_rand_score(df.cohort_tier,final_labels)),
         'limitation':'Retention flags and their composite enter the model. Retention profiles are partly true by construction; unsuitable for prospective prediction.'}

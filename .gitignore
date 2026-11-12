@@ -2,6 +2,7 @@
 __pycache__/
 .venv/
 .pytest_cache/
+pytest-cache-files-*/
 outputs/upstream_reference.csv
 outputs/excel/recalculated/
 *.py[cod]
