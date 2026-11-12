@@ -1,6 +1,22 @@
 # Product retention and activity analytics
 
-A reproducible business/product analytics portfolio project using the Cookie Cats mobile-game experiment. Python, SQLite, statistics, Excel and BI-ready exports turn player-level records into defined metrics, validated comparisons and a concise decision brief. The dataset remains a game dataset; this project makes no claim of pharma data or domain experience.
+A reproducible product analytics portfolio project using the Cookie Cats mobile-game experiment. Python and SQLite define and validate the analysis; Excel and a native Power BI report make the results accessible for review. The project connects data-quality rules, segmentation, statistical testing and activity concentration to a concise stakeholder decision brief.
+
+The dataset remains a game dataset. The transferable work is the analytical process; this project makes no claim of pharma data or domain experience.
+
+## Explore the project
+
+| Deliverable | What it demonstrates |
+|---|---|
+| [Stakeholder brief](outputs/insights_brief.md) | Findings, business implications, recommendations and caveats |
+| [Power BI project and opening instructions](outputs/powerbi/README.md) | Interactive performance, experiment and concentration pages; semantic model and DAX |
+| [Excel workbook](outputs/excel/player_analytics.xlsx) | A native Data table, live formula summaries, charts and instructions for adding PivotTables |
+| [SQL analysis](sql/analysis.sql) | Documented business questions, quality checks, cohort summaries and window functions |
+| [Data-quality report](outputs/data_quality_report.md) | Explicit hard checks, soft warnings and exclusions |
+| [Methods and assumptions](docs/methodology.md) | Statistical methods, cohort rules, uncertainty and interpretation limits |
+| [Validation results](outputs/validation_results.md) | Reproducibility checks, automated tests and outstanding verification |
+
+For the decision story, start with the brief. For the interactive deliverable, download or clone the repository and open the Power BI project as described below.
 
 ## Business questions
 
@@ -57,7 +73,9 @@ Secondary K-means agreement: adjusted Rand index **0.6755** with retention cohor
 
 The complete [statistical report](outputs/statistical_results.md) includes both tails, Pearson cross-checks, relative lift, odds ratios and intervals, bootstrap intervals, and SRM. [Profile tables](outputs/tables/) include cohort-by-tier detail, version shares and descriptive within-segment contrasts with intervals.
 
-![Product analytics dashboard](outputs/figures/15_executive_analytics_dashboard.png)
+![Python-generated summary of product retention and activity](outputs/figures/15_executive_analytics_dashboard.png)
+
+*Python-generated analytical summary. The native Power BI report is a separate interactive deliverable.*
 
 ## Limitations and interpretation
 
@@ -65,13 +83,44 @@ The incomplete prefix may not represent the full experiment. Assignment and inde
 
 Rounds are not revenue. There is no monetization, cost, session duration, level history, demographic or calendar data. No causal explanation for fatigue, churn timing or habit formation is established. Segments defined by retention cannot validate retention prediction. The dashboard tracks a reproducible snapshot; time-series performance tracking needs dated observations.
 
-## Deliverables
+## Power BI report
 
-- [Stakeholder brief](outputs/insights_brief.md): findings, implications, recommendations and caveats.
-- [Excel workbook](outputs/excel/player_analytics.xlsx): Data table, live formula summaries and native charts. Includes PivotTable instructions; no prebuilt PivotTables are claimed.
-- [Native Power BI project](outputs/powerbi/ProductAnalytics.pbip): performance, experiment and concentration pages with a semantic model and DAX measures. [Opening and refresh instructions](outputs/powerbi/README.md); [validation evidence](outputs/powerbi/validation.md).
-- [BI exports and dashboard specification](outputs/bi/dashboard_spec.md): fact/dimension CSVs, aggregates, DAX and Tableau guidance.
-- [Quality report](outputs/data_quality_report.md), [business rules](docs/business_rules.md), [methodology](docs/methodology.md), and [old/new comparison](outputs/metric_comparison.md).
+The [native project](outputs/powerbi/ProductAnalytics.pbip) contains an import model, ordered cohort/tier/decile dimensions, DAX measures and report pages:
+
+| Page | Purpose | Interpretation |
+|---|---|---|
+| Product performance | Retention KPIs, tier and version comparisons, cohort profiles and slicers | Descriptive rates follow filters; cohort retention is defined by its flags |
+| Experiment | Arm rates, effect sizes, confidence intervals and adjusted p-values | Inference uses the full accepted sample; cross-visual filtering is disabled |
+| Concentration | Decile/Pareto view, cohort-by-version profiles and scope notes | Slicers filter fixed baseline deciles; they do not rerank players |
+
+The following screenshots were supplied from Power BI Desktop. KPI cards use rounded display units; use the generated findings above and [metrics.json](outputs/metrics.json) for exact values. Screenshots show a saved view; the project provides the interactive report.
+
+**Product performance — retention and engagement**
+
+![Power BI product performance page with retention KPIs, tier and version comparisons, cohort profiles and slicers](outputs/figures/powerbi_retention_engagement.png)
+
+**Experiment — effect size before decisions**
+
+![Power BI experiment page with arm rates, effect sizes, confidence intervals, adjusted p-values and the decision caveat](outputs/figures/powerbi_experiment.png)
+
+Absolute-difference cards use percentage formatting for differences in retention rates; interpret these as percentage-point changes. Relative lift is a separate proportional change.
+
+**Concentration — cohorts and analytical boundaries**
+
+![Power BI concentration page with decile activity, cumulative share, cohort-by-version profiles and data limitations](outputs/figures/powerbi_concentration.png)
+
+To open the report:
+
+1. Clone this repository or download and extract its ZIP. Keep the project folders together; downloading the `.pbip` file alone is insufficient.
+2. Open `outputs/powerbi/ProductAnalytics.pbip` in Power BI Desktop.
+3. Select **Home → Refresh** to load the embedded snapshot. No source paths or credentials are needed.
+4. Use the page tabs and descriptive slicers. Read the experiment page's fixed full-sample inference separately from filtered descriptive comparisons.
+
+The report is supplied as PBIP/PBIR/TMDL source files. The Python pipeline rebuilds its data snapshots and generated definitions. Close Desktop before rebuilding, then reopen and refresh. Save custom manual layouts in a separate project or change the generator, because rebuilding overwrites the generated definitions.
+
+The model was refreshed and its DAX executed in the local Power BI engine, with results reconciled against independent pandas expectations across full-sample and filtered contexts. See [native validation evidence](outputs/powerbi/validation.md). The supplied screenshots have since been visually reviewed. Live slicer and click interactions have not been independently tested because the app-control runtime failed to initialize; the earlier validation record documents that limitation.
+
+For a manual rebuild or Tableau adaptation, use the [BI exports and dashboard specification](outputs/bi/dashboard_spec.md). Detailed [business rules](docs/business_rules.md) and the [old/new metric comparison](outputs/metric_comparison.md) provide supporting evidence.
 
 ## How to run
 
@@ -95,7 +144,14 @@ Normal runs work offline, use fixed random seeds, leave the raw CSV unchanged, a
 
 All empirical narrative values are generated from metrics.json. Excel summaries contain live formulas with metric-derived preview caches. Tests inspect formulas, data, chart presence and caches; LibreOffice recalculation is tested only when installed and otherwise explicitly skipped. Cached-value previews of every worksheet were reviewed using a separate renderer. Native Excel visual rendering remains unverified.
 
-Open `outputs/powerbi/ProductAnalytics.pbip` in Power BI Desktop and select **Home → Refresh** to load its embedded snapshot. No source paths or credentials are needed. Close Desktop before rebuilding the pipeline, then reopen and refresh. DAX has been executed in the local Power BI engine and reconciled to pandas, including filtered contexts. Native report rendering remains unreviewed because the app-control runtime failed to initialize; inspect the pages before presenting. To repeat the native checks with the project open, run `pwsh -File scripts/validate_powerbi.ps1` followed by `python scripts/powerbi_validation.py`. Normal Python/CI runs recheck the archived engine results against matching model definitions and current expected values; they do not launch Desktop.
+To repeat the native Power BI checks with the project open, run:
+
+```powershell
+pwsh -File scripts/validate_powerbi.ps1
+python scripts/powerbi_validation.py
+```
+
+Normal Python/CI runs recheck the archived engine results against matching model definitions and current expected values; they do not launch Desktop.
 
 CI runs the pipeline and tests on the configured Python versions. Individual script names are retained, but the orchestrator is the recommended entry point.
 
