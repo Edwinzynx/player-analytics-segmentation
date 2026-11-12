@@ -1,5 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.venv/
+.pytest_cache/
+outputs/upstream_reference.csv
+outputs/excel/recalculated/
 *.py[cod]
 *$py.class
 
