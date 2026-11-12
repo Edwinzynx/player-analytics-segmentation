@@ -15,8 +15,8 @@ D1 Gate 40 = CALCULATE([D1 Retention], fact_players[version] = "gate_40")
 D7 Gate 30 = CALCULATE([D7 Retention], fact_players[version] = "gate_30")
 D7 Gate 40 = CALCULATE([D7 Retention], fact_players[version] = "gate_40")
 // Rate units; format as percentage. Multiply by 100 only for an explicit pp card.
-D1 Difference = [D1 Gate 40] - [D1 Gate 30]
-D7 Difference = [D7 Gate 40] - [D7 Gate 30]
+D1 Difference = IF(ISBLANK([D1 Gate 40]) || ISBLANK([D1 Gate 30]), BLANK(), [D1 Gate 40] - [D1 Gate 30])
+D7 Difference = IF(ISBLANK([D7 Gate 40]) || ISBLANK([D7 Gate 30]), BLANK(), [D7 Gate 40] - [D7 Gate 30])
 D7 Difference pp = 100 * [D7 Difference]
 D1 Relative Lift = DIVIDE([D1 Difference], [D1 Gate 30])
 D7 Relative Lift = DIVIDE([D7 Difference], [D7 Gate 30])

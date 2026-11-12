@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-from sklearn.metrics import adjusted_rand_score, silhouette_score
+from sklearn.metrics import adjusted_rand_score, silhouette_score, calinski_harabasz_score, davies_bouldin_score
 from threadpoolctl import threadpool_limits
 from common import ROOT, SEED, update_metrics
 
@@ -16,6 +16,8 @@ def segment(df):
             model = KMeans(n_clusters=k,random_state=SEED,n_init=20,max_iter=500)
             labels = model.fit_predict(x)
             evaluations.append({'k':k,'inertia':float(model.inertia_),
+                'calinski_harabasz':float(calinski_harabasz_score(x,labels)),
+                'davies_bouldin':float(davies_bouldin_score(x,labels)),
                 'silhouette':float(silhouette_score(x,labels,sample_size=min(3000,len(df)),random_state=SEED))})
             if k == 4:
                 final_labels = labels.copy()

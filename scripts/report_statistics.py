@@ -36,16 +36,19 @@ def main():
     ax.set_yticks(range(len(TIERS)),TIERS); ax.set_xticks([0,1],['D7 absent','D7 present'])
     for i in range(len(TIERS)):
         for j in range(2):
-            ax.text(j,i,f'{values[i,j]:.1f}',ha='center',va='center')
+            ax.text(j,i,f'{values[i,j]:.1f}',ha='center',va='center',
+                    color='white' if abs(values[i,j])>0.65*abs(values).max() else 'black')
     ax.set_title("Engagement tier and D7: association, not treatment effect")
     fig.colorbar(im,ax=ax,label='Pearson residual'); fig.tight_layout()
     fig.savefig(OUT/'figures/13_statistical_chi_square_residuals.png',dpi=160); plt.close(fig)
     fig,axes=plt.subplots(1,2,figsize=(12,4))
     for ax,(name,r) in zip(axes,m['ab'].items()):
         ax.hist(np.asarray(r['bootstrap_differences'])*100,bins=40,color='#376a91')
-        ax.axvline(0,color='black',ls='--')
-        for limit in r['bootstrap_ci95']:
-            ax.axvline(limit*100,color='#be7220',ls=':')
+        ax.axvline(0,color='black',ls='--',label='Zero difference')
+        for index,limit in enumerate(r['bootstrap_ci95']):
+            ax.axvline(limit*100,color='#be7220',ls=':',
+                label=f"{m['analysis_plan']['ci_level']:.0%} percentile CI" if index==0 else None)
+        ax.legend(fontsize=8)
         ax.set(title=f'{name} bootstrap sampling distribution',xlabel='Gate 40 - Gate 30 (percentage points)',ylabel='Resamples')
     fig.tight_layout(); fig.savefig(OUT/'figures/14_ab_bootstrap_retention_distribution.png',dpi=160); plt.close(fig)
 

@@ -27,6 +27,7 @@ The setup script names a public GitHub CSV and downloads only if the local file 
 - Cluster IDs are assigned fixed persona labels without deriving names from their current profiles. IDs can permute with implementation/version changes.
 - The selected clusters do not correspond to the four retention patterns: one unretained pattern is split, while D7-only and both are combined. Some D7 users also appear in the low-round cluster.
 - The master report contains conflicting segment counts, validation indices, and expected-cell minima. The purported zero-retention group has nonzero D7 in its own table. Audit comparisons will retain baseline profiles and report corrected values rather than preserve prose claims.
+- Handwritten segment total-rounds values also differ from the saved original segmented data, even when player counts agree. The numerical comparison distinguishes old reported tables from recomputed baseline profiles, including version splits.
 - Concentration is descriptive; neither a power-law distribution nor an exact Pareto rule was fitted or tested. A log transform reduces skewness but does not establish normality.
 - Zero rounds do not establish tutorial abandonment: some zero-round records have retention flags. Keep and flag this as a soft inconsistency.
 - The top tier label overlaps its predecessor at the boundary; use an unambiguous strictly-greater label.
@@ -43,3 +44,17 @@ The setup script names a public GitHub CSV and downloads only if the local file 
 ## Resolution policy
 
 Use the checked-in prefix, explicitly quarantine only its evidenced incomplete trailing record, fail on unexpected hard-rule violations, retain valid outliers, and disclose provenance. Use two-sided tests with a declared family correction; keep association separate. Make descriptive rule cohorts primary and label all post-treatment segment comparisons noncausal. Generate all results and reporting from metrics.json. Numerical comparison tables are generated after the corrected run.
+
+<!-- VERIFIED_AUDIT:START -->
+## Verified numerical appendix
+
+Generated from metrics.json after the corrected implementation:
+
+- Local raw records: 31,332; accepted complete records: 31,331; source records: 90,189.
+- Exact byte prefix: True; local/source byte sizes: 933,888 / 2,707,297. Local/source maximum rounds: 2,961 / 49,854. No valid outliers were excluded.
+- Engagement-tier versus D7 association: chi-square 11393.734024, Cramer's V 0.603040; the numerical p-value underflows. This is not the gate-assignment test.
+- D7 gate-assignment test: two-sided p 0.09944584; exploratory one-sided p 0.04972292; Holm p 0.19889168. Conclusion: directionally negative, not conclusive at 5%.
+- The association table's minimum expected cell is 56.153490, correcting the original reported value of 256.200000.
+
+The complete original-versus-corrected numerical tables are in [metric_comparison.md](../outputs/metric_comparison.md).
+<!-- VERIFIED_AUDIT:END -->

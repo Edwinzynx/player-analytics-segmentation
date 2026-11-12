@@ -5066,5 +5066,1647 @@
       "d1": 0.0,
       "d7": 0.0
     }
-  }
+  },
+  "legacy_selected_claims": {
+    "headline_d7_p": 0.049,
+    "headline_bootstrap_share_pct": 95.1,
+    "headline_odds_gate30_over_gate40": 1.049,
+    "headline_silhouette": 0.617,
+    "association_expected_min": 256.2,
+    "interview_calinski_harabasz": 138512.0,
+    "interview_davies_bouldin": 0.548,
+    "old_bootstrap_iterations": 1000.0,
+    "old_d7_script_ci_low_pp": 0.013,
+    "old_d7_script_ci_high_pp": 1.437,
+    "old_bootstrap_mean_pp": 0.725,
+    "old_bootstrap_low_pp": -0.136,
+    "old_bootstrap_high_pp": 1.613
+  },
+  "legacy_table_numbers": [
+    {
+      "file": "README.md",
+      "line": 63,
+      "values": [
+        "30",
+        "40"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 64,
+      "values": [
+        "14"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 65,
+      "values": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 66,
+      "values": [
+        "7",
+        "7",
+        "7"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 86,
+      "values": [
+        "31,331",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 87,
+      "values": [
+        "1",
+        "44.67",
+        "13,996"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 88,
+      "values": [
+        "7",
+        "18.66",
+        "5,845",
+        "-58.2",
+        "1",
+        "7."
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 89,
+      "values": [
+        "51.16",
+        "16.0",
+        "+6.52",
+        "46.0",
+        "2,961"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 90,
+      "values": [
+        "30",
+        "1",
+        "44.67",
+        "7",
+        "19.02",
+        "52.03",
+        "17.0"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 91,
+      "values": [
+        "40",
+        "1",
+        "44.67",
+        "7",
+        "18.29",
+        "50.29",
+        "16.0"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 92,
+      "values": [
+        "1",
+        "0.00",
+        "7",
+        "-0.73",
+        "40",
+        "7",
+        "-3.8"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 166,
+      "values": [
+        "01"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 167,
+      "values": [
+        "02",
+        "1",
+        "7",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 168,
+      "values": [
+        "03",
+        "30",
+        "40"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 169,
+      "values": [
+        "04",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 170,
+      "values": [
+        "05",
+        "1",
+        "+6.52"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 171,
+      "values": [
+        "06",
+        "4"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 172,
+      "values": [
+        "07",
+        "4"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 173,
+      "values": [
+        "08",
+        "2"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 174,
+      "values": [
+        "09"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 175,
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 176,
+      "values": [
+        "11",
+        "80",
+        "20"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 177,
+      "values": [
+        "12",
+        "40"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 178,
+      "values": [
+        "13",
+        "7"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 179,
+      "values": [
+        "14",
+        "1,000",
+        "30",
+        "40"
+      ]
+    },
+    {
+      "file": "README.md",
+      "line": 180,
+      "values": [
+        "15"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 73,
+      "values": [
+        "0"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 74,
+      "values": [
+        "0",
+        "30",
+        "40"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 75,
+      "values": [
+        "1",
+        "14"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 76,
+      "values": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 77,
+      "values": [
+        "7",
+        "1",
+        "7",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 96,
+      "values": [
+        "31,331"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 97,
+      "values": [
+        "1",
+        "44.67",
+        "13,996",
+        "45",
+        "1"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 98,
+      "values": [
+        "7",
+        "18.66",
+        "5,845",
+        "7",
+        "26.01",
+        "-58.2",
+        "1"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 99,
+      "values": [
+        "51.16"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 100,
+      "values": [
+        "16.0"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 101,
+      "values": [
+        "104.32"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 102,
+      "values": [
+        "46.0",
+        "25",
+        "5",
+        "75",
+        "51"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 103,
+      "values": [
+        "90",
+        "99",
+        "133.0",
+        "494.0",
+        "10",
+        "133",
+        "1",
+        "500"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 104,
+      "values": [
+        "2,961",
+        "211",
+        "14"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 105,
+      "values": [
+        "1,373",
+        "4.38"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 109,
+      "values": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 111,
+      "values": [
+        "30",
+        "15,621",
+        "49.86",
+        "52.03",
+        "17.0",
+        "44.67",
+        "19.02"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 112,
+      "values": [
+        "40",
+        "15,710",
+        "50.14",
+        "50.29",
+        "16.0",
+        "44.67",
+        "18.29"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 113,
+      "values": [
+        "+89",
+        "-1.74",
+        "-1.0",
+        "+0.00",
+        "-0.73"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 121,
+      "values": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 123,
+      "values": [
+        "0",
+        "0",
+        "1,373",
+        "4.38",
+        "2.62",
+        "0.73"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 124,
+      "values": [
+        "1",
+        "5",
+        "1",
+        "5",
+        "7,187",
+        "22.94",
+        "7.68",
+        "1.35"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 125,
+      "values": [
+        "6",
+        "15",
+        "6",
+        "15",
+        "6,642",
+        "21.20",
+        "26.30",
+        "4.11"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 126,
+      "values": [
+        "16",
+        "50",
+        "16",
+        "50",
+        "8,230",
+        "26.27",
+        "59.25",
+        "13.44"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 127,
+      "values": [
+        "51",
+        "150",
+        "51",
+        "150",
+        "5,188",
+        "16.56",
+        "83.00",
+        "42.48"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 128,
+      "values": [
+        "151",
+        "500",
+        "151",
+        "500",
+        "2,410",
+        "7.69",
+        "90.66",
+        "77.47"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 129,
+      "values": [
+        "500",
+        "500",
+        "301",
+        "0.96",
+        "97.67",
+        "95.68"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 154,
+      "values": [
+        "1",
+        "7",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 156,
+      "values": [
+        "31,331",
+        "51.16",
+        "0",
+        "2,961",
+        "44.67",
+        "18.66",
+        "41.76"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 173,
+      "values": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 175,
+      "values": [
+        "30",
+        "15,621",
+        "49.86",
+        "52.03",
+        "44.67",
+        "19.02",
+        "25.65"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 176,
+      "values": [
+        "40",
+        "15,710",
+        "50.14",
+        "50.29",
+        "44.67",
+        "18.29",
+        "26.38"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 206,
+      "values": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 208,
+      "values": [
+        "1.",
+        "0",
+        "1,373",
+        "4.38",
+        "0.0",
+        "2.62",
+        "0.73"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 209,
+      "values": [
+        "2.",
+        "1",
+        "5",
+        "7,187",
+        "22.94",
+        "2.7",
+        "7.68",
+        "1.35"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 210,
+      "values": [
+        "3.",
+        "6",
+        "15",
+        "6,642",
+        "21.20",
+        "9.9",
+        "26.30",
+        "4.11"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 211,
+      "values": [
+        "4.",
+        "16",
+        "50",
+        "8,230",
+        "26.27",
+        "29.2",
+        "59.25",
+        "13.44"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 212,
+      "values": [
+        "5.",
+        "51",
+        "150",
+        "5,188",
+        "16.56",
+        "86.1",
+        "83.00",
+        "42.48"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 213,
+      "values": [
+        "6.",
+        "151",
+        "500",
+        "2,410",
+        "7.69",
+        "250.6",
+        "90.66",
+        "77.47"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 214,
+      "values": [
+        "7.",
+        "500",
+        "301",
+        "0.96",
+        "753.0",
+        "97.67",
+        "95.68"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 237,
+      "values": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 239,
+      "values": [
+        "1",
+        "25",
+        "7,833",
+        "0",
+        "5",
+        "2.01",
+        "6.04",
+        "1.25"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 240,
+      "values": [
+        "2",
+        "7,833",
+        "5",
+        "16",
+        "9.84",
+        "26.13",
+        "4.15"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 241,
+      "values": [
+        "3",
+        "7,833",
+        "17",
+        "51",
+        "30.14",
+        "60.56",
+        "13.78"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 242,
+      "values": [
+        "4",
+        "25",
+        "7,832",
+        "51",
+        "2,961",
+        "162.65",
+        "85.96",
+        "55.45"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 272,
+      "values": [
+        "7",
+        "7",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 274,
+      "values": [
+        "1.",
+        "1,373",
+        "0.73"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 275,
+      "values": [
+        "2.",
+        "1",
+        "5",
+        "7,187",
+        "1.35",
+        "0.73",
+        "+0.62"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 276,
+      "values": [
+        "3.",
+        "6",
+        "15",
+        "6,642",
+        "4.11",
+        "1.35",
+        "+2.76"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 277,
+      "values": [
+        "4.",
+        "16",
+        "50",
+        "8,230",
+        "13.44",
+        "4.11",
+        "+9.33"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 278,
+      "values": [
+        "5.",
+        "51",
+        "150",
+        "5,188",
+        "42.48",
+        "13.44",
+        "+29.04",
+        "1"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 279,
+      "values": [
+        "6.",
+        "151",
+        "500",
+        "2,410",
+        "77.47",
+        "42.48",
+        "+34.99",
+        "2"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 280,
+      "values": [
+        "7.",
+        "500",
+        "301",
+        "95.68",
+        "77.47",
+        "+18.21"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 318,
+      "values": [
+        "10",
+        "10",
+        "3,133",
+        "133",
+        "2,961",
+        "890,308",
+        "55.55",
+        "100.00"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 319,
+      "values": [
+        "9",
+        "3,133",
+        "66",
+        "133",
+        "292,357",
+        "18.24",
+        "44.45"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 320,
+      "values": [
+        "8",
+        "3,133",
+        "40",
+        "66",
+        "161,992",
+        "10.11",
+        "26.21"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 321,
+      "values": [
+        "7",
+        "3,133",
+        "25",
+        "40",
+        "101,060",
+        "6.31",
+        "16.11"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 322,
+      "values": [
+        "6",
+        "3,133",
+        "17",
+        "25",
+        "64,277",
+        "4.01",
+        "9.80"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 323,
+      "values": [
+        "5",
+        "3,133",
+        "11",
+        "16",
+        "42,209",
+        "2.63",
+        "5.79"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 324,
+      "values": [
+        "4",
+        "3,133",
+        "6",
+        "11",
+        "26,185",
+        "1.63",
+        "3.16"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 325,
+      "values": [
+        "3",
+        "3,133",
+        "3",
+        "6",
+        "15,252",
+        "0.95",
+        "1.52"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 326,
+      "values": [
+        "2",
+        "3,133",
+        "1",
+        "3",
+        "7,424",
+        "0.46",
+        "0.57"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 327,
+      "values": [
+        "1",
+        "10",
+        "3,134",
+        "0",
+        "1",
+        "1,761",
+        "0.11",
+        "0.11"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 346,
+      "values": [
+        "64",
+        "1",
+        "0,",
+        "1"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 347,
+      "values": [
+        "1",
+        "0",
+        "1",
+        "0,",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 348,
+      "values": [
+        "7",
+        "0",
+        "1",
+        "0,",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 349,
+      "values": [
+        "0",
+        "3",
+        "1",
+        "1",
+        "2",
+        "7",
+        "0",
+        "1",
+        "1",
+        "2",
+        "7",
+        "3"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 350,
+      "values": [
+        "64"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 380,
+      "values": [
+        "2",
+        "56,368.3",
+        "0.6050",
+        "38,325.0",
+        "0.6119"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 381,
+      "values": [
+        "3",
+        "20,761.7",
+        "0.6812",
+        "78,888.9",
+        "0.4718"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 382,
+      "values": [
+        "4",
+        "15,017.5",
+        "0.6166",
+        "76,701.1",
+        "0.5269"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 383,
+      "values": [
+        "5",
+        "9,653.6",
+        "0.6327",
+        "93,838.0",
+        "0.5006"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 384,
+      "values": [
+        "6",
+        "7,097.0",
+        "0.5870",
+        "104,366.9",
+        "0.5595"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 385,
+      "values": [
+        "7",
+        "5,677.9",
+        "0.5818",
+        "110,011.4",
+        "0.5535"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 397,
+      "values": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 399,
+      "values": [
+        "0",
+        "8,666",
+        "27.66",
+        "2.53",
+        "2.0",
+        "0.00",
+        "0.09",
+        "0.00"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 400,
+      "values": [
+        "3",
+        "-0",
+        "7,430",
+        "23.71",
+        "22.53",
+        "15.0",
+        "0.00",
+        "0.00",
+        "0.00"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 401,
+      "values": [
+        "2",
+        "1",
+        "9,398",
+        "30.00",
+        "49.72",
+        "32.0",
+        "100.00",
+        "0.00",
+        "0.00"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 402,
+      "values": [
+        "1",
+        "7",
+        "5,837",
+        "18.63",
+        "162.11",
+        "106.0",
+        "78.77",
+        "100.00",
+        "78.77"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 420,
+      "values": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 422,
+      "values": [
+        "8,666",
+        "27.66",
+        "21,920",
+        "1.37",
+        "2.53",
+        "2.0",
+        "0.00",
+        "0.09"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 423,
+      "values": [
+        "-0",
+        "7,430",
+        "23.71",
+        "167,400",
+        "10.44",
+        "22.53",
+        "15.0",
+        "0.00",
+        "0.00"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 424,
+      "values": [
+        "1",
+        "9,398",
+        "30.00",
+        "467,269",
+        "29.15",
+        "49.72",
+        "32.0",
+        "100.00",
+        "0.00"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 425,
+      "values": [
+        "5,837",
+        "18.63",
+        "946,236",
+        "59.03",
+        "162.11",
+        "106.0",
+        "78.77",
+        "100.00"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 426,
+      "values": [
+        "31,331",
+        "100.0",
+        "1,602,825",
+        "100.0",
+        "51.16",
+        "16.0",
+        "44.67",
+        "18.66"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 442,
+      "values": [
+        "30",
+        "40",
+        "30",
+        "40"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 444,
+      "values": [
+        "4,299",
+        "4,367",
+        "2.52",
+        "2.54",
+        "30"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 445,
+      "values": [
+        "-0",
+        "3,715",
+        "3,715",
+        "22.36",
+        "22.70",
+        "50",
+        "50"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 446,
+      "values": [
+        "4,641",
+        "4,757",
+        "50.27",
+        "49.19",
+        "40",
+        "-1.08"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 447,
+      "values": [
+        "2,966",
+        "2,871",
+        "163.73",
+        "160.42",
+        "40",
+        "95",
+        "-3.2",
+        "3.31"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 624,
+      "values": [
+        "1",
+        "01",
+        "+6.52",
+        "50",
+        "16",
+        "1",
+        "2,961"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 625,
+      "values": [
+        "2",
+        "02",
+        "1",
+        "7",
+        "7",
+        "1",
+        "44.67",
+        "7",
+        "18.66",
+        "58.2",
+        "1"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 626,
+      "values": [
+        "3",
+        "03",
+        "30",
+        "40",
+        "1",
+        "44.67",
+        "7",
+        "0.73",
+        "40",
+        "0.049",
+        "40."
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 627,
+      "values": [
+        "4",
+        "06",
+        "4",
+        "0.617."
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 628,
+      "values": [
+        "5",
+        "07",
+        "4",
+        "27.7",
+        "0",
+        "23.7",
+        "30.0",
+        "18.6"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 629,
+      "values": [
+        "6",
+        "09",
+        "100",
+        "1",
+        "0",
+        "7"
+      ]
+    },
+    {
+      "file": "PROJECT_MASTER_REPORT.md",
+      "line": 630,
+      "values": [
+        "7",
+        "11",
+        "18.6",
+        "59.0"
+      ]
+    }
+  ],
+  "legacy_model_evaluations": [
+    {
+      "k": 2,
+      "inertia": 56368.3,
+      "silhouette": 0.605,
+      "calinski_harabasz": 38325.0,
+      "davies_bouldin": 0.6119
+    },
+    {
+      "k": 3,
+      "inertia": 20761.7,
+      "silhouette": 0.6812,
+      "calinski_harabasz": 78888.9,
+      "davies_bouldin": 0.4718
+    },
+    {
+      "k": 4,
+      "inertia": 15017.5,
+      "silhouette": 0.6166,
+      "calinski_harabasz": 76701.1,
+      "davies_bouldin": 0.5269
+    },
+    {
+      "k": 5,
+      "inertia": 9653.6,
+      "silhouette": 0.6327,
+      "calinski_harabasz": 93838.0,
+      "davies_bouldin": 0.5006
+    },
+    {
+      "k": 6,
+      "inertia": 7097.0,
+      "silhouette": 0.587,
+      "calinski_harabasz": 104366.9,
+      "davies_bouldin": 0.5595
+    },
+    {
+      "k": 7,
+      "inertia": 5677.9,
+      "silhouette": 0.5818,
+      "calinski_harabasz": 110011.4,
+      "davies_bouldin": 0.5535
+    }
+  ],
+  "legacy_deciles": [
+    {
+      "decile": 10,
+      "n": 3133.0,
+      "min_rounds": 133.0,
+      "max_rounds": 2961.0,
+      "rounds": 890308.0,
+      "rounds_share": 0.5555,
+      "cumulative_rounds_share": 1.0
+    },
+    {
+      "decile": 9,
+      "n": 3133.0,
+      "min_rounds": 66.0,
+      "max_rounds": 133.0,
+      "rounds": 292357.0,
+      "rounds_share": 0.18239999999999998,
+      "cumulative_rounds_share": 0.4445
+    },
+    {
+      "decile": 8,
+      "n": 3133.0,
+      "min_rounds": 40.0,
+      "max_rounds": 66.0,
+      "rounds": 161992.0,
+      "rounds_share": 0.1011,
+      "cumulative_rounds_share": 0.2621
+    },
+    {
+      "decile": 7,
+      "n": 3133.0,
+      "min_rounds": 25.0,
+      "max_rounds": 40.0,
+      "rounds": 101060.0,
+      "rounds_share": 0.06309999999999999,
+      "cumulative_rounds_share": 0.1611
+    },
+    {
+      "decile": 6,
+      "n": 3133.0,
+      "min_rounds": 17.0,
+      "max_rounds": 25.0,
+      "rounds": 64277.0,
+      "rounds_share": 0.0401,
+      "cumulative_rounds_share": 0.098
+    },
+    {
+      "decile": 5,
+      "n": 3133.0,
+      "min_rounds": 11.0,
+      "max_rounds": 16.0,
+      "rounds": 42209.0,
+      "rounds_share": 0.0263,
+      "cumulative_rounds_share": 0.0579
+    },
+    {
+      "decile": 4,
+      "n": 3133.0,
+      "min_rounds": 6.0,
+      "max_rounds": 11.0,
+      "rounds": 26185.0,
+      "rounds_share": 0.0163,
+      "cumulative_rounds_share": 0.0316
+    },
+    {
+      "decile": 3,
+      "n": 3133.0,
+      "min_rounds": 3.0,
+      "max_rounds": 6.0,
+      "rounds": 15252.0,
+      "rounds_share": 0.0095,
+      "cumulative_rounds_share": 0.0152
+    },
+    {
+      "decile": 2,
+      "n": 3133.0,
+      "min_rounds": 1.0,
+      "max_rounds": 3.0,
+      "rounds": 7424.0,
+      "rounds_share": 0.0046,
+      "cumulative_rounds_share": 0.005699999999999999
+    },
+    {
+      "decile": 1,
+      "n": 3134.0,
+      "min_rounds": 0.0,
+      "max_rounds": 1.0,
+      "rounds": 1761.0,
+      "rounds_share": 0.0011,
+      "cumulative_rounds_share": 0.0011
+    }
+  ],
+  "legacy_computed_ab": {
+    "D1": {
+      "difference": -1.5476399895963944e-05,
+      "z": -0.002755089363364778,
+      "p_two_sided": 0.9978017595143032,
+      "ci95": [
+        -0.011025327787030165,
+        0.010994374987238237
+      ]
+    },
+    "D7": {
+      "difference": 0.007251887291548936,
+      "z": 1.6475461384773489,
+      "p_two_sided": 0.09944584090161812,
+      "ci95": [
+        -0.0013751233451688855,
+        0.015878897928266758
+      ],
+      "odds_ratio": 1.0489506850294723
+    }
+  },
+  "legacy_reported_segments": [
+    {
+      "n": 8666.0,
+      "size_share": 0.2766,
+      "rounds": 21920.0,
+      "rounds_share": 0.0137,
+      "mean_rounds": 2.53,
+      "median_rounds": 2.0,
+      "d1": 0.0,
+      "d7": 0.0009
+    },
+    {
+      "n": 7430.0,
+      "size_share": 0.2371,
+      "rounds": 167400.0,
+      "rounds_share": 0.10439999999999999,
+      "mean_rounds": 22.53,
+      "median_rounds": 15.0,
+      "d1": 0.0,
+      "d7": 0.0
+    },
+    {
+      "n": 9398.0,
+      "size_share": 0.3,
+      "rounds": 467269.0,
+      "rounds_share": 0.2915,
+      "mean_rounds": 49.72,
+      "median_rounds": 32.0,
+      "d1": 1.0,
+      "d7": 0.0
+    },
+    {
+      "n": 5837.0,
+      "size_share": 0.1863,
+      "rounds": 946236.0,
+      "rounds_share": 0.5903,
+      "mean_rounds": 162.11,
+      "median_rounds": 106.0,
+      "d1": 0.7877,
+      "d7": 1.0
+    }
+  ],
+  "legacy_reported_segment_versions": [
+    {
+      "gate30_n": 4299.0,
+      "gate40_n": 4367.0,
+      "gate30_mean_rounds": 2.52,
+      "gate40_mean_rounds": 2.54
+    },
+    {
+      "gate30_n": 3715.0,
+      "gate40_n": 3715.0,
+      "gate30_mean_rounds": 22.36,
+      "gate40_mean_rounds": 22.7
+    },
+    {
+      "gate30_n": 4641.0,
+      "gate40_n": 4757.0,
+      "gate30_mean_rounds": 50.27,
+      "gate40_mean_rounds": 49.19
+    },
+    {
+      "gate30_n": 2966.0,
+      "gate40_n": 2871.0,
+      "gate30_mean_rounds": 163.73,
+      "gate40_mean_rounds": 160.42
+    }
+  ]
 }

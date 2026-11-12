@@ -22,6 +22,8 @@ def validate(df):
             errors.append(f'non-negative: {col}')
     if df.userid.duplicated().any():
         errors.append('duplicate userid')
+    elif pd.to_numeric(df.userid, errors='coerce').dropna().duplicated().any():
+        errors.append('duplicate userid after integer normalization')
     if not df.version.isin(['gate_30','gate_40']).all():
         errors.append('invalid version')
     for col in ['retention_1','retention_7']:

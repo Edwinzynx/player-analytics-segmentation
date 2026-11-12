@@ -5067,7 +5067,1649 @@
         "d1": 0.0,
         "d7": 0.0
       }
-    }
+    },
+    "legacy_selected_claims": {
+      "headline_d7_p": 0.049,
+      "headline_bootstrap_share_pct": 95.1,
+      "headline_odds_gate30_over_gate40": 1.049,
+      "headline_silhouette": 0.617,
+      "association_expected_min": 256.2,
+      "interview_calinski_harabasz": 138512.0,
+      "interview_davies_bouldin": 0.548,
+      "old_bootstrap_iterations": 1000.0,
+      "old_d7_script_ci_low_pp": 0.013,
+      "old_d7_script_ci_high_pp": 1.437,
+      "old_bootstrap_mean_pp": 0.725,
+      "old_bootstrap_low_pp": -0.136,
+      "old_bootstrap_high_pp": 1.613
+    },
+    "legacy_table_numbers": [
+      {
+        "file": "README.md",
+        "line": 63,
+        "values": [
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 64,
+        "values": [
+          "14"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 65,
+        "values": [
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 66,
+        "values": [
+          "7",
+          "7",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 86,
+        "values": [
+          "31,331",
+          "1",
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 87,
+        "values": [
+          "1",
+          "44.67",
+          "13,996"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 88,
+        "values": [
+          "7",
+          "18.66",
+          "5,845",
+          "-58.2",
+          "1",
+          "7."
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 89,
+        "values": [
+          "51.16",
+          "16.0",
+          "+6.52",
+          "46.0",
+          "2,961"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 90,
+        "values": [
+          "30",
+          "1",
+          "44.67",
+          "7",
+          "19.02",
+          "52.03",
+          "17.0"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 91,
+        "values": [
+          "40",
+          "1",
+          "44.67",
+          "7",
+          "18.29",
+          "50.29",
+          "16.0"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 92,
+        "values": [
+          "1",
+          "0.00",
+          "7",
+          "-0.73",
+          "40",
+          "7",
+          "-3.8"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 166,
+        "values": [
+          "01"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 167,
+        "values": [
+          "02",
+          "1",
+          "7",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 168,
+        "values": [
+          "03",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 169,
+        "values": [
+          "04",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 170,
+        "values": [
+          "05",
+          "1",
+          "+6.52"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 171,
+        "values": [
+          "06",
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 172,
+        "values": [
+          "07",
+          "4"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 173,
+        "values": [
+          "08",
+          "2"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 174,
+        "values": [
+          "09"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 175,
+        "values": [
+          "10"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 176,
+        "values": [
+          "11",
+          "80",
+          "20"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 177,
+        "values": [
+          "12",
+          "40"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 178,
+        "values": [
+          "13",
+          "7"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 179,
+        "values": [
+          "14",
+          "1,000",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "README.md",
+        "line": 180,
+        "values": [
+          "15"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 73,
+        "values": [
+          "0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 74,
+        "values": [
+          "0",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 75,
+        "values": [
+          "1",
+          "14"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 76,
+        "values": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 77,
+        "values": [
+          "7",
+          "1",
+          "7",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 96,
+        "values": [
+          "31,331"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 97,
+        "values": [
+          "1",
+          "44.67",
+          "13,996",
+          "45",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 98,
+        "values": [
+          "7",
+          "18.66",
+          "5,845",
+          "7",
+          "26.01",
+          "-58.2",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 99,
+        "values": [
+          "51.16"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 100,
+        "values": [
+          "16.0"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 101,
+        "values": [
+          "104.32"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 102,
+        "values": [
+          "46.0",
+          "25",
+          "5",
+          "75",
+          "51"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 103,
+        "values": [
+          "90",
+          "99",
+          "133.0",
+          "494.0",
+          "10",
+          "133",
+          "1",
+          "500"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 104,
+        "values": [
+          "2,961",
+          "211",
+          "14"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 105,
+        "values": [
+          "1,373",
+          "4.38"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 109,
+        "values": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 111,
+        "values": [
+          "30",
+          "15,621",
+          "49.86",
+          "52.03",
+          "17.0",
+          "44.67",
+          "19.02"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 112,
+        "values": [
+          "40",
+          "15,710",
+          "50.14",
+          "50.29",
+          "16.0",
+          "44.67",
+          "18.29"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 113,
+        "values": [
+          "+89",
+          "-1.74",
+          "-1.0",
+          "+0.00",
+          "-0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 121,
+        "values": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 123,
+        "values": [
+          "0",
+          "0",
+          "1,373",
+          "4.38",
+          "2.62",
+          "0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 124,
+        "values": [
+          "1",
+          "5",
+          "1",
+          "5",
+          "7,187",
+          "22.94",
+          "7.68",
+          "1.35"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 125,
+        "values": [
+          "6",
+          "15",
+          "6",
+          "15",
+          "6,642",
+          "21.20",
+          "26.30",
+          "4.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 126,
+        "values": [
+          "16",
+          "50",
+          "16",
+          "50",
+          "8,230",
+          "26.27",
+          "59.25",
+          "13.44"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 127,
+        "values": [
+          "51",
+          "150",
+          "51",
+          "150",
+          "5,188",
+          "16.56",
+          "83.00",
+          "42.48"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 128,
+        "values": [
+          "151",
+          "500",
+          "151",
+          "500",
+          "2,410",
+          "7.69",
+          "90.66",
+          "77.47"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 129,
+        "values": [
+          "500",
+          "500",
+          "301",
+          "0.96",
+          "97.67",
+          "95.68"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 154,
+        "values": [
+          "1",
+          "7",
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 156,
+        "values": [
+          "31,331",
+          "51.16",
+          "0",
+          "2,961",
+          "44.67",
+          "18.66",
+          "41.76"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 173,
+        "values": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 175,
+        "values": [
+          "30",
+          "15,621",
+          "49.86",
+          "52.03",
+          "44.67",
+          "19.02",
+          "25.65"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 176,
+        "values": [
+          "40",
+          "15,710",
+          "50.14",
+          "50.29",
+          "44.67",
+          "18.29",
+          "26.38"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 206,
+        "values": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 208,
+        "values": [
+          "1.",
+          "0",
+          "1,373",
+          "4.38",
+          "0.0",
+          "2.62",
+          "0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 209,
+        "values": [
+          "2.",
+          "1",
+          "5",
+          "7,187",
+          "22.94",
+          "2.7",
+          "7.68",
+          "1.35"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 210,
+        "values": [
+          "3.",
+          "6",
+          "15",
+          "6,642",
+          "21.20",
+          "9.9",
+          "26.30",
+          "4.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 211,
+        "values": [
+          "4.",
+          "16",
+          "50",
+          "8,230",
+          "26.27",
+          "29.2",
+          "59.25",
+          "13.44"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 212,
+        "values": [
+          "5.",
+          "51",
+          "150",
+          "5,188",
+          "16.56",
+          "86.1",
+          "83.00",
+          "42.48"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 213,
+        "values": [
+          "6.",
+          "151",
+          "500",
+          "2,410",
+          "7.69",
+          "250.6",
+          "90.66",
+          "77.47"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 214,
+        "values": [
+          "7.",
+          "500",
+          "301",
+          "0.96",
+          "753.0",
+          "97.67",
+          "95.68"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 237,
+        "values": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 239,
+        "values": [
+          "1",
+          "25",
+          "7,833",
+          "0",
+          "5",
+          "2.01",
+          "6.04",
+          "1.25"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 240,
+        "values": [
+          "2",
+          "7,833",
+          "5",
+          "16",
+          "9.84",
+          "26.13",
+          "4.15"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 241,
+        "values": [
+          "3",
+          "7,833",
+          "17",
+          "51",
+          "30.14",
+          "60.56",
+          "13.78"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 242,
+        "values": [
+          "4",
+          "25",
+          "7,832",
+          "51",
+          "2,961",
+          "162.65",
+          "85.96",
+          "55.45"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 272,
+        "values": [
+          "7",
+          "7",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 274,
+        "values": [
+          "1.",
+          "1,373",
+          "0.73"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 275,
+        "values": [
+          "2.",
+          "1",
+          "5",
+          "7,187",
+          "1.35",
+          "0.73",
+          "+0.62"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 276,
+        "values": [
+          "3.",
+          "6",
+          "15",
+          "6,642",
+          "4.11",
+          "1.35",
+          "+2.76"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 277,
+        "values": [
+          "4.",
+          "16",
+          "50",
+          "8,230",
+          "13.44",
+          "4.11",
+          "+9.33"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 278,
+        "values": [
+          "5.",
+          "51",
+          "150",
+          "5,188",
+          "42.48",
+          "13.44",
+          "+29.04",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 279,
+        "values": [
+          "6.",
+          "151",
+          "500",
+          "2,410",
+          "77.47",
+          "42.48",
+          "+34.99",
+          "2"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 280,
+        "values": [
+          "7.",
+          "500",
+          "301",
+          "95.68",
+          "77.47",
+          "+18.21"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 318,
+        "values": [
+          "10",
+          "10",
+          "3,133",
+          "133",
+          "2,961",
+          "890,308",
+          "55.55",
+          "100.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 319,
+        "values": [
+          "9",
+          "3,133",
+          "66",
+          "133",
+          "292,357",
+          "18.24",
+          "44.45"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 320,
+        "values": [
+          "8",
+          "3,133",
+          "40",
+          "66",
+          "161,992",
+          "10.11",
+          "26.21"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 321,
+        "values": [
+          "7",
+          "3,133",
+          "25",
+          "40",
+          "101,060",
+          "6.31",
+          "16.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 322,
+        "values": [
+          "6",
+          "3,133",
+          "17",
+          "25",
+          "64,277",
+          "4.01",
+          "9.80"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 323,
+        "values": [
+          "5",
+          "3,133",
+          "11",
+          "16",
+          "42,209",
+          "2.63",
+          "5.79"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 324,
+        "values": [
+          "4",
+          "3,133",
+          "6",
+          "11",
+          "26,185",
+          "1.63",
+          "3.16"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 325,
+        "values": [
+          "3",
+          "3,133",
+          "3",
+          "6",
+          "15,252",
+          "0.95",
+          "1.52"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 326,
+        "values": [
+          "2",
+          "3,133",
+          "1",
+          "3",
+          "7,424",
+          "0.46",
+          "0.57"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 327,
+        "values": [
+          "1",
+          "10",
+          "3,134",
+          "0",
+          "1",
+          "1,761",
+          "0.11",
+          "0.11"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 346,
+        "values": [
+          "64",
+          "1",
+          "0,",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 347,
+        "values": [
+          "1",
+          "0",
+          "1",
+          "0,",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 348,
+        "values": [
+          "7",
+          "0",
+          "1",
+          "0,",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 349,
+        "values": [
+          "0",
+          "3",
+          "1",
+          "1",
+          "2",
+          "7",
+          "0",
+          "1",
+          "1",
+          "2",
+          "7",
+          "3"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 350,
+        "values": [
+          "64"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 380,
+        "values": [
+          "2",
+          "56,368.3",
+          "0.6050",
+          "38,325.0",
+          "0.6119"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 381,
+        "values": [
+          "3",
+          "20,761.7",
+          "0.6812",
+          "78,888.9",
+          "0.4718"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 382,
+        "values": [
+          "4",
+          "15,017.5",
+          "0.6166",
+          "76,701.1",
+          "0.5269"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 383,
+        "values": [
+          "5",
+          "9,653.6",
+          "0.6327",
+          "93,838.0",
+          "0.5006"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 384,
+        "values": [
+          "6",
+          "7,097.0",
+          "0.5870",
+          "104,366.9",
+          "0.5595"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 385,
+        "values": [
+          "7",
+          "5,677.9",
+          "0.5818",
+          "110,011.4",
+          "0.5535"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 397,
+        "values": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 399,
+        "values": [
+          "0",
+          "8,666",
+          "27.66",
+          "2.53",
+          "2.0",
+          "0.00",
+          "0.09",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 400,
+        "values": [
+          "3",
+          "-0",
+          "7,430",
+          "23.71",
+          "22.53",
+          "15.0",
+          "0.00",
+          "0.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 401,
+        "values": [
+          "2",
+          "1",
+          "9,398",
+          "30.00",
+          "49.72",
+          "32.0",
+          "100.00",
+          "0.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 402,
+        "values": [
+          "1",
+          "7",
+          "5,837",
+          "18.63",
+          "162.11",
+          "106.0",
+          "78.77",
+          "100.00",
+          "78.77"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 420,
+        "values": [
+          "1",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 422,
+        "values": [
+          "8,666",
+          "27.66",
+          "21,920",
+          "1.37",
+          "2.53",
+          "2.0",
+          "0.00",
+          "0.09"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 423,
+        "values": [
+          "-0",
+          "7,430",
+          "23.71",
+          "167,400",
+          "10.44",
+          "22.53",
+          "15.0",
+          "0.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 424,
+        "values": [
+          "1",
+          "9,398",
+          "30.00",
+          "467,269",
+          "29.15",
+          "49.72",
+          "32.0",
+          "100.00",
+          "0.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 425,
+        "values": [
+          "5,837",
+          "18.63",
+          "946,236",
+          "59.03",
+          "162.11",
+          "106.0",
+          "78.77",
+          "100.00"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 426,
+        "values": [
+          "31,331",
+          "100.0",
+          "1,602,825",
+          "100.0",
+          "51.16",
+          "16.0",
+          "44.67",
+          "18.66"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 442,
+        "values": [
+          "30",
+          "40",
+          "30",
+          "40"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 444,
+        "values": [
+          "4,299",
+          "4,367",
+          "2.52",
+          "2.54",
+          "30"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 445,
+        "values": [
+          "-0",
+          "3,715",
+          "3,715",
+          "22.36",
+          "22.70",
+          "50",
+          "50"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 446,
+        "values": [
+          "4,641",
+          "4,757",
+          "50.27",
+          "49.19",
+          "40",
+          "-1.08"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 447,
+        "values": [
+          "2,966",
+          "2,871",
+          "163.73",
+          "160.42",
+          "40",
+          "95",
+          "-3.2",
+          "3.31"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 624,
+        "values": [
+          "1",
+          "01",
+          "+6.52",
+          "50",
+          "16",
+          "1",
+          "2,961"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 625,
+        "values": [
+          "2",
+          "02",
+          "1",
+          "7",
+          "7",
+          "1",
+          "44.67",
+          "7",
+          "18.66",
+          "58.2",
+          "1"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 626,
+        "values": [
+          "3",
+          "03",
+          "30",
+          "40",
+          "1",
+          "44.67",
+          "7",
+          "0.73",
+          "40",
+          "0.049",
+          "40."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 627,
+        "values": [
+          "4",
+          "06",
+          "4",
+          "0.617."
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 628,
+        "values": [
+          "5",
+          "07",
+          "4",
+          "27.7",
+          "0",
+          "23.7",
+          "30.0",
+          "18.6"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 629,
+        "values": [
+          "6",
+          "09",
+          "100",
+          "1",
+          "0",
+          "7"
+        ]
+      },
+      {
+        "file": "PROJECT_MASTER_REPORT.md",
+        "line": 630,
+        "values": [
+          "7",
+          "11",
+          "18.6",
+          "59.0"
+        ]
+      }
+    ],
+    "legacy_model_evaluations": [
+      {
+        "k": 2,
+        "inertia": 56368.3,
+        "silhouette": 0.605,
+        "calinski_harabasz": 38325.0,
+        "davies_bouldin": 0.6119
+      },
+      {
+        "k": 3,
+        "inertia": 20761.7,
+        "silhouette": 0.6812,
+        "calinski_harabasz": 78888.9,
+        "davies_bouldin": 0.4718
+      },
+      {
+        "k": 4,
+        "inertia": 15017.5,
+        "silhouette": 0.6166,
+        "calinski_harabasz": 76701.1,
+        "davies_bouldin": 0.5269
+      },
+      {
+        "k": 5,
+        "inertia": 9653.6,
+        "silhouette": 0.6327,
+        "calinski_harabasz": 93838.0,
+        "davies_bouldin": 0.5006
+      },
+      {
+        "k": 6,
+        "inertia": 7097.0,
+        "silhouette": 0.587,
+        "calinski_harabasz": 104366.9,
+        "davies_bouldin": 0.5595
+      },
+      {
+        "k": 7,
+        "inertia": 5677.9,
+        "silhouette": 0.5818,
+        "calinski_harabasz": 110011.4,
+        "davies_bouldin": 0.5535
+      }
+    ],
+    "legacy_deciles": [
+      {
+        "decile": 10,
+        "n": 3133.0,
+        "min_rounds": 133.0,
+        "max_rounds": 2961.0,
+        "rounds": 890308.0,
+        "rounds_share": 0.5555,
+        "cumulative_rounds_share": 1.0
+      },
+      {
+        "decile": 9,
+        "n": 3133.0,
+        "min_rounds": 66.0,
+        "max_rounds": 133.0,
+        "rounds": 292357.0,
+        "rounds_share": 0.18239999999999998,
+        "cumulative_rounds_share": 0.4445
+      },
+      {
+        "decile": 8,
+        "n": 3133.0,
+        "min_rounds": 40.0,
+        "max_rounds": 66.0,
+        "rounds": 161992.0,
+        "rounds_share": 0.1011,
+        "cumulative_rounds_share": 0.2621
+      },
+      {
+        "decile": 7,
+        "n": 3133.0,
+        "min_rounds": 25.0,
+        "max_rounds": 40.0,
+        "rounds": 101060.0,
+        "rounds_share": 0.06309999999999999,
+        "cumulative_rounds_share": 0.1611
+      },
+      {
+        "decile": 6,
+        "n": 3133.0,
+        "min_rounds": 17.0,
+        "max_rounds": 25.0,
+        "rounds": 64277.0,
+        "rounds_share": 0.0401,
+        "cumulative_rounds_share": 0.098
+      },
+      {
+        "decile": 5,
+        "n": 3133.0,
+        "min_rounds": 11.0,
+        "max_rounds": 16.0,
+        "rounds": 42209.0,
+        "rounds_share": 0.0263,
+        "cumulative_rounds_share": 0.0579
+      },
+      {
+        "decile": 4,
+        "n": 3133.0,
+        "min_rounds": 6.0,
+        "max_rounds": 11.0,
+        "rounds": 26185.0,
+        "rounds_share": 0.0163,
+        "cumulative_rounds_share": 0.0316
+      },
+      {
+        "decile": 3,
+        "n": 3133.0,
+        "min_rounds": 3.0,
+        "max_rounds": 6.0,
+        "rounds": 15252.0,
+        "rounds_share": 0.0095,
+        "cumulative_rounds_share": 0.0152
+      },
+      {
+        "decile": 2,
+        "n": 3133.0,
+        "min_rounds": 1.0,
+        "max_rounds": 3.0,
+        "rounds": 7424.0,
+        "rounds_share": 0.0046,
+        "cumulative_rounds_share": 0.005699999999999999
+      },
+      {
+        "decile": 1,
+        "n": 3134.0,
+        "min_rounds": 0.0,
+        "max_rounds": 1.0,
+        "rounds": 1761.0,
+        "rounds_share": 0.0011,
+        "cumulative_rounds_share": 0.0011
+      }
+    ],
+    "legacy_computed_ab": {
+      "D1": {
+        "difference": -1.5476399895963944e-05,
+        "z": -0.002755089363364778,
+        "p_two_sided": 0.9978017595143032,
+        "ci95": [
+          -0.011025327787030165,
+          0.010994374987238237
+        ]
+      },
+      "D7": {
+        "difference": 0.007251887291548936,
+        "z": 1.6475461384773489,
+        "p_two_sided": 0.09944584090161812,
+        "ci95": [
+          -0.0013751233451688855,
+          0.015878897928266758
+        ],
+        "odds_ratio": 1.0489506850294723
+      }
+    },
+    "legacy_reported_segments": [
+      {
+        "n": 8666.0,
+        "size_share": 0.2766,
+        "rounds": 21920.0,
+        "rounds_share": 0.0137,
+        "mean_rounds": 2.53,
+        "median_rounds": 2.0,
+        "d1": 0.0,
+        "d7": 0.0009
+      },
+      {
+        "n": 7430.0,
+        "size_share": 0.2371,
+        "rounds": 167400.0,
+        "rounds_share": 0.10439999999999999,
+        "mean_rounds": 22.53,
+        "median_rounds": 15.0,
+        "d1": 0.0,
+        "d7": 0.0
+      },
+      {
+        "n": 9398.0,
+        "size_share": 0.3,
+        "rounds": 467269.0,
+        "rounds_share": 0.2915,
+        "mean_rounds": 49.72,
+        "median_rounds": 32.0,
+        "d1": 1.0,
+        "d7": 0.0
+      },
+      {
+        "n": 5837.0,
+        "size_share": 0.1863,
+        "rounds": 946236.0,
+        "rounds_share": 0.5903,
+        "mean_rounds": 162.11,
+        "median_rounds": 106.0,
+        "d1": 0.7877,
+        "d7": 1.0
+      }
+    ],
+    "legacy_reported_segment_versions": [
+      {
+        "gate30_n": 4299.0,
+        "gate40_n": 4367.0,
+        "gate30_mean_rounds": 2.52,
+        "gate40_mean_rounds": 2.54
+      },
+      {
+        "gate30_n": 3715.0,
+        "gate40_n": 3715.0,
+        "gate30_mean_rounds": 22.36,
+        "gate40_mean_rounds": 22.7
+      },
+      {
+        "gate30_n": 4641.0,
+        "gate40_n": 4757.0,
+        "gate30_mean_rounds": 50.27,
+        "gate40_mean_rounds": 49.19
+      },
+      {
+        "gate30_n": 2966.0,
+        "gate40_n": 2871.0,
+        "gate30_mean_rounds": 163.73,
+        "gate40_mean_rounds": 160.42
+      }
+    ]
   },
   "data_quality": {
     "raw_rows": 31332,
@@ -5375,31 +7017,43 @@
       {
         "k": 2,
         "inertia": 56368.26061768276,
+        "calinski_harabasz": 38325.01367676619,
+        "davies_bouldin": 0.6118639522117907,
         "silhouette": 0.6027613464038942
       },
       {
         "k": 3,
         "inertia": 20761.66022590805,
+        "calinski_harabasz": 78888.89772780641,
+        "davies_bouldin": 0.471773447854396,
         "silhouette": 0.6812986469783867
       },
       {
         "k": 4,
         "inertia": 15017.484582996294,
+        "calinski_harabasz": 76701.08775254159,
+        "davies_bouldin": 0.5268918445590278,
         "silhouette": 0.6142984289460991
       },
       {
         "k": 5,
         "inertia": 9653.587061147566,
+        "calinski_harabasz": 93837.95196465678,
+        "davies_bouldin": 0.5005673158269918,
         "silhouette": 0.6344007572385794
       },
       {
         "k": 6,
         "inertia": 7097.000719494856,
+        "calinski_harabasz": 104366.92622246583,
+        "davies_bouldin": 0.5595237656493562,
         "silhouette": 0.5945147066932412
       },
       {
         "k": 7,
         "inertia": 5673.055975418055,
+        "calinski_harabasz": 110109.55961144544,
+        "davies_bouldin": 0.5535296296728796,
         "silhouette": 0.5889389739196279
       }
     ],
@@ -11432,12 +13086,16 @@
         "d7": 0.0,
         "size_share": 0.299958507548434,
         "rounds_share": 0.291547736028575,
+        "min_rounds": 0,
+        "max_rounds": 2640,
         "rounds_q5": 5.0,
         "rounds_q25": 16.0,
         "rounds_q75": 61.0,
         "rounds_q95": 154.0,
         "gate30_n": 4641,
         "gate40_n": 4757,
+        "gate30_mean_rounds": 50.26739926739927,
+        "gate40_mean_rounds": 49.19255833508514,
         "gate30_share": 0.4938284741434348,
         "gate40_share": 0.5061715258565652,
         "d1_gate_difference": 0.0,
@@ -11458,12 +13116,16 @@
         "d7": 1.0,
         "size_share": 0.039800836232485,
         "rounds_share": 0.058914728682171,
+        "min_rounds": 0,
+        "max_rounds": 1187,
         "rounds_q5": 4.0,
         "rounds_q25": 18.0,
         "rounds_q75": 93.0,
         "rounds_q95": 254.70000000000005,
         "gate30_n": 634,
         "gate40_n": 613,
+        "gate30_mean_rounds": 74.03785488958991,
+        "gate40_mean_rounds": 77.47145187601957,
         "gate30_share": 0.5084202085004009,
         "gate40_share": 0.491579791499599,
         "d1_gate_difference": 0.0,
@@ -11484,12 +13146,16 @@
         "d7": 1.0,
         "size_share": 0.146755609460279,
         "rounds_share": 0.531422332444278,
+        "min_rounds": 0,
+        "max_rounds": 2961,
         "rounds_q5": 23.0,
         "rounds_q25": 65.0,
         "rounds_q75": 233.0,
         "rounds_q95": 545.0,
         "gate30_n": 2337,
         "gate40_n": 2261,
+        "gate30_mean_rounds": 187.71459135643988,
+        "gate40_mean_rounds": 182.7014595311809,
         "gate30_share": 0.5082644628099173,
         "gate40_share": 0.49173553719008267,
         "d1_gate_difference": 0.0,
@@ -11510,12 +13176,16 @@
         "d7": 0.0,
         "size_share": 0.513485046758801,
         "rounds_share": 0.118115202844977,
+        "min_rounds": 0,
+        "max_rounds": 378,
         "rounds_q5": 0.0,
         "rounds_q25": 2.0,
         "rounds_q75": 14.0,
         "rounds_q95": 42.0,
         "gate30_n": 8009,
         "gate40_n": 8079,
+        "gate30_mean_rounds": 11.723061555749782,
+        "gate40_mean_rounds": 11.811857903205842,
         "gate30_share": 0.4978244654400796,
         "gate40_share": 0.5021755345599205,
         "d1_gate_difference": 0.0,
@@ -11538,12 +13208,16 @@
         "d7": 0.0,
         "size_share": 0.001085187194791,
         "rounds_share": 0.0,
+        "min_rounds": 0,
+        "max_rounds": 0,
         "rounds_q5": 0.0,
         "rounds_q25": 0.0,
         "rounds_q75": 0.0,
         "rounds_q95": 0.0,
         "gate30_n": 18,
         "gate40_n": 16,
+        "gate30_mean_rounds": 0.0,
+        "gate40_mean_rounds": 0.0,
         "gate30_share": 0.5294117647058824,
         "gate40_share": 0.47058823529411764,
         "d1_gate_difference": 0.0,
@@ -11564,12 +13238,16 @@
         "d7": 0.0,
         "size_share": 0.017203408764482,
         "rounds_share": 0.001149220906836,
+        "min_rounds": 1,
+        "max_rounds": 5,
         "rounds_q5": 1.0,
         "rounds_q25": 2.0,
         "rounds_q75": 5.0,
         "rounds_q95": 5.0,
         "gate30_n": 246,
         "gate40_n": 293,
+        "gate30_mean_rounds": 3.2764227642276422,
+        "gate40_mean_rounds": 3.535836177474403,
         "gate30_share": 0.45640074211502785,
         "gate40_share": 0.5435992578849722,
         "d1_gate_difference": 0.0,
@@ -11590,12 +13268,16 @@
         "d7": 0.0,
         "size_share": 0.015320289808816,
         "rounds_share": 0.066589927159858,
+        "min_rounds": 151,
+        "max_rounds": 495,
         "rounds_q5": 154.0,
         "rounds_q25": 168.0,
         "rounds_q75": 253.0,
         "rounds_q95": 377.04999999999995,
         "gate30_n": 252,
         "gate40_n": 228,
+        "gate30_mean_rounds": 223.4484126984127,
+        "gate40_mean_rounds": 221.15350877192984,
         "gate30_share": 0.525,
         "gate40_share": 0.475,
         "d1_gate_difference": 0.0,
@@ -11616,12 +13298,16 @@
         "d7": 0.0,
         "size_share": 0.133605694041046,
         "rounds_share": 0.078930638092119,
+        "min_rounds": 16,
+        "max_rounds": 50,
         "rounds_q5": 17.0,
         "rounds_q25": 22.0,
         "rounds_q75": 38.0,
         "rounds_q95": 48.0,
         "gate30_n": 2145,
         "gate40_n": 2041,
+        "gate30_mean_rounds": 30.61072261072261,
+        "gate40_mean_rounds": 29.814796668299852,
         "gate30_share": 0.5124223602484472,
         "gate40_share": 0.48757763975155277,
         "d1_gate_difference": 0.0,
@@ -11642,12 +13328,16 @@
         "d7": 0.0,
         "size_share": 0.079633589735406,
         "rounds_share": 0.127630901689205,
+        "min_rounds": 51,
+        "max_rounds": 150,
         "rounds_q5": 52.0,
         "rounds_q25": 60.0,
         "rounds_q75": 98.0,
         "rounds_q95": 136.0,
         "gate30_n": 1195,
         "gate40_n": 1300,
+        "gate30_mean_rounds": 82.49707112970711,
+        "gate40_mean_rounds": 81.5276923076923,
         "gate30_share": 0.4789579158316633,
         "gate40_share": 0.5210420841683366,
         "d1_gate_difference": 0.0,
@@ -11668,12 +13358,16 @@
         "d7": 0.0,
         "size_share": 0.052695413488238,
         "rounds_share": 0.010923837599239,
+        "min_rounds": 6,
+        "max_rounds": 15,
         "rounds_q5": 6.0,
         "rounds_q25": 8.0,
         "rounds_q75": 13.0,
         "rounds_q95": 15.0,
         "gate30_n": 779,
         "gate40_n": 872,
+        "gate30_mean_rounds": 10.582798459563543,
+        "gate40_mean_rounds": 10.625,
         "gate30_share": 0.4718352513628104,
         "gate40_share": 0.5281647486371895,
         "d1_gate_difference": 0.0,
@@ -11694,12 +13388,16 @@
         "d7": 0.0,
         "size_share": 0.000414924515655,
         "rounds_share": 0.006323210581317,
+        "min_rounds": 503,
+        "max_rounds": 2640,
         "rounds_q5": 507.2,
         "rounds_q25": 528.0,
         "rounds_q75": 697.0,
         "rounds_q95": 1616.3999999999976,
         "gate30_n": 6,
         "gate40_n": 7,
+        "gate30_mean_rounds": 614.6666666666666,
+        "gate40_mean_rounds": 921.0,
         "gate30_share": 0.46153846153846156,
         "gate40_share": 0.5384615384615384,
         "d1_gate_difference": 0.0,
@@ -11720,12 +13418,16 @@
         "d7": 1.0,
         "size_share": 0.00025533816348,
         "rounds_share": 0.0,
+        "min_rounds": 0,
+        "max_rounds": 0,
         "rounds_q5": 0.0,
         "rounds_q25": 0.0,
         "rounds_q75": 0.0,
         "rounds_q95": 0.0,
         "gate30_n": 5,
         "gate40_n": 3,
+        "gate30_mean_rounds": 0.0,
+        "gate40_mean_rounds": 0.0,
         "gate30_share": 0.625,
         "gate40_share": 0.375,
         "d1_gate_difference": 0.0,
@@ -11746,12 +13448,16 @@
         "d7": 1.0,
         "size_share": 0.002681050716543,
         "rounds_share": 0.000163461388486,
+        "min_rounds": 1,
+        "max_rounds": 5,
         "rounds_q5": 1.0,
         "rounds_q25": 2.0,
         "rounds_q75": 4.0,
         "rounds_q95": 5.0,
         "gate30_n": 47,
         "gate40_n": 37,
+        "gate30_mean_rounds": 3.276595744680851,
+        "gate40_mean_rounds": 2.918918918918919,
         "gate30_share": 0.5595238095238095,
         "gate40_share": 0.44047619047619047,
         "d1_gate_difference": 0.0,
@@ -11772,12 +13478,16 @@
         "d7": 1.0,
         "size_share": 0.005170597810475,
         "rounds_share": 0.024920998861385,
+        "min_rounds": 151,
+        "max_rounds": 499,
         "rounds_q5": 154.05,
         "rounds_q25": 178.25,
         "rounds_q75": 290.75,
         "rounds_q95": 440.95,
         "gate30_n": 83,
         "gate40_n": 79,
+        "gate30_mean_rounds": 245.49397590361446,
+        "gate40_mean_rounds": 247.69620253164558,
         "gate30_share": 0.5123456790123457,
         "gate40_share": 0.4876543209876543,
         "d1_gate_difference": 0.0,
@@ -11798,12 +13508,16 @@
         "d7": 1.0,
         "size_share": 0.013277584500973,
         "rounds_share": 0.007999001762513,
+        "min_rounds": 16,
+        "max_rounds": 50,
         "rounds_q5": 16.0,
         "rounds_q25": 22.0,
         "rounds_q75": 39.0,
         "rounds_q95": 48.0,
         "gate30_n": 215,
         "gate40_n": 201,
+        "gate30_mean_rounds": 31.655813953488373,
+        "gate40_mean_rounds": 29.925373134328357,
         "gate30_share": 0.5168269230769231,
         "gate40_share": 0.4831730769230769,
         "d1_gate_difference": 0.0,
@@ -11824,12 +13538,16 @@
         "d7": 1.0,
         "size_share": 0.012543487280968,
         "rounds_share": 0.021275560338777,
+        "min_rounds": 51,
+        "max_rounds": 150,
         "rounds_q5": 53.0,
         "rounds_q25": 62.0,
         "rounds_q75": 106.0,
         "rounds_q95": 139.0,
         "gate30_n": 196,
         "gate40_n": 197,
+        "gate30_mean_rounds": 85.1938775510204,
+        "gate40_mean_rounds": 88.34010152284264,
         "gate30_share": 0.49872773536895676,
         "gate40_share": 0.5012722646310432,
         "d1_gate_difference": 0.0,
@@ -11850,12 +13568,16 @@
         "d7": 1.0,
         "size_share": 0.005649356867001,
         "rounds_share": 0.001178544133015,
+        "min_rounds": 6,
+        "max_rounds": 15,
         "rounds_q5": 6.0,
         "rounds_q25": 8.0,
         "rounds_q75": 14.0,
         "rounds_q95": 15.0,
         "gate30_n": 85,
         "gate40_n": 92,
+        "gate30_mean_rounds": 10.24705882352941,
+        "gate40_mean_rounds": 11.065217391304348,
         "gate30_share": 0.480225988700565,
         "gate40_share": 0.519774011299435,
         "d1_gate_difference": 0.0,
@@ -11876,12 +13598,16 @@
         "d7": 1.0,
         "size_share": 0.000223420893045,
         "rounds_share": 0.003377162197994,
+        "min_rounds": 547,
+        "max_rounds": 1187,
         "rounds_q5": 586.6,
         "rounds_q25": 680.0,
         "rounds_q75": 796.5,
         "rounds_q95": 1073.5999999999997,
         "gate30_n": 3,
         "gate40_n": 4,
+        "gate30_mean_rounds": 678.3333333333334,
+        "gate40_mean_rounds": 844.5,
         "gate30_share": 0.42857142857142855,
         "gate40_share": 0.5714285714285714,
         "d1_gate_difference": 0.0,
@@ -11902,12 +13628,16 @@
         "d7": 1.0,
         "size_share": 6.383454087e-05,
         "rounds_share": 0.0,
+        "min_rounds": 0,
+        "max_rounds": 0,
         "rounds_q5": 0.0,
         "rounds_q25": 0.0,
         "rounds_q75": 0.0,
         "rounds_q95": 0.0,
         "gate30_n": 0,
         "gate40_n": 2,
+        "gate30_mean_rounds": null,
+        "gate40_mean_rounds": 0.0,
         "gate30_share": 0.0,
         "gate40_share": 1.0,
         "d1_gate_difference": null,
@@ -11928,12 +13658,16 @@
         "d7": 1.0,
         "size_share": 0.000414924515655,
         "rounds_share": 1.9964749739e-05,
+        "min_rounds": 1,
+        "max_rounds": 5,
         "rounds_q5": 1.0,
         "rounds_q25": 2.0,
         "rounds_q75": 4.0,
         "rounds_q95": 4.399999999999999,
         "gate30_n": 6,
         "gate40_n": 7,
+        "gate30_mean_rounds": 2.3333333333333335,
+        "gate40_mean_rounds": 2.5714285714285716,
         "gate30_share": 0.46153846153846156,
         "gate40_share": 0.5384615384615384,
         "d1_gate_difference": 0.0,
@@ -11954,12 +13688,16 @@
         "d7": 1.0,
         "size_share": 0.05441894609173,
         "rounds_share": 0.277001544148613,
+        "min_rounds": 151,
+        "max_rounds": 500,
         "rounds_q5": 157.0,
         "rounds_q25": 187.0,
         "rounds_q75": 313.0,
         "rounds_q95": 441.79999999999995,
         "gate30_n": 862,
         "gate40_n": 843,
+        "gate30_mean_rounds": 259.9060324825986,
+        "gate40_mean_rounds": 260.90865954922896,
         "gate30_share": 0.5055718475073314,
         "gate40_share": 0.49442815249266864,
         "d1_gate_difference": 0.0,
@@ -11980,12 +13718,16 @@
         "d7": 1.0,
         "size_share": 0.022022916600172,
         "rounds_share": 0.014622307488341,
+        "min_rounds": 16,
+        "max_rounds": 50,
         "rounds_q5": 18.0,
         "rounds_q25": 25.0,
         "rounds_q75": 42.0,
         "rounds_q95": 49.0,
         "gate30_n": 362,
         "gate40_n": 328,
+        "gate30_mean_rounds": 34.09668508287293,
+        "gate40_mean_rounds": 33.823170731707314,
         "gate30_share": 0.5246376811594203,
         "gate40_share": 0.4753623188405797,
         "d1_gate_difference": 0.0,
@@ -12006,12 +13748,16 @@
         "d7": 1.0,
         "size_share": 0.057802176757844,
         "rounds_share": 0.10738664545412,
+        "min_rounds": 51,
+        "max_rounds": 150,
         "rounds_q5": 54.0,
         "rounds_q25": 69.0,
         "rounds_q75": 118.0,
         "rounds_q95": 143.5,
         "gate30_n": 895,
         "gate40_n": 916,
+        "gate30_mean_rounds": 94.11284916201117,
+        "gate40_mean_rounds": 95.95087336244542,
         "gate30_share": 0.4942020982882385,
         "gate40_share": 0.5057979017117614,
         "d1_gate_difference": 0.0,
@@ -12032,12 +13778,16 @@
         "d7": 1.0,
         "size_share": 0.003064057961763,
         "rounds_share": 0.000685040475411,
+        "min_rounds": 6,
+        "max_rounds": 15,
         "rounds_q5": 6.0,
         "rounds_q25": 10.0,
         "rounds_q75": 14.0,
         "rounds_q95": 15.0,
         "gate30_n": 54,
         "gate40_n": 42,
+        "gate30_mean_rounds": 11.537037037037036,
+        "gate40_mean_rounds": 11.30952380952381,
         "gate30_share": 0.5625,
         "gate40_share": 0.4375,
         "d1_gate_difference": 0.0,
@@ -12058,12 +13808,16 @@
         "d7": 1.0,
         "size_share": 0.008968752992244,
         "rounds_share": 0.131706830128055,
+        "min_rounds": 503,
+        "max_rounds": 2961,
         "rounds_q5": 513.0,
         "rounds_q25": 567.0,
         "rounds_q75": 788.0,
         "rounds_q95": 1425.0,
         "gate30_n": 158,
         "gate40_n": 123,
+        "gate30_mean_rounds": 743.2848101265823,
+        "gate40_mean_rounds": 761.4959349593496,
         "gate30_share": 0.5622775800711743,
         "gate40_share": 0.4377224199288256,
         "d1_gate_difference": 0.0,
@@ -12084,12 +13838,16 @@
         "d7": 0.0,
         "size_share": 0.042418052408158,
         "rounds_share": 0.0,
+        "min_rounds": 0,
+        "max_rounds": 0,
         "rounds_q5": 0.0,
         "rounds_q25": 0.0,
         "rounds_q75": 0.0,
         "rounds_q95": 0.0,
         "gate30_n": 687,
         "gate40_n": 642,
+        "gate30_mean_rounds": 0.0,
+        "gate40_mean_rounds": 0.0,
         "gate30_share": 0.5169300225733634,
         "gate40_share": 0.48306997742663654,
         "d1_gate_difference": 0.0,
@@ -12110,12 +13868,16 @@
         "d7": 0.0,
         "size_share": 0.209090038619897,
         "rounds_share": 0.010769110788764,
+        "min_rounds": 1,
+        "max_rounds": 5,
         "rounds_q5": 1.0,
         "rounds_q25": 1.0,
         "rounds_q75": 4.0,
         "rounds_q95": 5.0,
         "gate30_n": 3216,
         "gate40_n": 3335,
+        "gate30_mean_rounds": 2.6358830845771144,
+        "gate40_mean_rounds": 2.6338830584707646,
         "gate30_share": 0.4909174171882155,
         "gate40_share": 0.5090825828117844,
         "d1_gate_difference": 0.0,
@@ -12136,12 +13898,16 @@
         "d7": 0.0,
         "size_share": 0.002010788037407,
         "rounds_share": 0.008219237908069,
+        "min_rounds": 151,
+        "max_rounds": 378,
         "rounds_q5": 153.1,
         "rounds_q25": 164.0,
         "rounds_q75": 227.5,
         "rounds_q95": 337.9,
         "gate30_n": 30,
         "gate40_n": 33,
+        "gate30_mean_rounds": 211.66666666666666,
+        "gate40_mean_rounds": 206.78787878787878,
         "gate30_share": 0.47619047619047616,
         "gate40_share": 0.5238095238095238,
         "d1_gate_difference": 0.0,
@@ -12162,12 +13928,16 @@
         "d7": 0.0,
         "size_share": 0.093772940538125,
         "rounds_share": 0.048262910798122,
+        "min_rounds": 16,
+        "max_rounds": 50,
         "rounds_q5": 16.0,
         "rounds_q25": 19.0,
         "rounds_q75": 33.0,
         "rounds_q95": 45.0,
         "gate30_n": 1471,
         "gate40_n": 1467,
+        "gate30_mean_rounds": 26.580557443915705,
+        "gate40_mean_rounds": 26.07839127471029,
         "gate30_share": 0.5006807351940096,
         "gate40_share": 0.4993192648059905,
         "d1_gate_difference": 0.0,
@@ -12188,12 +13958,16 @@
         "d7": 0.0,
         "size_share": 0.015607545242731,
         "rounds_share": 0.022467830237237,
+        "min_rounds": 51,
+        "max_rounds": 148,
         "rounds_q5": 52.0,
         "rounds_q25": 58.0,
         "rounds_q75": 83.0,
         "rounds_q95": 115.59999999999997,
         "gate30_n": 229,
         "gate40_n": 260,
+        "gate30_mean_rounds": 74.646288209607,
+        "gate40_mean_rounds": 72.76153846153846,
         "gate30_share": 0.46830265848670755,
         "gate40_share": 0.5316973415132924,
         "d1_gate_difference": 0.0,
@@ -12214,12 +13988,16 @@
         "d7": 0.0,
         "size_share": 0.150585681912483,
         "rounds_share": 0.028396113112785,
+        "min_rounds": 6,
+        "max_rounds": 15,
         "rounds_q5": 6.0,
         "rounds_q25": 7.0,
         "rounds_q75": 12.0,
         "rounds_q95": 15.0,
         "gate30_n": 2376,
         "gate40_n": 2342,
+        "gate30_mean_rounds": 9.625,
+        "gate40_mean_rounds": 9.669086251067464,
         "gate30_share": 0.5036032217041119,
         "gate40_share": 0.4963967782958881,
         "d1_gate_difference": 0.0,
@@ -12242,12 +14020,16 @@
         "d7": 0.000923147934456,
         "size_share": 0.276595065589991,
         "rounds_share": 0.013681468656903,
+        "min_rounds": 0,
+        "max_rounds": 6,
         "rounds_q5": 0.0,
         "rounds_q25": 1.0,
         "rounds_q75": 4.0,
         "rounds_q95": 6.0,
         "gate30_n": 4299,
         "gate40_n": 4367,
+        "gate30_mean_rounds": 2.5175622237729707,
+        "gate40_mean_rounds": 2.5431646439203113,
         "gate30_share": 0.4960766212785599,
         "gate40_share": 0.5039233787214401,
         "d1_gate_difference": 0.0,
@@ -12268,12 +14050,16 @@
         "d7": 0.0,
         "size_share": 0.237145319332291,
         "rounds_share": 0.104433734188074,
+        "min_rounds": 7,
+        "max_rounds": 378,
         "rounds_q5": 7.0,
         "rounds_q25": 10.0,
         "rounds_q75": 25.0,
         "rounds_q95": 62.54999999999927,
         "gate30_n": 3715,
         "gate40_n": 3715,
+        "gate30_mean_rounds": 22.359892328398384,
+        "gate40_mean_rounds": 22.69771197846568,
         "gate30_share": 0.5,
         "gate40_share": 0.5,
         "d1_gate_difference": 0.0,
@@ -12294,12 +14080,16 @@
         "d7": 0.0,
         "size_share": 0.299958507548434,
         "rounds_share": 0.291547736028575,
+        "min_rounds": 0,
+        "max_rounds": 2640,
         "rounds_q5": 5.0,
         "rounds_q25": 16.0,
         "rounds_q75": 61.0,
         "rounds_q95": 154.0,
         "gate30_n": 4641,
         "gate40_n": 4757,
+        "gate30_mean_rounds": 50.26739926739927,
+        "gate40_mean_rounds": 49.19255833508514,
         "gate30_share": 0.4938284741434348,
         "gate40_share": 0.5061715258565652,
         "d1_gate_difference": 0.0,
@@ -12320,12 +14110,16 @@
         "d7": 1.0,
         "size_share": 0.186301107529284,
         "rounds_share": 0.590337061126449,
+        "min_rounds": 0,
+        "max_rounds": 2961,
         "rounds_q5": 13.0,
         "rounds_q25": 50.0,
         "rounds_q75": 206.0,
         "rounds_q95": 499.0,
         "gate30_n": 2966,
         "gate40_n": 2871,
+        "gate30_mean_rounds": 163.73196223870534,
+        "gate40_mean_rounds": 160.42424242424244,
         "gate30_share": 0.5081377419907487,
         "gate40_share": 0.4918622580092513,
         "d1_gate_difference": -0.00039939469567207286,
@@ -12348,12 +14142,16 @@
         "d7": 0.007283321194465,
         "size_share": 0.043822412307299,
         "rounds_share": 0.0,
+        "min_rounds": 0,
+        "max_rounds": 0,
         "rounds_q5": 0.0,
         "rounds_q25": 0.0,
         "rounds_q75": 0.0,
         "rounds_q95": 0.0,
         "gate30_n": 710,
         "gate40_n": 663,
+        "gate30_mean_rounds": 0.0,
+        "gate40_mean_rounds": 0.0,
         "gate30_share": 0.517115804806992,
         "gate40_share": 0.482884195193008,
         "d1_gate_difference": 0.0017972085909119875,
@@ -12374,12 +14172,16 @@
         "d7": 0.013496591067205,
         "size_share": 0.229389422616578,
         "rounds_share": 0.012101757833825,
+        "min_rounds": 1,
+        "max_rounds": 5,
         "rounds_q5": 1.0,
         "rounds_q25": 1.0,
         "rounds_q75": 4.0,
         "rounds_q95": 5.0,
         "gate30_n": 3515,
         "gate40_n": 3672,
+        "gate30_mean_rounds": 2.6887624466571833,
+        "gate40_mean_rounds": 2.7086056644880174,
         "gate30_share": 0.48907750104355086,
         "gate40_share": 0.5109224989564491,
         "d1_gate_difference": 0.01000660102827286,
@@ -12400,12 +14202,16 @@
         "d7": 0.774688796680498,
         "size_share": 0.076920621748428,
         "rounds_share": 0.376731708077925,
+        "min_rounds": 151,
+        "max_rounds": 500,
         "rounds_q5": 156.0,
         "rounds_q25": 181.0,
         "rounds_q75": 300.0,
         "rounds_q95": 434.5499999999997,
         "gate30_n": 1227,
         "gate40_n": 1183,
+        "gate30_mean_rounds": 250.2640586797066,
+        "gate40_mean_rounds": 250.85460693153001,
         "gate30_share": 0.5091286307053942,
         "gate40_share": 0.4908713692946058,
         "d1_gate_difference": -0.0025800166857153917,
@@ -12426,12 +14232,16 @@
         "d7": 0.134386391251519,
         "size_share": 0.262679135680317,
         "rounds_share": 0.149814858141095,
+        "min_rounds": 16,
+        "max_rounds": 50,
         "rounds_q5": 16.0,
         "rounds_q25": 20.0,
         "rounds_q75": 37.0,
         "rounds_q95": 47.0,
         "gate30_n": 4193,
         "gate40_n": 4037,
+        "gate30_mean_rounds": 29.551395182446935,
+        "gate40_mean_rounds": 28.788209066138222,
         "gate30_share": 0.5094775212636695,
         "gate40_share": 0.4905224787363305,
         "d1_gate_difference": -0.011079366562847137,
@@ -12452,12 +14262,16 @@
         "d7": 0.424826522744796,
         "size_share": 0.165586799016948,
         "rounds_share": 0.278760937719339,
+        "min_rounds": 51,
+        "max_rounds": 150,
         "rounds_q5": 53.0,
         "rounds_q25": 63.0,
         "rounds_q75": 106.0,
         "rounds_q95": 140.0,
         "gate30_n": 2515,
         "gate40_n": 2673,
+        "gate30_mean_rounds": 86.12604373757455,
+        "gate40_mean_rounds": 86.11971567527124,
         "gate30_share": 0.48477255204317654,
         "gate40_share": 0.5152274479568234,
         "d1_gate_difference": -0.001982865247720511,
@@ -12478,12 +14292,16 @@
         "d7": 0.041102077687444,
         "size_share": 0.211994510229485,
         "rounds_share": 0.04118353532045,
+        "min_rounds": 6,
+        "max_rounds": 15,
         "rounds_q5": 6.0,
         "rounds_q25": 7.0,
         "rounds_q75": 12.0,
         "rounds_q95": 15.0,
         "gate30_n": 3294,
         "gate40_n": 3348,
+        "gate30_mean_rounds": 9.898907103825136,
+        "gate40_mean_rounds": 9.97700119474313,
         "gate30_share": 0.4959349593495935,
         "gate40_share": 0.5040650406504065,
         "d1_gate_difference": 0.02011477368431358,
@@ -12504,12 +14322,16 @@
         "d7": 0.956810631229236,
         "size_share": 0.009607098400945,
         "rounds_share": 0.141407202907367,
+        "min_rounds": 503,
+        "max_rounds": 2961,
         "rounds_q5": 513.0,
         "rounds_q25": 566.0,
         "rounds_q75": 788.0,
         "rounds_q95": 1425.0,
         "gate30_n": 167,
         "gate40_n": 134,
+        "gate30_mean_rounds": 737.497005988024,
+        "gate40_mean_rounds": 772.3059701492538,
         "gate30_share": 0.5548172757475083,
         "gate40_share": 0.44518272425249167,
         "d1_gate_difference": -0.011886674412369236,
@@ -12532,12 +14354,16 @@
         "d7": 0.190192689328468,
         "size_share": 0.498579681465641,
         "rounds_share": 0.507110882348354,
+        "min_rounds": 0,
+        "max_rounds": 2961,
         "rounds_q5": 1.0,
         "rounds_q25": 5.0,
         "rounds_q75": 51.0,
         "rounds_q95": 222.0,
         "gate30_n": 15621,
         "gate40_n": 0,
+        "gate30_mean_rounds": 52.033160489085205,
+        "gate40_mean_rounds": null,
         "gate30_share": 1.0,
         "gate40_share": 0.0,
         "d1_gate_difference": null,
@@ -12558,12 +14384,16 @@
         "d7": 0.182940802036919,
         "size_share": 0.501420318534359,
         "rounds_share": 0.492889117651646,
+        "min_rounds": 0,
+        "max_rounds": 2640,
         "rounds_q5": 1.0,
         "rounds_q25": 5.0,
         "rounds_q75": 51.0,
         "rounds_q95": 214.0,
         "gate30_n": 0,
         "gate40_n": 15710,
+        "gate30_mean_rounds": null,
+        "gate40_mean_rounds": 50.287396562698916,
         "gate30_share": 0.0,
         "gate40_share": 1.0,
         "d1_gate_difference": null,
@@ -12586,12 +14416,16 @@
         "d7": 0.774409700063816,
         "size_share": 0.100028725543392,
         "rounds_share": 0.555544741316114,
+        "min_rounds": 133,
+        "max_rounds": 2961,
         "rounds_q5": 140.0,
         "rounds_q25": 167.0,
         "rounds_q75": 321.0,
         "rounds_q95": 640.0,
         "gate30_n": 1599,
         "gate40_n": 1535,
+        "gate30_mean_rounds": 287.24828017510947,
+        "gate40_mean_rounds": 280.8671009771987,
         "gate30_share": 0.5102105934907466,
         "gate40_share": 0.48978940650925334,
         "d1_gate_difference": -0.0054745127756964385,
@@ -12613,12 +14447,16 @@
         "d7": 0.454516437918928,
         "size_share": 0.099996808272956,
         "rounds_share": 0.182359271910533,
+        "min_rounds": 66,
+        "max_rounds": 133,
         "rounds_q5": 68.0,
         "rounds_q25": 77.0,
         "rounds_q75": 108.0,
         "rounds_q95": 127.0,
         "gate30_n": 1534,
         "gate40_n": 1599,
+        "gate30_mean_rounds": 93.04041720990874,
+        "gate40_mean_rounds": 93.53721075672296,
         "gate30_share": 0.4896265560165975,
         "gate40_share": 0.5103734439834025,
         "d1_gate_difference": 0.009672358783561763,
@@ -12640,12 +14478,16 @@
         "d7": 0.267156080434089,
         "size_share": 0.099996808272956,
         "rounds_share": 0.101050333005787,
+        "min_rounds": 40,
+        "max_rounds": 66,
         "rounds_q5": 41.0,
         "rounds_q25": 45.0,
         "rounds_q75": 58.0,
         "rounds_q95": 65.0,
         "gate30_n": 1572,
         "gate40_n": 1561,
+        "gate30_mean_rounds": 51.229643765903305,
+        "gate40_mean_rounds": 52.167200512491995,
         "gate30_share": 0.5017555059048835,
         "gate40_share": 0.4982444940951165,
         "d1_gate_difference": -0.008114049029052661,
@@ -12667,12 +14509,16 @@
         "d7": 0.142036386849665,
         "size_share": 0.099996808272956,
         "rounds_share": 0.063041816792226,
+        "min_rounds": 25,
+        "max_rounds": 40,
         "rounds_q5": 26.0,
         "rounds_q25": 29.0,
         "rounds_q75": 36.0,
         "rounds_q95": 39.0,
         "gate30_n": 1637,
         "gate40_n": 1496,
+        "gate30_mean_rounds": 32.39645693341478,
+        "gate40_mean_rounds": 32.093582887700535,
         "gate30_share": 0.5225023938716885,
         "gate40_share": 0.47749760612831155,
         "d1_gate_difference": 0.00386655189648466,
@@ -12694,12 +14540,16 @@
         "d7": 0.092243855729333,
         "size_share": 0.099996808272956,
         "rounds_share": 0.040096704256547,
+        "min_rounds": 16,
+        "max_rounds": 25,
         "rounds_q5": 17.0,
         "rounds_q25": 18.0,
         "rounds_q75": 23.0,
         "rounds_q95": 25.0,
         "gate30_n": 1538,
         "gate40_n": 1595,
+        "gate30_mean_rounds": 20.546163849154745,
+        "gate40_mean_rounds": 20.481504702194357,
         "gate30_share": 0.4909032875837855,
         "gate40_share": 0.5090967124162145,
         "d1_gate_difference": -0.013340616605044264,
@@ -12721,12 +14571,16 @@
         "d7": 0.063517395467603,
         "size_share": 0.099996808272956,
         "rounds_share": 0.026331009311684,
+        "min_rounds": 11,
+        "max_rounds": 16,
         "rounds_q5": 11.0,
         "rounds_q25": 12.0,
         "rounds_q75": 15.0,
         "rounds_q95": 16.0,
         "gate30_n": 1514,
         "gate40_n": 1619,
+        "gate30_mean_rounds": 13.47556142668428,
+        "gate40_mean_rounds": 13.466337245213095,
         "gate30_share": 0.4832428981806575,
         "gate40_share": 0.5167571018193425,
         "d1_gate_difference": 0.02416033838589471,
@@ -12748,12 +14602,16 @@
         "d7": 0.029364826045324,
         "size_share": 0.099996808272956,
         "rounds_share": 0.016333660880009,
+        "min_rounds": 6,
+        "max_rounds": 11,
         "rounds_q5": 7.0,
         "rounds_q25": 7.0,
         "rounds_q75": 9.0,
         "rounds_q95": 10.0,
         "gate30_n": 1585,
         "gate40_n": 1548,
+        "gate30_mean_rounds": 8.362776025236593,
+        "gate40_mean_rounds": 8.349483204134367,
         "gate30_share": 0.5059048834982445,
         "gate40_share": 0.4940951165017555,
         "d1_gate_difference": 0.011182435461651957,
@@ -12775,12 +14633,16 @@
         "d7": 0.022661985317587,
         "size_share": 0.099996808272956,
         "rounds_share": 0.00951382714894,
+        "min_rounds": 3,
+        "max_rounds": 6,
         "rounds_q5": 4.0,
         "rounds_q25": 4.0,
         "rounds_q75": 6.0,
         "rounds_q95": 6.0,
         "gate30_n": 1544,
         "gate40_n": 1589,
+        "gate30_mean_rounds": 4.870466321243524,
+        "gate40_mean_rounds": 4.864065449968534,
         "gate30_share": 0.49281838493456753,
         "gate40_share": 0.5071816150654325,
         "d1_gate_difference": 0.026240148429781174,
@@ -12802,12 +14664,16 @@
         "d7": 0.011490584104692,
         "size_share": 0.099996808272956,
         "rounds_share": 0.00463057414253,
+        "min_rounds": 1,
+        "max_rounds": 3,
         "rounds_q5": 1.0,
         "rounds_q25": 2.0,
         "rounds_q75": 3.0,
         "rounds_q95": 3.0,
         "gate30_n": 1489,
         "gate40_n": 1644,
+        "gate30_mean_rounds": 2.373404969778375,
+        "gate40_mean_rounds": 2.3649635036496353,
         "gate30_share": 0.4752633258857325,
         "gate40_share": 0.5247366741142675,
         "d1_gate_difference": 0.0034004434792697102,
@@ -12829,12 +14695,16 @@
         "d7": 0.007979572294925,
         "size_share": 0.099996808272956,
         "rounds_share": 0.001098061235631,
+        "min_rounds": 0,
+        "max_rounds": 1,
         "rounds_q5": 0.0,
         "rounds_q25": 0.0,
         "rounds_q75": 1.0,
         "rounds_q95": 1.0,
         "gate30_n": 1609,
         "gate40_n": 1524,
+        "gate30_mean_rounds": 0.5587321317588564,
+        "gate40_mean_rounds": 0.5649606299212598,
         "gate30_share": 0.5135652729013724,
         "gate40_share": 0.4864347270986275,
         "d1_gate_difference": -0.005449986868484198,
@@ -34049,7 +35919,7 @@
       },
       "aggregate_cohort": {
         "rows": 4,
-        "sha256": "e8dc690bce0900a72f09cae262f7b99d9244223f33118d9d9debdb9ef2756b5f",
+        "sha256": "6cf64163a1c8fb63f382e3f38ea0e4116a7e42607d70259c26f11b26a7cbbe62",
         "columns": [
           "cohort",
           "n",
@@ -34060,12 +35930,16 @@
           "d7",
           "size_share",
           "rounds_share",
+          "min_rounds",
+          "max_rounds",
           "rounds_q5",
           "rounds_q25",
           "rounds_q75",
           "rounds_q95",
           "gate30_n",
           "gate40_n",
+          "gate30_mean_rounds",
+          "gate40_mean_rounds",
           "gate30_share",
           "gate40_share",
           "d1_gate_difference",
@@ -34080,7 +35954,7 @@
       },
       "aggregate_cohort_tier": {
         "rows": 27,
-        "sha256": "316d3f325b9c62e0e7c8979d496ce144cf7d56dd067ece4eb54457230c3824fd",
+        "sha256": "28297cd1ec6f80495239e222a490c72250755ef9f705bb3851e9ccb4e2ba0727",
         "columns": [
           "cohort_tier",
           "n",
@@ -34091,12 +35965,16 @@
           "d7",
           "size_share",
           "rounds_share",
+          "min_rounds",
+          "max_rounds",
           "rounds_q5",
           "rounds_q25",
           "rounds_q75",
           "rounds_q95",
           "gate30_n",
           "gate40_n",
+          "gate30_mean_rounds",
+          "gate40_mean_rounds",
           "gate30_share",
           "gate40_share",
           "d1_gate_difference",
@@ -34111,7 +35989,7 @@
       },
       "aggregate_secondary_segment": {
         "rows": 4,
-        "sha256": "6acd4861571be13b9d4983530cf7f37f3d925c5f6ef15736e780141eeff0bd61",
+        "sha256": "d7348c27f04446487b8b6078557e263375bcdc1a3639679b4223c35aa5fc7a10",
         "columns": [
           "secondary_segment",
           "n",
@@ -34122,12 +36000,16 @@
           "d7",
           "size_share",
           "rounds_share",
+          "min_rounds",
+          "max_rounds",
           "rounds_q5",
           "rounds_q25",
           "rounds_q75",
           "rounds_q95",
           "gate30_n",
           "gate40_n",
+          "gate30_mean_rounds",
+          "gate40_mean_rounds",
           "gate30_share",
           "gate40_share",
           "d1_gate_difference",
@@ -34142,7 +36024,7 @@
       },
       "aggregate_tier": {
         "rows": 7,
-        "sha256": "7a1d8a17e5f0679c4e584075e883c092be8592188434fcff9151fec4e97aebfc",
+        "sha256": "8679df2c02be3d2d72925d0ae42d184fc1851eec57b8dcd0226435bd2d657983",
         "columns": [
           "tier",
           "n",
@@ -34153,12 +36035,16 @@
           "d7",
           "size_share",
           "rounds_share",
+          "min_rounds",
+          "max_rounds",
           "rounds_q5",
           "rounds_q25",
           "rounds_q75",
           "rounds_q95",
           "gate30_n",
           "gate40_n",
+          "gate30_mean_rounds",
+          "gate40_mean_rounds",
           "gate30_share",
           "gate40_share",
           "d1_gate_difference",
@@ -34173,7 +36059,7 @@
       },
       "aggregate_version": {
         "rows": 2,
-        "sha256": "59fbff39418421484207d2d4751ce3745535d34d9ddc49c23ef35343b01efe61",
+        "sha256": "543944f874d03f2be67314ee233e65cc24e64199249e43e489cb94a739bb72ab",
         "columns": [
           "version",
           "n",
@@ -34184,12 +36070,16 @@
           "d7",
           "size_share",
           "rounds_share",
+          "min_rounds",
+          "max_rounds",
           "rounds_q5",
           "rounds_q25",
           "rounds_q75",
           "rounds_q95",
           "gate30_n",
           "gate40_n",
+          "gate30_mean_rounds",
+          "gate40_mean_rounds",
           "gate30_share",
           "gate40_share",
           "d1_gate_difference",
@@ -34204,7 +36094,7 @@
       },
       "aggregate_decile": {
         "rows": 10,
-        "sha256": "38563545b53994ff4b6bde27a6bb017788ac54c2b732ac75e2146ec41b2db07a",
+        "sha256": "5ef33d94b58a00495e559cf0229cab981210aedf89dd38568b647212644e059e",
         "columns": [
           "decile",
           "n",
@@ -34215,12 +36105,16 @@
           "d7",
           "size_share",
           "rounds_share",
+          "min_rounds",
+          "max_rounds",
           "rounds_q5",
           "rounds_q25",
           "rounds_q75",
           "rounds_q95",
           "gate30_n",
           "gate40_n",
+          "gate30_mean_rounds",
+          "gate40_mean_rounds",
           "gate30_share",
           "gate40_share",
           "d1_gate_difference",
@@ -34293,6 +36187,1382 @@
     },
     "dax_engine_validation": "not executed: Power BI/Tabular engine unavailable"
   },
+  "comparison": [
+    {
+      "metric": "Headline D7 p-value",
+      "old": 0.049,
+      "new": 0.09944584090161818,
+      "note": "Old one-sided headline; new primary two-sided test"
+    },
+    {
+      "metric": "D7 exploratory one-sided p-value",
+      "old": 0.049,
+      "new": 0.04972292045080909,
+      "note": "Same directional hypothesis; old rounded headline"
+    },
+    {
+      "metric": "D7 Holm p-value",
+      "old": null,
+      "new": 0.19889168180323635,
+      "note": "Not previously reported; adjusted across D1 and D7"
+    },
+    {
+      "metric": "D1 Holm p-value",
+      "old": null,
+      "new": 0.9978017595143032,
+      "note": "Not previously reported"
+    },
+    {
+      "metric": "D7 odds ratio",
+      "old": 1.049,
+      "new": 0.9533336640815512,
+      "note": "Old control/test; new test/control. Direction changed explicitly"
+    },
+    {
+      "metric": "D7 bootstrap positive-share (%)",
+      "old": 95.1,
+      "new": 94.76,
+      "note": "Share where control exceeds test; not a hypothesis probability"
+    },
+    {
+      "metric": "Bootstrap resamples",
+      "old": 1000.0,
+      "new": 10000,
+      "note": "Fixed-seed binary empirical bootstrap"
+    },
+    {
+      "metric": "D7 script CI low (pp), control minus test",
+      "old": 0.013,
+      "new": -0.13754328420991693,
+      "note": "Old hardcoded positive interval was incorrect; new Newcombe CI"
+    },
+    {
+      "metric": "D7 script CI high (pp), control minus test",
+      "old": 1.437,
+      "new": 1.5879246125627016,
+      "note": "Same direction for comparison"
+    },
+    {
+      "metric": "D7 bootstrap mean (pp), control minus test",
+      "old": 0.725,
+      "new": 0.7223388649034572,
+      "note": "New replicates and random generator"
+    },
+    {
+      "metric": "D7 bootstrap CI low (pp), control minus test",
+      "old": -0.136,
+      "new": -0.15505232738689984,
+      "note": "Same direction for comparison"
+    },
+    {
+      "metric": "D7 bootstrap CI high (pp), control minus test",
+      "old": 1.613,
+      "new": 1.5846119190854047,
+      "note": "Same direction for comparison"
+    },
+    {
+      "metric": "Association minimum expected cell",
+      "old": 256.2,
+      "new": 56.15349015352207,
+      "note": "Corrected expected-cell audit"
+    },
+    {
+      "metric": "Headline secondary silhouette",
+      "old": 0.617,
+      "new": 0.6142984289460991,
+      "note": "New fixed diagnostic subsample size is disclosed"
+    },
+    {
+      "metric": "Conflicting validation CH claim",
+      "old": 138512.0,
+      "new": 76701.08775254159,
+      "note": "Original narrative contradicted its own model table"
+    },
+    {
+      "metric": "Conflicting validation DB claim",
+      "old": 0.548,
+      "new": 0.5268918445590278,
+      "note": "Original narrative contradicted its own model table"
+    },
+    {
+      "metric": "ARI: rule cohorts vs secondary clusters",
+      "old": null,
+      "new": 0.6755124586032298,
+      "note": "New agreement diagnostic; no predictive validation"
+    },
+    {
+      "metric": "ARI: cohort/tier vs secondary clusters",
+      "old": null,
+      "new": 0.4934545477483844,
+      "note": "Different granularity, explicitly reported"
+    },
+    {
+      "metric": "SRM p-value",
+      "old": null,
+      "new": 0.6150986991816173,
+      "note": "New diagnostic; equal allocation assumed"
+    },
+    {
+      "metric": "D1 complete result: difference",
+      "old": -1.5476399895963944e-05,
+      "new": 1.5476399895963944e-05,
+      "note": "Old computed test reconstructed with pinned runtime; old effects are control minus test, new test minus control; old odds control/test"
+    },
+    {
+      "metric": "D7 complete result: difference",
+      "old": 0.007251887291548936,
+      "new": -0.007251887291548936,
+      "note": "Old computed test reconstructed with pinned runtime; old effects are control minus test, new test minus control; old odds control/test"
+    },
+    {
+      "metric": "D1 complete result: relative_lift",
+      "old": null,
+      "new": 3.464557792698386e-05,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D7 complete result: relative_lift",
+      "old": null,
+      "new": -0.038129158997403545,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D1 complete result: z",
+      "old": -0.002755089363364778,
+      "new": 0.002755089363364778,
+      "note": "Old computed test reconstructed with pinned runtime; old effects are control minus test, new test minus control; old odds control/test"
+    },
+    {
+      "metric": "D7 complete result: z",
+      "old": 1.6475461384773489,
+      "new": -1.6475461384773489,
+      "note": "Old computed test reconstructed with pinned runtime; old effects are control minus test, new test minus control; old odds control/test"
+    },
+    {
+      "metric": "D1 complete result: p_two_sided",
+      "old": 0.9978017595143032,
+      "new": 0.9978017595143032,
+      "note": "Old computed test reconstructed with pinned runtime; old effects are control minus test, new test minus control; old odds control/test"
+    },
+    {
+      "metric": "D7 complete result: p_two_sided",
+      "old": 0.09944584090161812,
+      "new": 0.09944584090161818,
+      "note": "Old computed test reconstructed with pinned runtime; old effects are control minus test, new test minus control; old odds control/test"
+    },
+    {
+      "metric": "D1 complete result: chi_square",
+      "old": null,
+      "new": 7.590517400128277e-06,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D7 complete result: chi_square",
+      "old": null,
+      "new": 2.7144082784116197,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D1 complete result: chi_p_two_sided",
+      "old": null,
+      "new": 0.9978017595143028,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D7 complete result: chi_p_two_sided",
+      "old": null,
+      "new": 0.09944584090161837,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D1 complete result: chi_directional_p_gate40_lower",
+      "old": null,
+      "new": 0.5010991202428486,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D7 complete result: chi_directional_p_gate40_lower",
+      "old": null,
+      "new": 0.04972292045080919,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D1 complete result: odds_ratio",
+      "old": null,
+      "new": 1.00006261873323,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D7 complete result: odds_ratio",
+      "old": 1.0489506850294723,
+      "new": 0.9533336640815512,
+      "note": "Old computed test reconstructed with pinned runtime; old effects are control minus test, new test minus control; old odds control/test"
+    },
+    {
+      "metric": "D1 complete result: min_expected",
+      "old": null,
+      "new": 6978.121221793112,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D7 complete result: min_expected",
+      "old": null,
+      "new": 2914.198238166672,
+      "note": "Newly reported diagnostic; old source locations preserved in audit evidence"
+    },
+    {
+      "metric": "D1 calculated difference CI low (pp), control minus test",
+      "old": -1.1025327787030164,
+      "new": -1.102395013985682,
+      "note": "Original computed unpooled Wald vs corrected Newcombe; common orientation for comparison"
+    },
+    {
+      "metric": "D1 calculated difference CI high (pp), control minus test",
+      "old": 1.0994374987238236,
+      "new": 1.0993160044865584,
+      "note": "Original computed unpooled Wald vs corrected Newcombe; common orientation for comparison"
+    },
+    {
+      "metric": "D7 calculated difference CI low (pp), control minus test",
+      "old": -0.13751233451688855,
+      "new": -0.13754328420991693,
+      "note": "Original computed unpooled Wald vs corrected Newcombe; common orientation for comparison"
+    },
+    {
+      "metric": "D7 calculated difference CI high (pp), control minus test",
+      "old": 1.5878897928266757,
+      "new": 1.5879246125627016,
+      "note": "Original computed unpooled Wald vs corrected Newcombe; common orientation for comparison"
+    },
+    {
+      "metric": "Secondary K=2 inertia",
+      "old": 56368.3,
+      "new": 56368.26061768276,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=2 silhouette",
+      "old": 0.605,
+      "new": 0.6027613464038942,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=2 calinski_harabasz",
+      "old": 38325.0,
+      "new": 38325.01367676619,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=2 davies_bouldin",
+      "old": 0.6119,
+      "new": 0.6118639522117907,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=3 inertia",
+      "old": 20761.7,
+      "new": 20761.66022590805,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=3 silhouette",
+      "old": 0.6812,
+      "new": 0.6812986469783867,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=3 calinski_harabasz",
+      "old": 78888.9,
+      "new": 78888.89772780641,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=3 davies_bouldin",
+      "old": 0.4718,
+      "new": 0.471773447854396,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=4 inertia",
+      "old": 15017.5,
+      "new": 15017.484582996294,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=4 silhouette",
+      "old": 0.6166,
+      "new": 0.6142984289460991,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=4 calinski_harabasz",
+      "old": 76701.1,
+      "new": 76701.08775254159,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=4 davies_bouldin",
+      "old": 0.5269,
+      "new": 0.5268918445590278,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=5 inertia",
+      "old": 9653.6,
+      "new": 9653.587061147566,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=5 silhouette",
+      "old": 0.6327,
+      "new": 0.6344007572385794,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=5 calinski_harabasz",
+      "old": 93838.0,
+      "new": 93837.95196465678,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=5 davies_bouldin",
+      "old": 0.5006,
+      "new": 0.5005673158269918,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=6 inertia",
+      "old": 7097.0,
+      "new": 7097.000719494856,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=6 silhouette",
+      "old": 0.587,
+      "new": 0.5945147066932412,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=6 calinski_harabasz",
+      "old": 104366.9,
+      "new": 104366.92622246583,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=6 davies_bouldin",
+      "old": 0.5595,
+      "new": 0.5595237656493562,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=7 inertia",
+      "old": 5677.9,
+      "new": 5673.055975418055,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=7 silhouette",
+      "old": 0.5818,
+      "new": 0.5889389739196279,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=7 calinski_harabasz",
+      "old": 110011.4,
+      "new": 110109.55961144544,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Secondary K=7 davies_bouldin",
+      "old": 0.5535,
+      "new": 0.5535296296728796,
+      "note": "Consistent fit settings; diagnostic subsample differs from legacy; small differences may be rounding"
+    },
+    {
+      "metric": "Activity group: old decile 10 / new 1: n",
+      "old": 3133.0,
+      "new": 3134,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 10 / new 1: min_rounds",
+      "old": 133.0,
+      "new": 133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 10 / new 1: max_rounds",
+      "old": 2961.0,
+      "new": 2961,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 10 / new 1: rounds",
+      "old": 890308.0,
+      "new": 890441,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 10 / new 1: rounds_share",
+      "old": 0.5555,
+      "new": 0.555544741316114,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 10 / new 1: cumulative_rounds_share",
+      "old": 1.0,
+      "new": 0.555544741316114,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 9 / new 2: n",
+      "old": 3133.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 9 / new 2: min_rounds",
+      "old": 66.0,
+      "new": 66,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 9 / new 2: max_rounds",
+      "old": 133.0,
+      "new": 133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 9 / new 2: rounds",
+      "old": 292357.0,
+      "new": 292290,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 9 / new 2: rounds_share",
+      "old": 0.18239999999999998,
+      "new": 0.182359271910533,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 9 / new 2: cumulative_rounds_share",
+      "old": 0.4445,
+      "new": 0.737904013226647,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 8 / new 3: n",
+      "old": 3133.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 8 / new 3: min_rounds",
+      "old": 40.0,
+      "new": 40,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 8 / new 3: max_rounds",
+      "old": 66.0,
+      "new": 66,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 8 / new 3: rounds",
+      "old": 161992.0,
+      "new": 161966,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 8 / new 3: rounds_share",
+      "old": 0.1011,
+      "new": 0.101050333005787,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 8 / new 3: cumulative_rounds_share",
+      "old": 0.2621,
+      "new": 0.838954346232434,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 7 / new 4: n",
+      "old": 3133.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 7 / new 4: min_rounds",
+      "old": 25.0,
+      "new": 25,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 7 / new 4: max_rounds",
+      "old": 40.0,
+      "new": 40,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 7 / new 4: rounds",
+      "old": 101060.0,
+      "new": 101045,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 7 / new 4: rounds_share",
+      "old": 0.06309999999999999,
+      "new": 0.063041816792226,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 7 / new 4: cumulative_rounds_share",
+      "old": 0.1611,
+      "new": 0.90199616302466,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 6 / new 5: n",
+      "old": 3133.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 6 / new 5: min_rounds",
+      "old": 17.0,
+      "new": 16,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 6 / new 5: max_rounds",
+      "old": 25.0,
+      "new": 25,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 6 / new 5: rounds",
+      "old": 64277.0,
+      "new": 64268,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 6 / new 5: rounds_share",
+      "old": 0.0401,
+      "new": 0.040096704256547,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 6 / new 5: cumulative_rounds_share",
+      "old": 0.098,
+      "new": 0.942092867281207,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 5 / new 6: n",
+      "old": 3133.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 5 / new 6: min_rounds",
+      "old": 11.0,
+      "new": 11,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 5 / new 6: max_rounds",
+      "old": 16.0,
+      "new": 16,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 5 / new 6: rounds",
+      "old": 42209.0,
+      "new": 42204,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 5 / new 6: rounds_share",
+      "old": 0.0263,
+      "new": 0.026331009311684,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 5 / new 6: cumulative_rounds_share",
+      "old": 0.0579,
+      "new": 0.968423876592891,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 4 / new 7: n",
+      "old": 3133.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 4 / new 7: min_rounds",
+      "old": 6.0,
+      "new": 6,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 4 / new 7: max_rounds",
+      "old": 11.0,
+      "new": 11,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 4 / new 7: rounds",
+      "old": 26185.0,
+      "new": 26180,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 4 / new 7: rounds_share",
+      "old": 0.0163,
+      "new": 0.016333660880009,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 4 / new 7: cumulative_rounds_share",
+      "old": 0.0316,
+      "new": 0.9847575374729,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 3 / new 8: n",
+      "old": 3133.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 3 / new 8: min_rounds",
+      "old": 3.0,
+      "new": 3,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 3 / new 8: max_rounds",
+      "old": 6.0,
+      "new": 6,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 3 / new 8: rounds",
+      "old": 15252.0,
+      "new": 15249,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 3 / new 8: rounds_share",
+      "old": 0.0095,
+      "new": 0.00951382714894,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 3 / new 8: cumulative_rounds_share",
+      "old": 0.0152,
+      "new": 0.99427136462184,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 2 / new 9: n",
+      "old": 3133.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 2 / new 9: min_rounds",
+      "old": 1.0,
+      "new": 1,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 2 / new 9: max_rounds",
+      "old": 3.0,
+      "new": 3,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 2 / new 9: rounds",
+      "old": 7424.0,
+      "new": 7422,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 2 / new 9: rounds_share",
+      "old": 0.0046,
+      "new": 0.00463057414253,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 2 / new 9: cumulative_rounds_share",
+      "old": 0.005699999999999999,
+      "new": 0.99890193876437,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 1 / new 10: n",
+      "old": 3134.0,
+      "new": 3133,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 1 / new 10: min_rounds",
+      "old": 0.0,
+      "new": 0,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 1 / new 10: max_rounds",
+      "old": 1.0,
+      "new": 1,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 1 / new 10: rounds",
+      "old": 1761.0,
+      "new": 1760,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 1 / new 10: rounds_share",
+      "old": 0.0011,
+      "new": 0.001098061235631,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Activity group: old decile 1 / new 10: cumulative_rounds_share",
+      "old": 0.0011,
+      "new": 1.0000000000000009,
+      "note": "Descending NTILE allocates remainder to highest group; cumulative direction changed to top-down"
+    },
+    {
+      "metric": "Legacy cluster 0 / secondary K1: n",
+      "old": 8666,
+      "new": 8666,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 0 / secondary K1: size_share",
+      "old": 0.27659506558999075,
+      "new": 0.276595065589991,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 0 / secondary K1: rounds_share",
+      "old": 0.013681468656902656,
+      "new": 0.013681468656903,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 0 / secondary K1: mean_rounds",
+      "old": 2.5304638818370644,
+      "new": 2.530463881837064,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 0 / secondary K1: median_rounds",
+      "old": 2.0,
+      "new": 2.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 0 / secondary K1: d1",
+      "old": 0.0,
+      "new": 0.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 0 / secondary K1: d7",
+      "old": 0.0009231479344564967,
+      "new": 0.000923147934456,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 3 / secondary K2: n",
+      "old": 7430,
+      "new": 7430,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 3 / secondary K2: size_share",
+      "old": 0.23714531933229072,
+      "new": 0.237145319332291,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 3 / secondary K2: rounds_share",
+      "old": 0.10443373418807418,
+      "new": 0.104433734188074,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 3 / secondary K2: mean_rounds",
+      "old": 22.528802153432032,
+      "new": 22.528802153432032,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 3 / secondary K2: median_rounds",
+      "old": 15.0,
+      "new": 15.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 3 / secondary K2: d1",
+      "old": 0.0,
+      "new": 0.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 3 / secondary K2: d7",
+      "old": 0.0,
+      "new": 0.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 2 / secondary K3: n",
+      "old": 9398,
+      "new": 9398,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 2 / secondary K3: size_share",
+      "old": 0.29995850754843445,
+      "new": 0.299958507548434,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 2 / secondary K3: rounds_share",
+      "old": 0.29154773602857453,
+      "new": 0.291547736028575,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 2 / secondary K3: mean_rounds",
+      "old": 49.72334539263673,
+      "new": 49.72334539263673,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 2 / secondary K3: median_rounds",
+      "old": 32.0,
+      "new": 32.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 2 / secondary K3: d1",
+      "old": 1.0,
+      "new": 1.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 2 / secondary K3: d7",
+      "old": 0.0,
+      "new": 0.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 1 / secondary K4: n",
+      "old": 5837,
+      "new": 5837,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 1 / secondary K4: size_share",
+      "old": 0.18630110752928408,
+      "new": 0.186301107529284,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 1 / secondary K4: rounds_share",
+      "old": 0.5903370611264486,
+      "new": 0.590337061126449,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 1 / secondary K4: mean_rounds",
+      "old": 162.10501970190165,
+      "new": 162.10501970190165,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 1 / secondary K4: median_rounds",
+      "old": 106.0,
+      "new": 106.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 1 / secondary K4: d1",
+      "old": 0.7877334247044715,
+      "new": 0.787733424704472,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Legacy cluster 1 / secondary K4: d7",
+      "old": 1.0,
+      "new": 1.0,
+      "note": "Like-for-like secondary profiles, including unchanged values"
+    },
+    {
+      "metric": "Original report / K1: n",
+      "old": 8666.0,
+      "new": 8666,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K1: size_share",
+      "old": 0.2766,
+      "new": 0.276595065589991,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K1: rounds",
+      "old": 21920.0,
+      "new": 21929,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K1: rounds_share",
+      "old": 0.0137,
+      "new": 0.013681468656903,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K1: mean_rounds",
+      "old": 2.53,
+      "new": 2.530463881837064,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K1: median_rounds",
+      "old": 2.0,
+      "new": 2.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K1: d1",
+      "old": 0.0,
+      "new": 0.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K1: d7",
+      "old": 0.0009,
+      "new": 0.000923147934456,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K2: n",
+      "old": 7430.0,
+      "new": 7430,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K2: size_share",
+      "old": 0.2371,
+      "new": 0.237145319332291,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K2: rounds",
+      "old": 167400.0,
+      "new": 167389,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K2: rounds_share",
+      "old": 0.10439999999999999,
+      "new": 0.104433734188074,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K2: mean_rounds",
+      "old": 22.53,
+      "new": 22.528802153432032,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K2: median_rounds",
+      "old": 15.0,
+      "new": 15.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K2: d1",
+      "old": 0.0,
+      "new": 0.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K2: d7",
+      "old": 0.0,
+      "new": 0.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K3: n",
+      "old": 9398.0,
+      "new": 9398,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K3: size_share",
+      "old": 0.3,
+      "new": 0.299958507548434,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K3: rounds",
+      "old": 467269.0,
+      "new": 467300,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K3: rounds_share",
+      "old": 0.2915,
+      "new": 0.291547736028575,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K3: mean_rounds",
+      "old": 49.72,
+      "new": 49.72334539263673,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K3: median_rounds",
+      "old": 32.0,
+      "new": 32.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K3: d1",
+      "old": 1.0,
+      "new": 1.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K3: d7",
+      "old": 0.0,
+      "new": 0.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K4: n",
+      "old": 5837.0,
+      "new": 5837,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K4: size_share",
+      "old": 0.1863,
+      "new": 0.186301107529284,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K4: rounds",
+      "old": 946236.0,
+      "new": 946207,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K4: rounds_share",
+      "old": 0.5903,
+      "new": 0.590337061126449,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K4: mean_rounds",
+      "old": 162.11,
+      "new": 162.10501970190165,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K4: median_rounds",
+      "old": 106.0,
+      "new": 106.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K4: d1",
+      "old": 0.7877,
+      "new": 0.787733424704472,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original report / K4: d7",
+      "old": 1.0,
+      "new": 1.0,
+      "note": "Reported table vs recomputed secondary model; some original totals contradicted saved data"
+    },
+    {
+      "metric": "Original version table / K1: gate30_n",
+      "old": 4299.0,
+      "new": 4299,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K1: gate40_n",
+      "old": 4367.0,
+      "new": 4367,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K1: gate30_mean_rounds",
+      "old": 2.52,
+      "new": 2.5175622237729707,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K1: gate40_mean_rounds",
+      "old": 2.54,
+      "new": 2.5431646439203113,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K2: gate30_n",
+      "old": 3715.0,
+      "new": 3715,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K2: gate40_n",
+      "old": 3715.0,
+      "new": 3715,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K2: gate30_mean_rounds",
+      "old": 22.36,
+      "new": 22.359892328398384,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K2: gate40_mean_rounds",
+      "old": 22.7,
+      "new": 22.69771197846568,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K3: gate30_n",
+      "old": 4641.0,
+      "new": 4641,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K3: gate40_n",
+      "old": 4757.0,
+      "new": 4757,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K3: gate30_mean_rounds",
+      "old": 50.27,
+      "new": 50.26739926739927,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K3: gate40_mean_rounds",
+      "old": 49.19,
+      "new": 49.19255833508514,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K4: gate30_n",
+      "old": 2966.0,
+      "new": 2966,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K4: gate40_n",
+      "old": 2871.0,
+      "new": 2871,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K4: gate30_mean_rounds",
+      "old": 163.73,
+      "new": 163.73196223870534,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Original version table / K4: gate40_mean_rounds",
+      "old": 160.42,
+      "new": 160.42424242424244,
+      "note": "Assignment counts and mean activity; no players-lost causal interpretation"
+    },
+    {
+      "metric": "Primary cohort D1 only: n",
+      "old": null,
+      "new": 9398,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D1 only: size_share",
+      "old": null,
+      "new": 0.299958507548434,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D1 only: rounds_share",
+      "old": null,
+      "new": 0.291547736028575,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D1 only: mean_rounds",
+      "old": null,
+      "new": 49.72334539263673,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D1 only: median_rounds",
+      "old": null,
+      "new": 32.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D1 only: d1",
+      "old": null,
+      "new": 1.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D1 only: d7",
+      "old": null,
+      "new": 0.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D7 only: n",
+      "old": null,
+      "new": 1247,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D7 only: size_share",
+      "old": null,
+      "new": 0.039800836232485,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D7 only: rounds_share",
+      "old": null,
+      "new": 0.058914728682171,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D7 only: mean_rounds",
+      "old": null,
+      "new": 75.72574178027266,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D7 only: median_rounds",
+      "old": null,
+      "new": 44.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D7 only: d1",
+      "old": null,
+      "new": 0.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort D7 only: d7",
+      "old": null,
+      "new": 1.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort both: n",
+      "old": null,
+      "new": 4598,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort both: size_share",
+      "old": null,
+      "new": 0.146755609460279,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort both: rounds_share",
+      "old": null,
+      "new": 0.531422332444278,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort both: mean_rounds",
+      "old": null,
+      "new": 185.24945628534147,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort both: median_rounds",
+      "old": null,
+      "new": 127.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort both: d1",
+      "old": null,
+      "new": 1.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort both: d7",
+      "old": null,
+      "new": 1.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort none: n",
+      "old": null,
+      "new": 16088,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort none: size_share",
+      "old": null,
+      "new": 0.513485046758801,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort none: rounds_share",
+      "old": null,
+      "new": 0.118115202844977,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort none: mean_rounds",
+      "old": null,
+      "new": 11.767652909000498,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort none: median_rounds",
+      "old": null,
+      "new": 6.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort none: d1",
+      "old": null,
+      "new": 0.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    },
+    {
+      "metric": "Primary cohort none: d7",
+      "old": null,
+      "new": 0.0,
+      "note": "New rule definition; not directly comparable with a legacy cluster"
+    }
+  ],
   "reproducibility": {
     "seed": 42,
     "python": "3.12.10",
@@ -34309,5 +37579,22 @@
     "raw_sha256": "f6a85f5f022c7dd2bcf06e16abe7767fa8cb54287089058526f45092ef1d3c52",
     "offline_analysis": true,
     "source_note": "Upstream evidence captured during audit; normal runs require no network."
+  },
+  "validation": {
+    "test_cases": 22,
+    "passed": 21,
+    "failed": 0,
+    "skipped": 1,
+    "exit_code": 0,
+    "full_runs": 2,
+    "identical_metrics": true,
+    "metrics_sha256_before_validation": "3576cd951ba358f6fbb928ff7f608ff9da7249cfef8be5733270b2ca7ea4c0db",
+    "raw_unchanged": true,
+    "limitations": [
+      "LibreOffice not available locally: native recalculation skipped.",
+      "Power BI/Tabular execution not performed.",
+      "Original acquisition/assignment protocol and truncation cause unverified.",
+      "Native Excel rendering not verified; cached-value previews reviewed separately."
+    ]
   }
 }

@@ -18,6 +18,8 @@ def test_duplicate_and_schema_fail():
     df=valid(); df.loc[1,'userid']='1'
     assert 'duplicate userid' in validate(df)[0]
     assert validate(df.drop(columns='version'))[0]
+    df=valid(); df.loc[1,'userid']='01'
+    assert 'duplicate userid after integer normalization' in validate(df)[0]
 
 def test_known_quarantine_and_unchanged_raw():
     m=metrics()
@@ -26,5 +28,6 @@ def test_known_quarantine_and_unchanged_raw():
     assert report['quarantined_rows']==m['audit']['raw_rows']-m['audit']['complete_rows']
     assert digest(ROOT/'data/cookie_cats.csv')==m['audit']['raw_sha256']
     assert clean.sum_gamerounds.max()==m['audit']['local_max_rounds']
+    pd.testing.assert_frame_equal(clean.reset_index(drop=True),pd.read_csv(ROOT/'data/cookie_cats_cleaned.csv'))
     assert not validate(clean)[0]
 

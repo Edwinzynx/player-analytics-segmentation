@@ -1,268 +1,25 @@
-# 🎮 Mobile Game Player Analytics & Behavioral Segmentation
+# Product retention and activity analytics
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![SQL](https://img.shields.io/badge/SQL-SQLite%20%7C%20ANSI-orange.svg)](https://www.sqlite.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Clustering-green.svg)](https://scikit-learn.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-Analytics-purple.svg)](https://pandas.pydata.org/)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+A reproducible business/product analytics portfolio project using the Cookie Cats mobile-game experiment. Python, SQLite, statistics, Excel and BI-ready exports turn player-level records into defined metrics, validated comparisons and a concise decision brief. The dataset remains a game dataset; this project makes no claim of pharma data or domain experience.
 
-An end-to-end game data analytics and unsupervised machine learning project modeling **player engagement, retention decay, progression pacing, and behavioral segmentation** across **31,331 mobile puzzle game players**. 
+## Business questions
 
-Engineered specifically to reflect the analytical rigor, SQL proficiency, and product intuition required for a **Senior Game Analyst / Game Analytics Intern** role at studios like **Electronic Arts (EA / Slingshot Studios)**.
+- How do observed return rates differ between assigned versions, and how uncertain are the differences?
+- Which transparent retention/activity cohorts describe the population?
+- How concentrated is activity, and what does an average conceal?
+- Can SQL, Python, Excel and dashboard inputs reconcile to the same definitions?
 
----
+## Data and provenance
 
-## 📌 Executive Summary & Problem Statement
+The original setup script points to this [public Cookie Cats CSV](https://raw.githubusercontent.com/ryanschaub/Mobile-Games-A-B-Testing-with-Cookie-Cats/master/cookie_cats.csv). A byte comparison shows that this repository's raw file is an **exact truncated prefix**, ending inside the final record. There is no evidence of deliberate random sampling. The acquisition date and reason for truncation are unknown.
 
-In free-to-play (F2P) mobile titles, long-term player Lifetime Value (LTV) and monetization are gated by early engagement velocity and longitudinal retention. 
+The raw file is unchanged. Only the hash-verified incomplete trailing record is quarantined; valid high-round records are retained. The population and maximum differ from the full source because this is a prefix, not because an outlier cap was applied. Counts and hashes are recorded in [metrics.json](outputs/metrics.json) and [the audit](docs/audit_notes.md).
 
-This project solves three core studio questions:
-1. **Behavioral Archetypes**: Can we uncover distinct player personas from early gameplay telemetry without relying on arbitrary heuristics?
-2. **Retention Drop-off Cliffs**: Where does player habituation solidify, and at what engagement threshold does retention reach stability?
-3. **Progression Pacing & Gating**: Did delaying an in-game progression gate from Level 30 to Level 40 improve or damage 1-day and 7-day retention across player segments?
+Each row is one userid, assigned version, cumulative rounds, and supplied D1/D7 return flags. Rounds cover the stated fourteen-day window. No timestamps independently verify timing or allow daily trajectories.
 
-```
-Raw Telemetry (31,332 Records)
-    │
-    ▼
-1. Data Quality Audit & Cleaning (31,331 Valid Players)
-    │
-    ▼
-2. Exploratory Data Analysis & Retention Drop-off Funnel
-    │
-    ▼
-3. Production SQL Analytics Suite (CTEs, NTILE, LAG, Running Totals)
-    │
-    ▼
-4. Behavioral Feature Engineering (Skewness Resolution via log1p, Standardization)
-    │
-    ▼
-5. K-Means Clustering (Elbow & Silhouette Optimization at K=4)
-    │
-    ▼
-6. Segment Profiling & Gameplay Value Concentration Analysis
-    │
-    ▼
-7. Statistical Significance & A/B Experimentation Evaluation
-    │
-    ▼
-8. Product Recommendations & Studio Executive Summary
-```
+## Methods and key findings
 
----
-
-## 🔬 Dataset Overview & Data Contract
-
-- **Game Context**: *Cookie Cats* mobile puzzle game (Tactile Entertainment).
-- **Population**: **31,331 validated players** across an experimental 14-day tracking window.
-- **Granularity**: Player-level primary key (`userid`).
-
-| Column | Data Type | Description |
-| :--- | :--- | :--- |
-| `userid` | Integer | Unique identifier for each player (Primary Key). |
-| `version` | Categorical | A/B test variant: `gate_30` (Control) vs `gate_40` (Test). |
-| `sum_gamerounds` | Integer | Total gameplay rounds completed within 14 days post-install. |
-| `retention_1` | Boolean | Player returned and played 1 day after installation (D1 retention). |
-| `retention_7` | Boolean | Player returned and played 7 days after installation (D7 retention). |
-
-> **Dataset Integrity Note**: All findings, metrics, and models strictly reflect observable gameplay telemetry. The dataset does not contain monetization/IAP, timestamps, or session duration data; no proxy values are fabricated.
-
----
-
-## 🛠️ Technical Stack
-
-- **Analytics & Statistics**: Python (3.10+), NumPy, SciPy (Hypothesis Testing & Distribution Skewness), Statsmodels.
-- **Data Wrangling & Manipulation**: Pandas (Aggregations, Quantile Binning, Pivot Tables).
-- **Relational Databases & SQL**: SQLite, ANSI SQL (`CTEs`, `CASE WHEN`, Window Functions: `NTILE`, `LAG`, `SUM() OVER ()`).
-- **Machine Learning**: Scikit-learn (K-Means Clustering, `StandardScaler`, `PCA`, Silhouette Analysis, Inertia/Elbow Optimization).
-- **Data Visualization**: Matplotlib, Seaborn (Distribution plots, Retention funnels, Cluster PCA projections, Volume share donut charts).
-
----
-
-## 📊 Key Findings & Macro Benchmarks
-
-| Metric | Result | Analytical Significance |
-| :--- | :--- | :--- |
-| **Total Analyzed Cohort** | **31,331 players** | 1 corrupt record (`gate_4` with `NaN`s) filtered during audit. |
-| **Day 1 Retention Benchmark** | **44.67%** (13,996 players) | Standard casual puzzle onboarding return rate. |
-| **Day 7 Retention Benchmark** | **18.66%** (5,845 players) | **-58.2% relative retention decay** from Day 1 to Day 7. |
-| **Central Tendency Skew** | Mean: **51.16** \| Median: **16.0** | Severe right skew (Skewness = **+6.52**; IQR = 46.0; Max = 2,961 rounds). |
-| **A/B Test Gate 30 (Control)** | D1: **44.67%** \| D7: **19.02%** | Mean rounds: 52.03 \| Median: 17.0 |
-| **A/B Test Gate 40 (Test)** | D1: **44.67%** \| D7: **18.29%** | Mean rounds: 50.29 \| Median: 16.0 |
-| **A/B Gating Impact ($\Delta$)** | D1: **0.00%** \| D7: **-0.73% pts** | Delaying gate to level 40 reduces D7 retention by **-3.8% relative**. |
-
----
-
-## 👥 Player Behavioral Segmentation (K-Means, $K=4$)
-
-Features used for clustering: `log_gamerounds_scaled`, `retention_1_int_scaled`, `retention_7_int_scaled`, `retention_score_scaled`.  
-Selected **$K=4$** via Elbow inflection and Silhouette analysis (**Silhouette Score = 0.617**).
-
-```
-                      [ Behavioral Player Archetypes ]
-┌──────────────────────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
-│ Segment Name                 │ Population   │ Volume Share │ Mean Rounds  │ D1 Retention │ D7 Retention │
-├──────────────────────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
-│ 1. Immediate Bouncers        │ 27.66%       │ 1.37%        │ 2.53         │ 0.00%        │ 0.09%        │
-│ 2. Day-0 Bingers (Unretained)│ 23.71%       │ 10.44%       │ 22.53        │ 0.00%        │ 0.00%        │
-│ 3. Short-Term Adopters       │ 30.00%       │ 29.15%       │ 49.72        │ 100.00%      │ 0.00%        │
-│ 4. Loyal Core Champions      │ 18.63%       │ 59.03%       │ 162.11       │ 78.77%       │ 100.00%      │
-└──────────────────────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
-```
-
-### Deep Archetype Profiles:
-1. **Immediate Bouncers (27.66% of players)**: Average 2.5 rounds. Players experiencing early tutorial/onboarding friction who churned immediately without returning.
-2. **Day-0 Bingers / Unretained Trialists (23.71% of players)**: Played heavily on day 0 (average 22.5 rounds, median 15.0), but **0% returned on Day 1 or Day 7**. Proves that high initial single-session playtime without habit formation produces cognitive fatigue and total churn.
-3. **Short-Term Adopters (30.00% of players — *Top Product Target*)**: 9,398 players who played an average of **49.7 rounds** with a **100.0% Day 1 return rate**, yet experienced a complete retention collapse to **0% by Day 7**. This group represents the highest-leverage product opportunity for mid-week live-ops retention mechanics.
-4. **Loyal Core Champions (18.63% of players — *Value Engine*)**: The power engine of the title. Generates **59.03% of all gameplay rounds** in the game with **100% Day 7 retention** and **162.1 mean rounds**.
-
----
-
-## 🗄️ SQL Analytics Suite (`sql/analysis.sql`)
-
-The repository includes a comprehensive SQL analysis suite executed on an indexed SQLite database:
-
-```sql
--- Query Example: Inter-Tier Retention Lift Step-Change (Window Function: LAG)
-WITH tier_metrics AS (
-    SELECT 
-        CASE 
-            WHEN sum_gamerounds = 0 THEN '1. Zero'
-            WHEN sum_gamerounds BETWEEN 1 AND 5 THEN '2. Bouncers (1-5)'
-            WHEN sum_gamerounds BETWEEN 6 AND 15 THEN '3. Light (6-15)'
-            WHEN sum_gamerounds BETWEEN 16 AND 50 THEN '4. Core (16-50)'
-            WHEN sum_gamerounds BETWEEN 51 AND 150 THEN '5. Engaged (51-150)'
-            WHEN sum_gamerounds BETWEEN 151 AND 500 THEN '6. Heavy (151-500)'
-            ELSE '7. Hardcore (500+)'
-        END AS tier,
-        COUNT(userid) AS player_count,
-        ROUND(AVG(CAST(retention_7 AS FLOAT)) * 100, 2) AS d7_retention_pct
-    FROM player_activity
-    GROUP BY 1
-)
-SELECT 
-    tier,
-    player_count,
-    d7_retention_pct,
-    LAG(d7_retention_pct, 1) OVER (ORDER BY tier ASC) AS prev_tier_d7_retention,
-    ROUND(d7_retention_pct - LAG(d7_retention_pct, 1) OVER (ORDER BY tier ASC), 2) AS incremental_d7_lift_pct_points
-FROM tier_metrics
-ORDER BY tier ASC;
-```
-
-**SQL Skills Demonstrated**:
-- Multi-CTE pipeline architectures (`WITH ... AS (...)`)
-- Conditional cohort aggregations (`CASE WHEN`, `CAST(... AS FLOAT)`)
-- Population ranking & quartile distribution (`NTILE(4)`, `NTILE(10)`)
-- Inter-tier comparative step changes (`LAG() OVER (...)`)
-- Analytic running totals & Pareto share (`SUM(...) OVER (ORDER BY decile)`)
-
----
-
-## 📈 Visual Deliverables (`outputs/figures/`)
-
-| File Name | Chart Description | Core Product Question Answered |
-| :--- | :--- | :--- |
-| `01_gamerounds_distribution.png` | Gameplay Histogram & KDE (Log Scale) | What is the baseline shape and skewness of player gameplay? |
-| `02_d1_vs_d7_retention.png` | Macro Retention Decay Funnel | How steep is the overall drop-off from Day 1 to Day 7? |
-| `03_retention_by_version.png` | Gate 30 vs Gate 40 Variant Comparison | Did moving the gate alter initial conversion or long-term retention? |
-| `04_engagement_vs_retention_buckets.png` | Engagement Tiers vs D1/D7 Retention | At what gameplay round threshold does retention stabilize? |
-| `05_skewness_and_log_transformation.png` | Raw vs Log1p Skewness Comparison | How was power-law skewness (+6.52) normalized for machine learning? |
-| `06_kmeans_elbow_and_silhouette.png` | Elbow (Inertia) & Silhouette vs $K$ | Why is $K=4$ the optimal number of player clusters? |
-| `07_cluster_profiles.png` | Cluster Retention & Metrics Comparison | How do the 4 behavioral segments compare across core KPIs? |
-| `08_cluster_scatter_pca.png` | 2D PCA Dimensionality Projection | How cleanly separated are the clusters in latent feature space? |
-| `09_segment_retention_comparison.png` | Segment Retention Decay Trajectory | Where is the mid-week retention cliff most severe? |
-| `10_segment_engagement_distribution.png` | Log-Scale Segment Gameplay Boxplot | What is the variance and median gameplay within each segment? |
-| `11_gameplay_volume_share_by_segment.png` | Population vs Volume Share (Donut) | How does the 80/20 power law manifest across behavioral clusters? |
-| `12_segment_ab_gate_impact.png` | A/B Gate Cohort Share Across Clusters | Which player segment was most harmed by moving the gate to level 40? |
-| `13_statistical_chi_square_residuals.png` | Chi-Square Residuals Across Engagement Tiers | Which engagement tiers statistically drive Day 7 retention? |
-| `14_ab_bootstrap_retention_distribution.png` | 1,000-Iteration Bootstrap Posterior Distribution | What is the empirical probability that Gate 30 outperforms Gate 40? |
-| `15_executive_analytics_dashboard.png` | Unified Multi-Panel Executive Analytics Dashboard | How does the end-to-end telemetry story synthesize for executive leadership? |
-
----
-
-## 🎯 Actionable Product Recommendations (Studio Live-Ops)
-
-1. **Revert / Reject Progression Gate 40 (Maintain Gate 30)**:
-   - *Observation*: Gate 40 reduced D7 retention by 0.73% pts ($p=0.049$ one-tailed, Odds Ratio = 1.049; 95.1% bootstrap win probability) and directly lost **95 Loyal Core Champions** (-3.2% relative loss).
-   - *Recommendation*: Maintain Gate 30 as the standard progression gate. Early gating serves as a timely milestone and pacing break that reinforces daily habituation.
-2. **Re-engage Short-Term Adopters (30.0% of Players — *Highest Leverage*)**:
-   - *Observation*: 9,398 players played 49.7 rounds on Day 1 (100% D1 return), but 0% returned by Day 7.
-   - *Recommendation*: Introduce a **Day-3 Re-engagement Milestone** (e.g., timed booster rewards, streak bonuses, or push notification cadence) to bridge the gap between initial onboarding and week-1 habituation.
-3. **Prevent Day-0 Binge Burnout (23.7% of Players)**:
-   - *Observation*: Day-0 Bingers play 22.5 rounds in a single session on install day, then permanently churn (0% D1 and 0% D7).
-   - *Recommendation*: Implement soft session pacing (e.g., energy recharge mechanics, "Come back tomorrow for bonus stars" chests) to encourage recurring daily return habits instead of single-session exhaustion.
-4. **Protect Core Champions (18.6% of Players)**:
-   - *Observation*: Loyal Core Champions generate **59.0% of all gameplay rounds** (162.1 mean rounds, 100% D7 retention).
-   - *Recommendation*: Prioritize late-game content cadence, competitive leaderboards, and VIP liveops for players exceeding 100+ rounds.
-
----
-
-## 📄 Resume Bullets (EA Slingshot Studios Analyst Focus)
-
-```markdown
-• Spearheaded telemetry analysis on 31,331 mobile puzzle players using SQL (CTEs, NTILE, LAG) and Python, discovering power-law gameplay concentration where top 10% of players drive 55.6% of all rounds.
-• Engineered behavioral feature matrix and segmented player base into 4 empirical archetypes via K-Means (Silhouette = 0.617), identifying a critical 30.0% "Short-Term Adopter" cohort with 100% D1 return but 0% D7 retention.
-• Evaluated Level 30 vs 40 progression gate A/B test via Chi-Square (p < 1e-16, Cramér's V = 0.603) and 1,000-sample bootstrap (95.1% win probability for Gate 30), preventing a 0.73% pt D7 retention drop and 3.2% loss in Core Champions.
-```
-
----
-
-## 🚀 Reproduction & Setup Guide
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/Edwinzynx/player-analytics-segmentation.git
-cd player-analytics-segmentation
-```
-
-### 2. Set Up Virtual Environment & Dependencies
-```bash
-python -m venv env
-# On Windows:
-.\env\Scripts\activate
-# On macOS/Linux:
-source env/bin/activate
-
-pip install -r requirements.txt
-```
-
-### 3. Run Pipeline Scripts
-```bash
-# Phase 1: Setup & Data Quality Audit
-python scripts/setup_and_inspect.py
-
-# Phase 2: Data Cleaning & Exploratory Data Analysis
-python scripts/phase2_cleaning_and_eda.py
-
-# Phase 3: Production SQL Analytics (SQLite)
-python scripts/run_sql_analysis.py
-
-# Phase 4: Feature Engineering & Skewness Transformation
-python scripts/phase4_feature_engineering.py
-
-# Phase 5: K-Means Clustering & Model Selection
-python scripts/phase5_player_segmentation.py
-
-# Phase 6: In-Depth Segment Retention Analysis
-python scripts/phase6_retention_analysis.py
-
-# Phase 7: Statistical Hypothesis Testing & Bootstrapping
-python scripts/phase7_statistical_testing.py
-
-# Phase 8: Executive Analytics Dashboard Generation
-python scripts/phase8_executive_dashboard.py
-```
-
-All generated figures will be exported to `outputs/figures/`, and clean data tables will populate `data/`.
-
----
-
-## 📚 Detailed Master Documentation & Interview Defense
-For the complete technical breakdown, step-by-step mathematical proofs, and 18-question interview preparation guide, see:
-👉 [PROJECT_MASTER_REPORT.md](PROJECT_MASTER_REPORT.md)
-
-
+The corrected retrospective analysis declares two-sided tests as primary, adjusts the D1/D7 family, and reports effect sizes and uncertainty. Rule cohorts are primary. K-means is retained only as a secondary descriptive comparison, with retention-feature leakage disclosed.
 
 <!-- METRICS:START -->
 
@@ -297,3 +54,67 @@ The highest-round decile contributes **55.55%** of activity. Engagement-tier ver
 Secondary K-means agreement: adjusted Rand index **0.6755** with retention cohorts and **0.4935** with cohort-by-tier groups. Retention is included in those model features, so segment retention is partly true by construction.
 
 <!-- METRICS:END -->
+
+The complete [statistical report](outputs/statistical_results.md) includes both tails, Pearson cross-checks, relative lift, odds ratios and intervals, bootstrap intervals, and SRM. [Profile tables](outputs/tables/) include cohort-by-tier detail, version shares and descriptive within-segment contrasts with intervals.
+
+![Product analytics dashboard](outputs/figures/15_executive_analytics_dashboard.png)
+
+## Limitations and interpretation
+
+The incomplete prefix may not represent the full experiment. Assignment and independent observations are assumptions; passing SRM cannot verify them. Cohorts and tiers use post-assignment outcomes, so their version comparisons are not causal subgroup effects. D7 does not require D1; marginal rates are not a survival funnel.
+
+Rounds are not revenue. There is no monetization, cost, session duration, level history, demographic or calendar data. No causal explanation for fatigue, churn timing or habit formation is established. Segments defined by retention cannot validate retention prediction. The dashboard tracks a reproducible snapshot; time-series performance tracking needs dated observations.
+
+## Deliverables
+
+- [Stakeholder brief](outputs/insights_brief.md): findings, implications, recommendations and caveats.
+- [Excel workbook](outputs/excel/player_analytics.xlsx): Data table, live formula summaries and native charts. Includes PivotTable instructions; no prebuilt PivotTables are claimed.
+- [BI exports and dashboard specification](outputs/bi/dashboard_spec.md): fact/dimension CSVs, aggregates and DAX; no PBIX.
+- [Quality report](outputs/data_quality_report.md), [business rules](docs/business_rules.md), [methodology](docs/methodology.md), and [old/new comparison](outputs/metric_comparison.md).
+
+## How to run
+
+Python 3.10+ is required. Run from the repository root:
+
+```bash
+python -m venv .venv
+# Activate on Windows:
+.venv\Scripts\activate
+# Or macOS/Linux:
+source .venv/bin/activate
+
+python -m pip install -r requirements.txt
+python scripts/run_all.py
+python -m pytest -q
+# Full release check: repeat the pipeline and compare metrics, then run tests.
+python scripts/validate_pipeline.py
+```
+
+Normal runs work offline, use fixed random seeds, leave the raw CSV unchanged, and regenerate derived data, SQLite, metrics, figures, Excel, BI snapshots and reports. Requirements pin direct dependencies; runtime versions are recorded in metrics.json. The audit evidence is frozen separately; the audit scripts are optional forensic tools and are not run by normal automation.
+
+All empirical narrative values are generated from metrics.json. Excel summaries contain live formulas with metric-derived preview caches. Tests inspect formulas, data, chart presence and caches; LibreOffice recalculation is tested only when installed and otherwise explicitly skipped. Cached-value previews of every worksheet were reviewed using a separate renderer. No Power BI/Tabular engine execution or native Excel visual rendering is claimed. The workbook should be opened in Excel to confirm its native rendering.
+
+CI runs the pipeline and tests on the configured Python versions. Individual script names are retained, but the orchestrator is the recommended entry point.
+
+## Repository structure
+
+```text
+data/                  immutable raw CSV and regenerated analytical tables/database
+scripts/               validation, statistics, segmentation, reporting and orchestration
+sql/analysis.sql       documented questions, executed and reconciled to pandas
+docs/                  audit, business rules and methodology
+outputs/metrics.json   numerical source of truth and provenance
+outputs/figures/       generated explanatory charts
+outputs/excel/         workbook with live formulas
+outputs/bi/            fact/dimension tables, aggregates, DAX and dashboard specification
+outputs/tables/        complete descriptive segment profiles
+outputs/sql/           reconciled SQL results
+tests/                 quality, reproducibility, parity and reporting checks
+.github/workflows/     automated validation
+```
+
+## How these methods transfer to business analytics
+
+The transferable work is defining denominators and exclusions, checking data quality, building interpretable segments, measuring concentration, validating outputs across tools, and explaining uncertainty and the decision it supports.
+
+Retention/persistence funnels require explicit milestone definitions and nested populations. Decile/Pareto analysis describes activity concentration without assuming monetary value. A/B testing requires an assignment protocol and a planned decision rule. Before/after testing additionally needs dated observations and a defensible comparison design; this dataset cannot supply those. These are analytical methods relevant across sectors, not evidence of commercial or clinical domain experience.
